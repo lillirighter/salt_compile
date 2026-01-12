@@ -1,0 +1,57 @@
+﻿Tran2,,,,,,,
+TRANSCRIPT INFORMATION
+Speaker: Child
+Sample Date: 
+Current Age: 3;0
+Context: ,,,,DATABASE INFORMATION
+Database: ENNI
+30 Samples Matched By Age
+Context: Narration (Sets A & B)
+SD Interval: 1.0,,,
+STANDARD MEASURES REPORT
+Compared to 30 Samples Matched by Age,,,,,,,
+LANGUAGE MEASURE,Child,,,DATABASE,,,
+,Score,+/-SD,,Mean,Min,Max,SD
+,,,,,,,
+        Current Age (3;0),3.00 **,-37.29,,9.28,9.00,9.50,0.17
+TRANSCRIPT LENGTH,,,,,,,
+        Total Utterances,0 **,-3.83,,76.93,51,152,20.10
+        C&I Verbal Utts,0 **,-3.82,,76.90,51,152,20.12
+        All Words Including Mazes,0 **,-2.83,,704.70,427,1748,248.89
+        Elapsed Time-,---,,,,,,
+INTELLIGIBILITY,,,,,,,
+        % Intelligible Utterances,0.0%,0.00,,100.00,100.00,100.00,0.00
+        % Intelligible Words,0.0%,0.00,,100.00,100.00,100.00,0.00
+SYNTAX/MORPHOLOGY,,,,,,,
+        MLU in Words,0.00 **,-10.04,,8.50,6.38,10.24,0.85
+        MLU in Morphemes,0.00 **,-9.52,,9.27,6.83,11.12,0.97
+        % Utterances with Verbs,0.0% **,-78.46,,99.11,94.83,100.00,1.26
+        Mean Verbs per Utterance,0.00 **,-10.19,,1.67,1.41,2.18,0.16
+SEMANTICS,,,,,,,
+        Number Total Words (NTW),0 **,-3.00,,660.37,390,1556,220.33
+        Number Different Words (NDW),0 **,-4.74,,173.37,112,321,36.55
+        Moving-Average NTW,---,,,0.00,0,0,0.00
+        Moving-Average NDW,---,,,0.00,0,0,0.00
+        Moving-Average Type-Token Ratio (TTR),---,,,,,,
+DISCOURSE,,,,,,,
+        Mean Turn Length (utterances),0.00 **,-3.18,,71.30,33.00,152.00,22.44
+        Mean Turn Length (words),0.00 **,-2.61,,611.33,295.00,1556.00,233.98
+        % Responses to Questions,---,,,100.00,100.00,100.00,0.00
+        % Responses to Intonation Prompts,---,,,,,,
+        % Utts with Overlapping Speech,0.0%,0.00,,0.00,0.00,0.00,0.00
+        % Utts Interrupted Other Speaker,0.0%,0.00,,0.00,0.00,0.00,0.00
+VERBAL FACILITY,,,,,,,
+        Words per Minute-,---,,,,,,
+        Pause Time as % of Total Time-,---,,,,,,
+        Maze Words as % of Total Words,0.0% **,-2.36,,6.78,0.17,12.43,2.88
+        % Abandoned Utterances,0.0%,0.00,,0.00,0.00,0.00,0.00
+ERRORS,,,,,,,
+        % Utterances with Errors,0.0%,-0.87,,2.36,0.00,12.50,2.71
+        Number of Omissions,0,0.00,,0.00,0,0,0.00
+        Number of Error Codes,0,-0.77,,1.87,0,12,2.43
+,,,,,,,
+* At least 1 SD (** 2 SD) from the database mean
+Italicized measures count occurrences and can be significantly affected by the different sample lengths.
+Calculations based on C&I Verbal Utts: Syntax/Morphology and Semantics sections
+- Value Missing For All Database Records
+Database selection criteria: Age 9;0 - 9;6,,,,,,,

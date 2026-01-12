@@ -1,0 +1,36 @@
+---
+title: "Salt_data_compilation"
+output: html_document
+date: "2026-01-12"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I have a whole lot of SALT means that i have compiled from custion age ranges and various corpora. They put out an ugly, human-readable csv, and I want to first put them into a machine-readbable format, then compile them into a single spreadsheet, then combine them with other norms databases, and finally convert the big norms into a .cut file.
+
+##example cleanup for one file
+
+```{r test-single, echo=FALSE}
+miffy <-read_csv("tnl9.CSV") %>%
+  dplyr::select(-c(2:4))%>%
+  rename("Mean"="...5",
+         "Min"="...6",
+         "Max"="...7",
+         "SD"="...8") %>%
+  mutate(Corpus=Tran2[[6]],
+         participants=str_extract(Tran2[[7]], "\\d+"))%>%
+  mutate(Tran2=replace(Tran2, 15, "Age" )) %>%
+  mutate(Corpus=str_remove_all(Corpus,"Database: ")) %>%
+  slice(15:20,22,23,25:28,30:34,36:41,43:46,48:50) %>%
+  pivot_longer(cols = c(Mean,Min,Max,SD),
+               names_to = "Stat") %>%
+  pivot_wider(names_from = Tran2,
+              values_from = value) %>%
+  mutate(Age_Min=Age[[2]],
+         Age_Max=Age[[3]])
+```
+
