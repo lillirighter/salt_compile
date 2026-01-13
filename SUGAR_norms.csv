@@ -1,17 +1,17 @@
 ﻿Age,Stat,Language,Corpus,Activity,Group,MLU50_Words,MLU50_Morphemes,TNW_50,Clauses_per_sentence_50
-3;0-3;5,Mean,English,SUGAR_norms,narrative conversation,TD,5.27,4.24,192.3,1.09
-3;0-3;5,SD,English,SUGAR_norms,narrative conversation,TD,1.39,1.37,61.22,0.13
-3;6-3;11,Mean,English,SUGAR_norms,narrative conversation,TD,6.24,5.41,244.05,1.15
-3;6-3;11,SD,English,SUGAR_norms,narrative conversation,TD,1.17,1.28,58.07,0.11
-4;0-4;5,Mean,English,SUGAR_norms,narrative conversation,TD,6.48,5.79,261.4,1.19
-4;0-4;5,SD,English,SUGAR_norms,narrative conversation,TD,1.37,1.53,69.98,0.13
-4;6-4;11,Mean,English,SUGAR_norms,narrative conversation,TD,6.97,6.18,278.71,1.21
-4;6-4;11,SD,English,SUGAR_norms,narrative conversation,TD,1.26,1.32,60.14,0.11
-5;0-5;11,Mean,English,SUGAR_norms,narrative conversation,TD,7.33,6.66,299.81,1.29
-5;0-5;11,SD,English,SUGAR_norms,narrative conversation,TD,1.21,1.35,61.46,0.13
-6;0-6;11,Mean,English,SUGAR_norms,narrative conversation,TD,8.05,7.6,337.73,1.36
-6;0-6;11,SD,English,SUGAR_norms,narrative conversation,TD,1.42,1.6,72.5,0.14
-7;0-8;11,Mean,English,SUGAR_norms,narrative conversation,TD,8.87,8.59,379.63,1.34
-7;0-8;11,SD,English,SUGAR_norms,narrative conversation,TD,1.19,1.4,59.28,0.14
-9;0-10;11,Mean,English,SUGAR_norms,narrative conversation,TD,9.7,9.61,421.36,1.37
-9;0-10;11,SD,English,SUGAR_norms,narrative conversation,TD,1.4,1.52,66.61,0.15
+3;0-3;5,Mean,English,SUGAR,Narration,TD,5.27,4.24,192.3,1.09
+3;0-3;5,SD,English,SUGAR,Narration,TD,1.39,1.37,61.22,0.13
+3;6-3;11,Mean,English,SUGAR,Narration,TD,6.24,5.41,244.05,1.15
+3;6-3;11,SD,English,SUGAR,Narration,TD,1.17,1.28,58.07,0.11
+4;0-4;5,Mean,English,SUGAR,Narration,TD,6.48,5.79,261.4,1.19
+4;0-4;5,SD,English,SUGAR,Narration,TD,1.37,1.53,69.98,0.13
+4;6-4;11,Mean,English,SUGAR,Narration,TD,6.97,6.18,278.71,1.21
+4;6-4;11,SD,English,SUGAR,Narration,TD,1.26,1.32,60.14,0.11
+5;0-5;11,Mean,English,SUGAR,Narration,TD,7.33,6.66,299.81,1.29
+5;0-5;11,SD,English,SUGAR,Narration,TD,1.21,1.35,61.46,0.13
+6;0-6;11,Mean,English,SUGAR,Narration,TD,8.05,7.6,337.73,1.36
+6;0-6;11,SD,English,SUGAR,Narration,TD,1.42,1.6,72.5,0.14
+7;0-8;11,Mean,English,SUGAR,Narration,TD,8.87,8.59,379.63,1.34
+7;0-8;11,SD,English,SUGAR,Narration,TD,1.19,1.4,59.28,0.14
+9;0-10;11,Mean,English,SUGAR,Narration,TD,9.7,9.61,421.36,1.37
+9;0-10;11,SD,English,SUGAR,Narration,TD,1.4,1.52,66.61,0.15

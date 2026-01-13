@@ -302,6 +302,9 @@ LHMN <-read_csv("LeadholmMiller_norms.csv")%>%
   rename("Age(Month)"=Age)
 
 all_norms <- salt_norms %>%
-  bind_rows(TMN,SUGAR,Heilmann,Rice,LHMN)
+  bind_rows(TMN,SUGAR,Heilmann,Rice,LHMN) %>%
+  filter(Stat=="Mean" | Stat=="SD")
+
+write_csv(all_norms, "0all_norms.csv")
 
 ```

@@ -1,53 +1,53 @@
 ﻿Age,stat,Group,Language,Activity,Corpus,Total_Utts,MLU_Utts,MLU_Words,MLU_Morphemes
-2;6 to 2;11,Mean,TD,English,Conversation,Rice_norms,265.6,219.1,2.91,3.23
-2;6 to 2;11,SD,TD,English,Conversation,Rice_norms,64,66.6,0.58,0.71
-2;6 to 2;11,Mean,SLI,English,Conversation,Rice_norms,235.2,155.5,2.37,2.59
-2;6 to 2;11,SD,SLI,English,Conversation,Rice_norms,63.3,54.8,0.32,0.39
-3;0 to 3;5,Mean,TD,English,Conversation,Rice_norms,271.5,219.1,2.43,3.81
-3;0 to 3;5,SD,TD,English,Conversation,Rice_norms,74.5,56.9,0.61,0.69
-3;0 to 3;5,Mean,SLI,English,Conversation,Rice_norms,261.3,177.6,2.84,3.07
-3;0 to 3;5,SD,SLI,English,Conversation,Rice_norms,78,66.2,0.38,0.48
-3;6 to 3;11,Mean,TD,English,Conversation,Rice_norms,256.2,203.9,3.71,4.09
-3;6 to 3;11,SD,TD,English,Conversation,Rice_norms,53.8,56.6,0.58,0.67
-3;6 to 3;11,Mean,SLI,English,Conversation,Rice_norms,249,176.8,3.1,3.36
-3;6 to 3;11,SD,SLI,English,Conversation,Rice_norms,89.3,66.4,0.75,0.8
-4;0 to 4;5,Mean,TD,English,Conversation,Rice_norms,282.6,224.2,4.1,4.57
-4;0 to 4;5,SD,TD,English,Conversation,Rice_norms,75.3,72.7,0.65,0.76
-4;0 to 4;5,Mean,SLI,English,Conversation,Rice_norms,282.6,198.2,3.31,3.64
-4;0 to 4;5,SD,SLI,English,Conversation,Rice_norms,93.8,76.4,0.7,0.8
-4;6 to 4;11,Mean,TD,English,Conversation,Rice_norms,278.1,232,4.28,4.75
-4;6 to 4;11,SD,TD,English,Conversation,Rice_norms,77.6,69.8,0.72,0.79
-4;6 to 4;11,Mean,SLI,English,Conversation,Rice_norms,284.7,213.2,3.6,3.95
-4;6 to 4;11,SD,SLI,English,Conversation,Rice_norms,71.3,63.5,0.62,0.7
-5;0 to 5;5,Mean,TD,English,Conversation,Rice_norms,274,223.6,4.38,4.88
-5;0 to 5;5,SD,TD,English,Conversation,Rice_norms,62.7,51,0.63,0.72
-5;0 to 5;5,Mean,SLI,English,Conversation,Rice_norms,292.1,223.1,3.72,4.09
-5;0 to 5;5,SD,SLI,English,Conversation,Rice_norms,76.2,55.8,0.61,0.7
-5;6 to 5;11,Mean,TD,English,Conversation,Rice_norms,278.2,224,4.47,4.96
-5;6 to 5;11,SD,TD,English,Conversation,Rice_norms,79.9,65,0.61,0.7
-5;6 to 5;11,Mean,SLI,English,Conversation,Rice_norms,289,222.5,3.95,4.34
-5;6 to 5;11,SD,SLI,English,Conversation,Rice_norms,83.6,64.3,0.6,0.67
-6;0 to 6;5,Mean,TD,English,Conversation,Rice_norms,291.2,236.3,4.57,5.07
-6;0 to 6;5,SD,TD,English,Conversation,Rice_norms,86.2,72.2,0.66,0.75
-6;0 to 6;5,Mean,SLI,English,Conversation,Rice_norms,275.7,217.2,3.98,4.38
-6;0 to 6;5,SD,SLI,English,Conversation,Rice_norms,86.1,68.4,0.7,0.75
-6;6 to 6;11,Mean,TD,English,Conversation,Rice_norms,285.7,228.3,4.7,5.22
-6;6 to 6;11,SD,TD,English,Conversation,Rice_norms,96.6,80.6,0.66,0.71
-6;6 to 6;11,Mean,SLI,English,Conversation,Rice_norms,281.2,214.5,4.18,4.63
-6;6 to 6;11,SD,SLI,English,Conversation,Rice_norms,97,73.1,0.71,0.79
-7;0 to 7;5,Mean,TD,English,Conversation,Rice_norms,275.6,221.5,4.72,5.22
-7;0 to 7;5,SD,TD,English,Conversation,Rice_norms,90.3,77.4,0.83,0.91
-7;0 to 7;5,Mean,SLI,English,Conversation,Rice_norms,277,217.1,4.15,4.56
-7;0 to 7;5,SD,SLI,English,Conversation,Rice_norms,97.9,77,0.62,0.69
-7;6 to 7;11,Mean,TD,English,Conversation,Rice_norms,271.5,218,4.92,5.45
-7;6 to 7;11,SD,TD,English,Conversation,Rice_norms,94.5,79.3,1.03,1.13
-7;6 to 7;11,Mean,SLI,English,Conversation,Rice_norms,280,217.4,4.33,4.77
-7;6 to 7;11,SD,SLI,English,Conversation,Rice_norms,89,76.5,0.88,0.96
-8;0 to 8;5,Mean,TD,English,Conversation,Rice_norms,278,229.7,5.08,5.67
-8;0 to 8;5,SD,TD,English,Conversation,Rice_norms,92.9,81.8,0.84,0.97
-8;0 to 8;5,Mean,SLI,English,Conversation,Rice_norms,266.1,212.4,4.36,4.8
-8;0 to 8;5,SD,SLI,English,Conversation,Rice_norms,91.8,78.5,0.75,0.83
-8;6 to 8;11,Mean,TD,English,Conversation,Rice_norms,280.1,228.2,4.99,5.51
-8;6 to 8;11,SD,TD,English,Conversation,Rice_norms,98.6,80.6,0.71,0.79
-8;6 to 8;11,Mean,SLI,English,Conversation,Rice_norms,289.7,227.9,4.49,4.97
-8;6 to 8;11,SD,SLI,English,Conversation,Rice_norms,93.9,76.9,0.86,0.93
+2;6 to 2;11,Mean,TD,English,Conversation,Rice (2010),265.6,219.1,2.91,3.23
+2;6 to 2;11,SD,TD,English,Conversation,Rice (2010),64,66.6,0.58,0.71
+2;6 to 2;11,Mean,SLI,English,Conversation,Rice (2010),235.2,155.5,2.37,2.59
+2;6 to 2;11,SD,SLI,English,Conversation,Rice (2010),63.3,54.8,0.32,0.39
+3;0 to 3;5,Mean,TD,English,Conversation,Rice (2010),271.5,219.1,2.43,3.81
+3;0 to 3;5,SD,TD,English,Conversation,Rice (2010),74.5,56.9,0.61,0.69
+3;0 to 3;5,Mean,SLI,English,Conversation,Rice (2010),261.3,177.6,2.84,3.07
+3;0 to 3;5,SD,SLI,English,Conversation,Rice (2010),78,66.2,0.38,0.48
+3;6 to 3;11,Mean,TD,English,Conversation,Rice (2010),256.2,203.9,3.71,4.09
+3;6 to 3;11,SD,TD,English,Conversation,Rice (2010),53.8,56.6,0.58,0.67
+3;6 to 3;11,Mean,SLI,English,Conversation,Rice (2010),249,176.8,3.1,3.36
+3;6 to 3;11,SD,SLI,English,Conversation,Rice (2010),89.3,66.4,0.75,0.8
+4;0 to 4;5,Mean,TD,English,Conversation,Rice (2010),282.6,224.2,4.1,4.57
+4;0 to 4;5,SD,TD,English,Conversation,Rice (2010),75.3,72.7,0.65,0.76
+4;0 to 4;5,Mean,SLI,English,Conversation,Rice (2010),282.6,198.2,3.31,3.64
+4;0 to 4;5,SD,SLI,English,Conversation,Rice (2010),93.8,76.4,0.7,0.8
+4;6 to 4;11,Mean,TD,English,Conversation,Rice (2010),278.1,232,4.28,4.75
+4;6 to 4;11,SD,TD,English,Conversation,Rice (2010),77.6,69.8,0.72,0.79
+4;6 to 4;11,Mean,SLI,English,Conversation,Rice (2010),284.7,213.2,3.6,3.95
+4;6 to 4;11,SD,SLI,English,Conversation,Rice (2010),71.3,63.5,0.62,0.7
+5;0 to 5;5,Mean,TD,English,Conversation,Rice (2010),274,223.6,4.38,4.88
+5;0 to 5;5,SD,TD,English,Conversation,Rice (2010),62.7,51,0.63,0.72
+5;0 to 5;5,Mean,SLI,English,Conversation,Rice (2010),292.1,223.1,3.72,4.09
+5;0 to 5;5,SD,SLI,English,Conversation,Rice (2010),76.2,55.8,0.61,0.7
+5;6 to 5;11,Mean,TD,English,Conversation,Rice (2010),278.2,224,4.47,4.96
+5;6 to 5;11,SD,TD,English,Conversation,Rice (2010),79.9,65,0.61,0.7
+5;6 to 5;11,Mean,SLI,English,Conversation,Rice (2010),289,222.5,3.95,4.34
+5;6 to 5;11,SD,SLI,English,Conversation,Rice (2010),83.6,64.3,0.6,0.67
+6;0 to 6;5,Mean,TD,English,Conversation,Rice (2010),291.2,236.3,4.57,5.07
+6;0 to 6;5,SD,TD,English,Conversation,Rice (2010),86.2,72.2,0.66,0.75
+6;0 to 6;5,Mean,SLI,English,Conversation,Rice (2010),275.7,217.2,3.98,4.38
+6;0 to 6;5,SD,SLI,English,Conversation,Rice (2010),86.1,68.4,0.7,0.75
+6;6 to 6;11,Mean,TD,English,Conversation,Rice (2010),285.7,228.3,4.7,5.22
+6;6 to 6;11,SD,TD,English,Conversation,Rice (2010),96.6,80.6,0.66,0.71
+6;6 to 6;11,Mean,SLI,English,Conversation,Rice (2010),281.2,214.5,4.18,4.63
+6;6 to 6;11,SD,SLI,English,Conversation,Rice (2010),97,73.1,0.71,0.79
+7;0 to 7;5,Mean,TD,English,Conversation,Rice (2010),275.6,221.5,4.72,5.22
+7;0 to 7;5,SD,TD,English,Conversation,Rice (2010),90.3,77.4,0.83,0.91
+7;0 to 7;5,Mean,SLI,English,Conversation,Rice (2010),277,217.1,4.15,4.56
+7;0 to 7;5,SD,SLI,English,Conversation,Rice (2010),97.9,77,0.62,0.69
+7;6 to 7;11,Mean,TD,English,Conversation,Rice (2010),271.5,218,4.92,5.45
+7;6 to 7;11,SD,TD,English,Conversation,Rice (2010),94.5,79.3,1.03,1.13
+7;6 to 7;11,Mean,SLI,English,Conversation,Rice (2010),280,217.4,4.33,4.77
+7;6 to 7;11,SD,SLI,English,Conversation,Rice (2010),89,76.5,0.88,0.96
+8;0 to 8;5,Mean,TD,English,Conversation,Rice (2010),278,229.7,5.08,5.67
+8;0 to 8;5,SD,TD,English,Conversation,Rice (2010),92.9,81.8,0.84,0.97
+8;0 to 8;5,Mean,SLI,English,Conversation,Rice (2010),266.1,212.4,4.36,4.8
+8;0 to 8;5,SD,SLI,English,Conversation,Rice (2010),91.8,78.5,0.75,0.83
+8;6 to 8;11,Mean,TD,English,Conversation,Rice (2010),280.1,228.2,4.99,5.51
+8;6 to 8;11,SD,TD,English,Conversation,Rice (2010),98.6,80.6,0.71,0.79
+8;6 to 8;11,Mean,SLI,English,Conversation,Rice (2010),289.7,227.9,4.49,4.97
+8;6 to 8;11,SD,SLI,English,Conversation,Rice (2010),93.9,76.9,0.86,0.93
