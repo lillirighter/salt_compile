@@ -1,57 +1,57 @@
-﻿Tran1
+﻿Tran1,,,,,,,
 Transcript Cut: 15 Utterances,,,,,,,
-TRANSCRIPT INFORMATION
-Speaker: Child
-Sample Date: 
-Current Age: 3;0
-Context: ,,,,DATABASE INFORMATION
-Database: Play
-14 database samples
-Context: Play
-SD Interval: 1.0,,,
+TRANSCRIPT INFORMATION,,,,,,,
+Speaker: Child,,,,,,,
+Sample Date: ,,,,,,,
+Current Age: 3;0,,,,,,,
+Context: ,,,,DATABASE INFORMATION,,,
+Database: Play,,,,,,,
+14 database samples,,,,,,,
+Context: Play,,,,,,,
+SD Interval: 1.0,,,,,,,
 STANDARD MEASURES REPORT,,,,,,,
 Compared to 14 Samples Matched by Age,,,,,,,
 LANGUAGE MEASURE,Child,,,DATABASE,,,
 ,Score,+/-SD,,Mean,Min,Max,SD
 ,,,,,,,
-        Current Age (3;0),3.00 **,-10.02,,3.89,3.75,4.00,0.09
+        Current Age (3;0),3.00 **,-10.02,,3.89,3.75,4,0.09
 TRANSCRIPT LENGTH,,,,,,,
         Total Utterances,0 **,-2.98,,182.43,79,269,61.19
         C&I Verbal Utts,0 **,-3.15,,159.71,71,228,50.73
-        All Words Including Mazes,0 **,-2.63,,642.14,303,1077,244.50
-        Elapsed Time,---,,,13.73,7.23,19.50,3.69
+        All Words Including Mazes,0 **,-2.63,,642.14,303,1077,244.5
+        Elapsed Time,---,,,13.73,7.23,19.5,3.69
 INTELLIGIBILITY,,,,,,,
-        % Intelligible Utterances,0.0% **,-20.82,,93.98,84.27,99.10,4.51
+        % Intelligible Utterances,0.0% **,-20.82,,93.98,84.27,99.1,4.51
         % Intelligible Words,0.0% **,-77.76,,98.13,95.93,99.72,1.26
 SYNTAX/MORPHOLOGY,,,,,,,
         MLU in Words,0.00 **,-5.91,,3.39,2.44,4.17,0.57
         MLU in Morphemes,0.00 **,-5.79,,3.74,2.64,4.57,0.65
         % Utterances with Verbs,0.0% **,-6.21,,54.56,38.67,68.75,8.79
-        Mean Verbs per Utterance,0.00 **,-4.87,,0.70,0.51,0.95,0.14
+        Mean Verbs per Utterance,0.00 **,-4.87,,0.7,0.51,0.95,0.14
 SEMANTICS,,,,,,,
         Number Total Words (NTW),0 **,-2.57,,546.21,274,851,212.59
         Number Different Words (NDW),0 **,-3.97,,158.71,96,228,39.96
-        Moving-Average NTW,---,,,0.00,0,0,0.00
-        Moving-Average NDW,---,,,0.00,0,0,0.00
+        Moving-Average NTW,---,,,0,0,0,0
+        Moving-Average NDW,---,,,0,0,0,0
         Moving-Average Type-Token Ratio (TTR),---,,,,,,
 DISCOURSE,,,,,,,
         Mean Turn Length (utterances),0.00 **,-8.42,,1.36,1.19,1.83,0.16
-        Mean Turn Length (words),0.00 **,-4.61,,4.49,3.01,6.10,0.97
+        Mean Turn Length (words),0.00 **,-4.61,,4.49,3.01,6.1,0.97
         % Responses to Questions,---,,,69.33,53.59,85.53,9.49
-        % Responses to Intonation Prompts,---,,,66.67,0.00,100.00,47.14
+        % Responses to Intonation Prompts,---,,,66.67,0,100,47.14
         % Utts with Overlapping Speech,0.0% **,-2.82,,11.43,6.69,21.74,4.06
-        % Utts Interrupted Other Speaker,0.0% *,-1.04,,1.26,0.00,3.70,1.22
+        % Utts Interrupted Other Speaker,0.0% *,-1.04,,1.26,0,3.7,1.22
 VERBAL FACILITY,,,,,,,
-        Words per Minute,---,,,45.80,31.59,62.20,8.98
+        Words per Minute,---,,,45.8,31.59,62.2,8.98
         Pause Time as % of Total Time,---,,,13.11,6.04,27.67,5.56
         Maze Words as % of Total Words,0.0% *,-1.36,,8.71,2.27,27.29,6.42
-        % Abandoned Utterances,0.0% *,-1.51,,3.50,0.90,9.09,2.32
+        % Abandoned Utterances,0.0% *,-1.51,,3.5,0.9,9.09,2.32
 ERRORS,,,,,,,
         % Utterances with Errors,0.0% **,-2.44,,10.44,5.31,18.96,4.27
         % Word Errors,0.0% **,-2.19,,2.67,1.11,5.41,1.22
 ,,,,,,,
-* At least 1 SD (** 2 SD) from the database mean
-Italicized measures count occurrences and can be significantly affected by the different sample lengths.
-Measures based on C&I Verbal Utts: Syntax/Morphology and Semantics sections
-All other measures based on total utterances
+* At least 1 SD (** 2 SD) from the database mean,,,,,,,
+Italicized measures count occurrences and can be significantly affected by the different sample lengths.,,,,,,,
+Measures based on C&I Verbal Utts: Syntax/Morphology and Semantics sections,,,,,,,
+All other measures based on total utterances,,,,,,,
 Database selection criteria: Age 3;6 - 4;0,,,,,,,

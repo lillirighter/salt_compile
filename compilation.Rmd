@@ -10,27 +10,298 @@ library(readr)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-I have a whole lot of SALT means that i have compiled from custion age ranges and various corpora. They put out an ugly, human-readable csv, and I want to first put them into a machine-readbable format, then compile them into a single spreadsheet, then combine them with other norms databases, and finally convert the big norms into a .cut file.
+# introduce functions
 
-##example cleanup for one file
+```{r functions}
+month_convert <- function(x) {
+  years <- trunc(x)
+  remainder <- x - years
+  months <- round(remainder*12)
+  paste0(years, ";",months, sep="")
+}
 
-```{r test-single, echo=FALSE}
-miffy <-read_csv("tnl9.CSV") %>%
+read_salt <-function(path,activity,titles) {
+df_name <-read_csv(path) 
+  df_name %>%
   dplyr::select(-c(2:4))%>%
   rename("Mean"="...5",
          "Min"="...6",
          "Max"="...7",
          "SD"="...8") %>%
-  mutate(Corpus=Tran2[[6]],
-         participants=str_extract(Tran2[[7]], "\\d+"))%>%
-  mutate(Tran2=replace(Tran2, 15, "Age" )) %>%
-  mutate(Corpus=str_remove_all(Corpus,"Database: ")) %>%
+  mutate(Corpus = paste("SALT",str_remove(df_name[6, titles], "Database: ")),
+         participants=str_extract(df_name[7, titles], "\\d+")) %>%
   slice(15:20,22,23,25:28,30:34,36:41,43:46,48:50) %>%
   pivot_longer(cols = c(Mean,Min,Max,SD),
                names_to = "Stat") %>%
-  pivot_wider(names_from = Tran2,
+  pivot_wider(names_from = titles,
               values_from = value) %>%
-  mutate(Age_Min=Age[[2]],
-         Age_Max=Age[[3]])
+      rename(Age= 4) %>%
+  mutate(Age_Min=as.numeric(Age[[2]]),
+         Age_Max=as.numeric(Age[[3]]),
+         Language="English",
+         Group="TD",
+         Activity = activity) %>%
+  mutate(Age_Min=month_convert(Age_Min),
+         Age_Max=month_convert(Age_Max)) %>%
+  mutate("Age(Month)"=paste(Age_Min, "to", Age_Max)) %>%
+  rename(Verbs_Utt= "Mean Verbs per Utterance",
+         MLU_Words= "MLU in Words",
+         MLU_Morphemes = "MLU in Morphemes",
+         Total_Utts="Total Utterances",
+         MLU_Utts="C&I Verbal Utts",
+         FREQ_tokens="Number Total Words (NTW)",
+         FREQ_types="Number Different Words (NDW)"
+         ) %>%
+  dplyr::select(Corpus,participants,Stat,Age,Activity,Total_Utts,MLU_Utts,MLU_Words,MLU_Morphemes,Verbs_Utt,FREQ_types,FREQ_tokens,Language,Group,"Age(Month)") %>%
+  mutate(MLU_Utts=as.numeric(MLU_Utts),
+         MLU_Words=as.numeric(MLU_Words),
+         MLU_Morphemes=as.numeric(MLU_Morphemes),
+         Verbs_Utt=as.numeric(Verbs_Utt),
+         FREQ_types=as.numeric(FREQ_types),
+         FREQ_tokens=as.numeric(FREQ_tokens),
+         Total_Utts=as.numeric(Total_Utts))
+}
+
+read_salt_trial <-function(path,activity,titles) {
+df_name <-read_csv(path) 
+df_name %>%
+  dplyr::select(-c(2:4))%>%
+  rename("Mean"="...5",
+         "Min"="...6",
+         "Max"="...7",
+         "SD"="...8") %>%
+  mutate(Corpus=paste("SALT",str_remove(df_name[7, titles], "Database: ")),
+         participants=str_extract(df_name[8, titles], "\\d+"))%>%
+  slice(16:21,23,24,26:29,31:35,37:42,44:47,49:50) %>%
+  pivot_longer(cols = c(Mean,Min,Max,SD),
+               names_to = "Stat") %>%
+  pivot_wider(names_from = titles,
+              values_from = value) %>%
+  rename(Age= 4) %>%
+  mutate(Age_Min=as.numeric(Age[[2]]),
+         Age_Max=as.numeric(Age[[3]]),
+         Language="English",
+         Group="TD",
+         Activity = activity) %>%
+  mutate(Age_Min=month_convert(Age_Min),
+         Age_Max=month_convert(Age_Max)) %>%
+  mutate("Age(Month)"=paste(Age_Min, "to", Age_Max)) %>%
+  rename(Verbs_Utt= "Mean Verbs per Utterance",
+         MLU_Words= "MLU in Words",
+         MLU_Morphemes = "MLU in Morphemes",
+         Total_Utts="Total Utterances",
+         MLU_Utts="C&I Verbal Utts",
+         FREQ_tokens="Number Total Words (NTW)",
+         FREQ_types="Number Different Words (NDW)"
+         ) %>%
+  dplyr::select(Corpus,participants,Stat,Age,Activity,Total_Utts,MLU_Utts,MLU_Words,MLU_Morphemes,Verbs_Utt,FREQ_types,FREQ_tokens,Language,Group,"Age(Month)") %>%
+  mutate(MLU_Utts=as.numeric(MLU_Utts),
+         MLU_Words=as.numeric(MLU_Words),
+         MLU_Morphemes=as.numeric(MLU_Morphemes),
+         Verbs_Utt=as.numeric(Verbs_Utt),
+         FREQ_types=as.numeric(FREQ_types),
+         FREQ_tokens=as.numeric(FREQ_tokens),
+         Total_Utts=as.numeric(Total_Utts))
+}
+```
+I have a whole lot of SALT means that i have compiled from custion age ranges and various corpora. They put out an ugly, human-readable csv, and I want to first put them into a machine-readbable format, then compile them into a single spreadsheet, then combine them with other norms databases, and finally convert the big norms into a .cut file.
+
+## example cleanup for one file
+
+```{r test-single, echo=FALSE}
+miffy <-read_csv("play_2_8to3.csv") %>%
+  dplyr::select(-c(2:4))%>%
+  rename("Mean"="...5",
+         "Min"="...6",
+         "Max"="...7",
+         "SD"="...8") %>%
+  mutate(Corpus=Tran1[[7]],
+         participants=str_extract(Tran1[[8]], "\\d+"))%>%
+  mutate(Corpus=str_remove_all(Corpus,"Database: ")) %>%
+  slice(16:21,23,24,26:29,31:35,37:42,44:47,49:50) %>%
+  pivot_longer(cols = c(Mean,Min,Max,SD),
+               names_to = "Stat") %>%
+  pivot_wider(names_from = Tran1,
+              values_from = value) %>%
+  rename(Age= 4) %>%
+  mutate(Age_Min=as.numeric(Age[[2]]),
+         Age_Max=as.numeric(Age[[3]]),
+         Language="English",
+         Group="TD",
+         Activity = "Narrative recall and elicitation") %>%
+  mutate(Age_Min=month_convert(Age_Min),
+         Age_Max=month_convert(Age_Max)) %>%
+  mutate("Age(Month)"=paste(Age_Min, "to", Age_Max)) %>%
+  rename(Verbs_Utt= "Mean Verbs per Utterance",
+         MLU_Words= "MLU in Words",
+         MLU_Morphemes = "MLU in Morphemes",
+         Total_Utts="Total Utterances",
+         MLU_Utts="C&I Verbal Utts",
+         FREQ_tokens="Number Total Words (NTW)",
+         FREQ_types="Number Different Words (NDW)"
+         ) %>%
+  dplyr::select(Corpus,participants,Stat,Age,Total_Utts,MLU_Utts,MLU_Words,MLU_Morphemes,Verbs_Utt,FREQ_types,FREQ_tokens,Language,Group,"Age(Month)")
+
 ```
 
+#use function to import individual salt reports
+
+```{r imports}
+##TNL2
+tnl2_4<- read_salt(path="tnl2_4.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_5<- read_salt(path="tnl2_5.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_6<- read_salt(path="tnl2_6.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_7<- read_salt(path="tnl2_7.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_8<- read_salt(path="tnl2_8.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_9<- read_salt(path="tnl2_9.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_10<- read_salt(path="tnl2_10.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_11<- read_salt(path="tnl2_11.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_12<- read_salt(path="tnl2_12.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_13<- read_salt(path="tnl2_13.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl2_14<- read_salt(path="tnl2_14.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+
+##TNL
+tnl5<- read_salt(path="tnl5.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl6<- read_salt(path="tnl6.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl7<- read_salt(path="tnl7.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl8<- read_salt(path="tnl8.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl9<- read_salt(path="tnl9.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl10<- read_salt(path="tnl10.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+tnl11<- read_salt(path="tnl11.csv",activity="Narrative retell and picture narrative", titles="Tran2")
+
+##play
+play2<- read_salt_trial(path="play_2_8to3.csv",activity="Play", titles="Tran1")
+play3<- read_salt_trial(path="play_3_3half.csv",activity="Play", titles="Tran1")
+play3_half<- read_salt_trial(path="play_3half_4.csv",activity="Play", titles="Tran1")
+play4<- read_salt_trial(path="play_4_4half.csv",activity="Play", titles="Tran1")
+play5<- read_salt_trial(path="play_5.csv",activity="Play", titles="Tran1")
+
+
+#stories
+pghw_7<- read_salt(path="pghw_7.csv",activity="Narrative retell", titles="Tran2")
+pghw_8<- read_salt(path="pghw_8.csv",activity="Narrative retell", titles="Tran2")
+pghw_7<- read_salt(path="pghw_7.csv",activity="Narrative retell", titles="Tran2")
+
+dog <- read_salt_trial(path="fables.csv",activity="Narrative retell", titles="Tran1")
+fox<- read_salt_trial(path="fables_fox.csv",activity="Narrative retell", titles="Tran1")
+oak<- read_salt_trial(path="fables_oak.csv",activity="Narrative retell", titles="Tran1")
+stag<- read_salt_trial(path="fables_stag.csv",activity="Narrative retell", titles="Tran1")
+
+dds9<- read_salt(path="dds9.csv",activity="Narrative retell", titles="Tran2")
+dds10<- read_salt(path="dds10.csv",activity="Narrative retell", titles="Tran2")
+dds11<- read_salt(path="dds11.csv",activity="Narrative retell", titles="Tran2")
+dds12<- read_salt(path="dds12.csv",activity="Narrative retell", titles="Tran2")
+
+apnf9<- read_salt(path="apnf9.csv",activity="Narrative retell", titles="Tran2")
+apnf8<- read_salt(path="apnf8.csv",activity="Narrative retell", titles="Tran2")
+
+frog3half <- read_salt(path="frog3.5.csv",activity="Narrative retell", titles="Tran2")
+frog4 <- read_salt(path="frog_4half_5.csv",activity="Narrative retell", titles="Tran2")
+frog5 <- read_salt(path="frog_5_5half.csv",activity="Narrative retell", titles="Tran2")
+frog5half <- read_salt(path="frog_5half_6.csv",activity="Narrative retell", titles="Tran2")
+frog6 <- read_salt(path="frog_6_6half.csv",activity="Narrative retell", titles="Tran2")
+frog6half <- read_salt(path="frog_6half_7.csv",activity="Narrative retell", titles="Tran2")
+frog7 <- read_salt(path="frog_7_to7half.csv",activity="Narrative retell", titles="Tran2")
+
+#self narration
+nsss5 <- read_salt(path="nsss5.csv",activity="Narration", titles="Tran2")
+nsss5half <- read_salt(path="nsss5half.csv",activity="Narration", titles="Tran2")
+nsss6 <- read_salt(path="nsss6.csv",activity="Narration", titles="Tran2")
+nsss6half <- read_salt(path="nsss6half.csv",activity="Narration", titles="Tran2")
+nsss7 <- read_salt(path="nsss7.csv",activity="Narration", titles="Tran2")
+nsss7half <- read_salt(path="nsss7half.csv",activity="Narration", titles="Tran2")
+nsss8 <- read_salt(path="nsss8.csv",activity="Narration", titles="Tran2")
+nsss8half <- read_salt(path="nsss8half.csv",activity="Narration", titles="Tran2")
+nsss9 <- read_salt(path="nsss9.csv",activity="Narration", titles="Tran2")
+nsss11 <- read_salt(path="nsss11.csv",activity="Narration", titles="Tran2")
+nsss13 <- read_salt(path="nsss13.csv",activity="Narration", titles="Tran2")
+
+#enni
+enni4 <- read_salt(path="ENNI4.csv",activity="Picture narrative", titles="Tran2")
+enni4half <- read_salt(path="enni4half.csv",activity="Picture narrative", titles="Tran2")
+enni5 <- read_salt(path="enni5.csv",activity="Picture narrative", titles="Tran2")
+enni5half <- read_salt(path="enni5half.csv",activity="Picture narrative", titles="Tran2")
+enni6 <- read_salt(path="enni6.csv",activity="Picture narrative", titles="Tran2")
+enni6half <- read_salt(path="enni6half.csv",activity="Picture narrative", titles="Tran2")
+enni7 <- read_salt(path="enni7.csv",activity="Picture narrative", titles="Tran2")
+enni7half <- read_salt(path="enni7half.csv",activity="Picture narrative", titles="Tran2")
+enni8 <- read_salt(path="enni8.csv",activity="Picture narrative", titles="Tran2")
+enni8half <- read_salt(path="enni8half.csv",activity="Picture narrative", titles="Tran2")
+enni9 <- read_salt(path="enni9.csv",activity="Picture narrative", titles="Tran2")
+enni9half <- read_salt(path="enni9half.csv",activity="Picture narrative", titles="Tran2")
+
+#persuasion
+pers13 <- read_salt(path="13persuasion.csv",activity="Persuasion", titles="Tran2")
+pers14 <- read_salt(path="14persuasion.csv",activity="Persuasion", titles="Tran2")
+pers15 <- read_salt(path="15persuasion.csv",activity="Persuasion", titles="Tran2")
+pers16 <- read_salt(path="16persuasion.csv",activity="Persuasion", titles="Tran2")
+pers17 <- read_salt(path="17persuasion.csv",activity="Persuasion", titles="Tran2")
+pers18 <- read_salt(path="18persuasion.csv",activity="Persuasion", titles="Tran2")
+
+# exposition
+expo11 <- read_salt(path="11yoexpo.csv",activity="Exposition", titles="Tran2")
+expo12 <- read_salt(path="12expo.csv",activity="Exposition", titles="Tran2")
+expo13 <- read_salt(path="13expo.csv",activity="Exposition", titles="Tran2")
+expo14 <- read_salt(path="14expo.csv",activity="Exposition", titles="Tran2")
+expo15 <- read_salt(path="15expo.csv",activity="Exposition", titles="Tran2")
+expo16 <- read_salt(path="16expo.csv",activity="Exposition", titles="Tran2")
+expo17 <- read_salt(path="17expo.csv",activity="Exposition", titles="Tran2")
+expo18 <- read_salt(path="18expo.csv",activity="Exposition", titles="Tran2")
+#conversation
+convo3<- read_salt(path="3to3-6.csv",activity="Conversation", titles="Tran2")
+convo3half<- read_salt(path="36-to4.csv",activity="Conversation", titles="Tran2")
+convo4<- read_salt(path="4to4-6.csv",activity="Conversation", titles="Tran2")
+convo4half<- read_salt(path="4-6to5.csv",activity="Conversation", titles="Tran2")
+convo5<- read_salt(path="5to5-6.csv",activity="Conversation", titles="Tran2")
+convo5half<- read_salt(path="5-6to6.csv",activity="Conversation", titles="Tran2")
+convo6<- read_salt(path="6to6-6.csv",activity="Conversation", titles="Tran2")
+convo6half<- read_salt(path="6-6to7.csv",activity="Conversation", titles="Tran2")
+convo7<- read_salt(path="7to7-6.csv",activity="Conversation", titles="Tran2")
+convo7half<- read_salt(path="7-6to8.csv",activity="Conversation", titles="Tran2")
+convo8<- read_salt(path="8to8-6.csv",activity="Conversation", titles="Tran2")
+convo8half<- read_salt(path="8-6to9.csv",activity="Conversation", titles="Tran2")
+convo9<- read_salt(path="9to9-6.csv",activity="Conversation", titles="Tran2")
+convo9half<- read_salt(path="9-6to10.csv",activity="Conversation", titles="Tran2")
+convo11<- read_salt(path="11yo.csv",activity="Conversation", titles="Tran2")
+convo13<- read_salt(path="13yo.csv",activity="Conversation", titles="Tran2")
+```
+
+# one giant SALT df
+```{r stackemup}
+salt_norms <- convo3 %>%
+  bind_rows(
+    convo3half,convo4,convo4half,convo5,convo5half,convo6,convo6half,convo7,convo7half,convo8,convo8half,convo9,convo9half,convo11,convo13,
+        pers13, pers14, pers15, pers16, pers17, pers18,
+        expo11, expo12, expo13, expo14, expo15, expo16, expo17, expo18,
+        enni4,enni4half,enni5,enni5half,enni6,enni6half,enni7,enni7half,enni8,enni8half,enni9,enni9half,
+        nsss5,nsss5half,nsss6,nsss6half,nsss7,nsss7half,nsss8,nsss8half,nsss9,nsss11,nsss13,
+    tnl2_4,tnl2_5,tnl2_6,tnl2_7,tnl2_8,tnl2_9,tnl2_10,tnl2_11,tnl2_12,tnl2_13,tnl2_14,
+    tnl5,tnl6,tnl7,tnl8,tnl9,tnl10,tnl11,
+    play2,play3,play3_half,play4,play5,
+    pghw_7,pghw_8,
+    dog,fox,oak,stag,
+    dds9,dds10,dds11,dds12,
+    apnf9,apnf8,
+    frog3half,frog4,frog5,frog5half,frog6,frog6half,frog7
+)
+```
+
+#bring in other norms and make sure the columns align
+
+```{r other-norms}
+TMN <- read_csv("TilstraMcMaster_norms.csv") %>%
+  rename("Age(Month)"=Age)
+SUGAR <-read_csv("SUGAR_norms.csv")%>%
+  rename("Age(Month)"=Age)
+Heilmann <-read_csv("heilmann_narrative.csv")%>%
+  rename("Age(Month)"=Age)
+Rice <-read_csv("Rice_norms.csv")%>%
+  rename("Age(Month)"=Age,
+         Stat=stat)
+LHMN <-read_csv("LeadholmMiller_norms.csv")%>%
+  rename("Age(Month)"=Age)
+
+all_norms <- salt_norms %>%
+  bind_rows(TMN,SUGAR,Heilmann,Rice,LHMN)
+
+```
