@@ -1,0 +1,18 @@
+﻿File_DB,Language,Corpus,Code,Age(Month),Sex,Group,Race,SES,Role,Education,Custom_field,Design,Activity,Group,Total_Utts,MLU_Utts,MLU_Words,MLU_Morphemes,MLU50_Utts,MLU50_Words,MLU50_Morphemes,FREQ_types,FREQ_tokens,NDW_100,VOCD_D_optimum_average,Verbs_Utt,Word_Errors,Utt_Errors,retracing,repetition,DSS_Utts,DSS,IPSyn_Utts,IPSyn_Total,mor_Words,*-PRESP,in,on,*-PL,irr-PAST,*-POSS,u-cop,det:art,*-PAST,*-3S,irr-3S,u-aux,c-cop,c-aux,Total_non_zero_mors
+Valian/07a.cha,eng,Valian,CHI,28,female,TD,.,.,Target_Child,.,.,cross,toyplay,TD,538,518,2.027,2.137,50,1.86,1.9,199,1190,43,32.35,0.437,4,0,6,0,50,5.98,50,25,1190,9,7,7,11,11,1,7,20,4,2,0,2,8,5,13
++/-SD,.,.,.,.,.,.,.,.,.,.,.,.,.,.,,14.645,-3.762,-4.053,NA,-3.763,-4.058,1.482,2.901,-0.559,0.237,-3,1.812,NA,-0.616,-0.895,NA,-2.312,NA,-3.782,2.901,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,**,**,**,,**,**,*,**,,,**,*,,,,,**,,**,**,,,,,,,,,,,,,,,
+Mean Database,.,.,.,.,.,.,.,.,.,.,.,.,.,.,,77.035,6.663,7.307,50,6.601,7.241,130.14,524.702,46.579,29.557,1.16,0.719,0,10.509,11.211,50,10.114,50,56.393,524.702,,,,,,,,,,,,,,,
+SD Database,.,.,.,.,.,.,.,.,.,.,.,.,.,.,,30.11,1.232,1.276,NA,1.26,1.316,46.478,229.308,6.4,11.81,0.241,1.81,0,7.317,12.522,NA,1.788,NA,8.3,229.308,,,,,,,,,,,,,,,
+Number files,.,.,.,.,.,.,.,.,.,.,.,.,.,.,,57,57,57,57,57,57,57,57,57,57,57,57,57,57,57,38,38,56,56,57,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"IF YOU DID NOT MARK ERRORS, DSS TOTAL WILL BE INFLATED.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Please be sure to mark utterances with errors with [*] to ensure accurate DSS computation.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLEASE SEE SLP MANUAL FOR RECOMMENDED INTERPRETATION.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"+/- SD  * = 1 SD, ** = 2 SD",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Database keywords: 5;6-6;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Database type: eng narrative TD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Database date: 2025-07-01, 04:24",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Database minimum utterances: 50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

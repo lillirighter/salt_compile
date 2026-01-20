@@ -104,7 +104,7 @@ df_name %>%
          Total_Utts=as.numeric(Total_Utts))
 }
 ```
-I have a whole lot of SALT means that i have compiled from custion age ranges and various corpora. They put out an ugly, human-readable csv, and I want to first put them into a machine-readbable format, then compile them into a single spreadsheet, then combine them with other norms databases, and finally convert the big norms into a .cut file.
+I have a whole lot of SALT means that i have compiled from custom age ranges and various corpora. I used SALT20 to select each database and age range, then individually-export the computed means. They put out an ugly, human-readable csv, and I want to first put them into a machine-readbable format, then compile them into a single spreadsheet, then combine them with other norms databases, and finally convert the big norms into a .cut file.
 
 ## example cleanup for one file
 
@@ -286,7 +286,7 @@ salt_norms <- convo3 %>%
 )
 ```
 
-#bring in other norms and make sure the columns align
+Bring in other norms and make sure the columns align. These csvs were hand-compiled from publication pdfs.
 
 ```{r other-norms}
 TMN <- read_csv("TilstraMcMaster_norms.csv") %>%
@@ -308,3 +308,42 @@ all_norms <- salt_norms %>%
 write_csv(all_norms, "0all_norms.csv")
 
 ```
+
+Now I want to make sure all the columns I have line up with columns that are output by KidEval. I ran KidEval on a random file from the Valian corpus just to get column names.
+
+``` {r kideval}
+kideval <-read_csv("07a.kideval.csv") 
+
+kideval_cols <- kideval %>% 
+  colnames()
+
+all_norms_cols <-all_norms %>%
+  colnames()
+
+excl_norms <- setdiff(all_norms_cols, kideval_cols) #just give me a list of non-overlaps
+
+all_norms_trim <- all_norms%>%
+  dplyr::select(-TNW_50, -Clauses_per_sentence_50, -Age) %>% #these two were measures i included in an early norms spreadsheet that i thought might be relevant but don't line up, plus mean Age which isn't really relevant for norm
+  rename("*-3S"= "*-S3")
+
+kideval_trim <- kideval %>%
+  rename("Group"="Group...15") %>%
+  filter(Corpus=="Valian") %>%
+  mutate(MLU_Utts=as.numeric(MLU_Utts),
+         MLU_Words=as.numeric(MLU_Words),
+         MLU_Morphemes=as.numeric(MLU_Morphemes),
+         Verbs_Utt=as.numeric(Verbs_Utt),
+         FREQ_types=as.numeric(FREQ_types),
+         FREQ_tokens=as.numeric(FREQ_tokens),
+         MLU50_Words=as.numeric(MLU50_Words),
+         MLU50_Morphemes=as.numeric(MLU50_Morphemes))
+
+norm_final <- all_norms_trim %>%
+  full_join(kideval_trim) %>%
+  filter(!Corpus=="Valian")
+
+write_csv(norm_final, "0all_norms_with_columns.csv")
+
+
+```
+

@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15260</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="RedText">
+    <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="TallText">
+    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="07a.kideval.xls">
+  <Table ss:DefaultColumnWidth="95" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">File_DB</Data></Cell>
+    <Cell><Data ss:Type="String">Language</Data></Cell>
+    <Cell><Data ss:Type="String">Corpus</Data></Cell>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+    <Cell><Data ss:Type="String">Age(Month)</Data></Cell>
+    <Cell><Data ss:Type="String">Sex</Data></Cell>
+    <Cell><Data ss:Type="String">Group</Data></Cell>
+    <Cell><Data ss:Type="String">Race</Data></Cell>
+    <Cell><Data ss:Type="String">SES</Data></Cell>
+    <Cell><Data ss:Type="String">Role</Data></Cell>
+    <Cell><Data ss:Type="String">Education</Data></Cell>
+    <Cell><Data ss:Type="String">Custom_field</Data></Cell>
+    <Cell><Data ss:Type="String">Design</Data></Cell>
+    <Cell><Data ss:Type="String">Activity</Data></Cell>
+    <Cell><Data ss:Type="String">Group</Data></Cell>
+    <Cell><Data ss:Type="String">Total_Utts</Data></Cell>
+    <Cell><Data ss:Type="String">MLU_Utts</Data></Cell>
+    <Cell><Data ss:Type="String">MLU_Words</Data></Cell>
+    <Cell><Data ss:Type="String">MLU_Morphemes</Data></Cell>
+    <Cell><Data ss:Type="String">MLU50_Utts</Data></Cell>
+    <Cell><Data ss:Type="String">MLU50_Words</Data></Cell>
+    <Cell><Data ss:Type="String">MLU50_Morphemes</Data></Cell>
+    <Cell><Data ss:Type="String">FREQ_types</Data></Cell>
+    <Cell><Data ss:Type="String">FREQ_tokens</Data></Cell>
+    <Cell><Data ss:Type="String">NDW_100</Data></Cell>
+    <Cell><Data ss:Type="String">VOCD_D_optimum_average</Data></Cell>
+    <Cell><Data ss:Type="String">Verbs_Utt</Data></Cell>
+    <Cell><Data ss:Type="String">Word_Errors</Data></Cell>
+    <Cell><Data ss:Type="String">Utt_Errors</Data></Cell>
+    <Cell><Data ss:Type="String">retracing</Data></Cell>
+    <Cell><Data ss:Type="String">repetition</Data></Cell>
+    <Cell><Data ss:Type="String">DSS_Utts</Data></Cell>
+    <Cell><Data ss:Type="String">DSS</Data></Cell>
+    <Cell><Data ss:Type="String">IPSyn_Utts</Data></Cell>
+    <Cell><Data ss:Type="String">IPSyn_Total</Data></Cell>
+    <Cell><Data ss:Type="String">mor_Words</Data></Cell>
+    <Cell><Data ss:Type="String">*-PRESP</Data></Cell>
+    <Cell><Data ss:Type="String">in</Data></Cell>
+    <Cell><Data ss:Type="String">on</Data></Cell>
+    <Cell><Data ss:Type="String">*-PL</Data></Cell>
+    <Cell><Data ss:Type="String">irr-PAST</Data></Cell>
+    <Cell><Data ss:Type="String">*-POSS</Data></Cell>
+    <Cell><Data ss:Type="String">u-cop</Data></Cell>
+    <Cell><Data ss:Type="String">det:art</Data></Cell>
+    <Cell><Data ss:Type="String">*-PAST</Data></Cell>
+    <Cell><Data ss:Type="String">*-3S</Data></Cell>
+    <Cell><Data ss:Type="String">irr-3S</Data></Cell>
+    <Cell><Data ss:Type="String">u-aux</Data></Cell>
+    <Cell><Data ss:Type="String">c-cop</Data></Cell>
+    <Cell><Data ss:Type="String">c-aux</Data></Cell>
+    <Cell><Data ss:Type="String">Total_non_zero_mors</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Valian/07a.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">Valian</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">female</Data></Cell>
+    <Cell><Data ss:Type="String">TD</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">cross</Data></Cell>
+    <Cell><Data ss:Type="String">toyplay</Data></Cell>
+    <Cell><Data ss:Type="String">TD</Data></Cell>
+    <Cell><Data ss:Type="Number">538</Data></Cell>
+    <Cell><Data ss:Type="Number">518</Data></Cell>
+    <Cell><Data ss:Type="Number">2.027</Data></Cell>
+    <Cell><Data ss:Type="Number">2.137</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">1.860</Data></Cell>
+    <Cell><Data ss:Type="Number">1.900</Data></Cell>
+    <Cell><Data ss:Type="Number">199</Data></Cell>
+    <Cell><Data ss:Type="Number">1190</Data></Cell>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="Number">32.35</Data></Cell>
+    <Cell><Data ss:Type="Number">0.437</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">5.98</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">25.00</Data></Cell>
+    <Cell><Data ss:Type="Number">1190</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">+/-SD</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">14.645</Data></Cell>
+    <Cell><Data ss:Type="Number">-3.762</Data></Cell>
+    <Cell><Data ss:Type="Number">-4.053</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="Number">-3.763</Data></Cell>
+    <Cell><Data ss:Type="Number">-4.058</Data></Cell>
+    <Cell><Data ss:Type="Number">1.482</Data></Cell>
+    <Cell><Data ss:Type="Number">2.901</Data></Cell>
+    <Cell><Data ss:Type="Number">-0.559</Data></Cell>
+    <Cell><Data ss:Type="Number">0.237</Data></Cell>
+    <Cell><Data ss:Type="Number">-3.000</Data></Cell>
+    <Cell><Data ss:Type="Number">1.812</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="Number">-0.616</Data></Cell>
+    <Cell><Data ss:Type="Number">-0.895</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="Number">-2.312</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="Number">-3.782</Data></Cell>
+    <Cell><Data ss:Type="Number">2.901</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+    <Cell><Data ss:Type="String">**</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mean Database</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">77.035</Data></Cell>
+    <Cell><Data ss:Type="Number">6.663</Data></Cell>
+    <Cell><Data ss:Type="Number">7.307</Data></Cell>
+    <Cell><Data ss:Type="Number">50.000</Data></Cell>
+    <Cell><Data ss:Type="Number">6.601</Data></Cell>
+    <Cell><Data ss:Type="Number">7.241</Data></Cell>
+    <Cell><Data ss:Type="Number">130.140</Data></Cell>
+    <Cell><Data ss:Type="Number">524.702</Data></Cell>
+    <Cell><Data ss:Type="Number">46.579</Data></Cell>
+    <Cell><Data ss:Type="Number">29.557</Data></Cell>
+    <Cell><Data ss:Type="Number">1.160</Data></Cell>
+    <Cell><Data ss:Type="Number">0.719</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10.509</Data></Cell>
+    <Cell><Data ss:Type="Number">11.211</Data></Cell>
+    <Cell><Data ss:Type="Number">50.000</Data></Cell>
+    <Cell><Data ss:Type="Number">10.114</Data></Cell>
+    <Cell><Data ss:Type="Number">50.000</Data></Cell>
+    <Cell><Data ss:Type="Number">56.393</Data></Cell>
+    <Cell><Data ss:Type="Number">524.702</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SD Database</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">30.110</Data></Cell>
+    <Cell><Data ss:Type="Number">1.232</Data></Cell>
+    <Cell><Data ss:Type="Number">1.276</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="Number">1.260</Data></Cell>
+    <Cell><Data ss:Type="Number">1.316</Data></Cell>
+    <Cell><Data ss:Type="Number">46.478</Data></Cell>
+    <Cell><Data ss:Type="Number">229.308</Data></Cell>
+    <Cell><Data ss:Type="Number">6.400</Data></Cell>
+    <Cell><Data ss:Type="Number">11.810</Data></Cell>
+    <Cell><Data ss:Type="Number">0.241</Data></Cell>
+    <Cell><Data ss:Type="Number">1.810</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">7.317</Data></Cell>
+    <Cell><Data ss:Type="Number">12.522</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="Number">1.788</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="Number">8.300</Data></Cell>
+    <Cell><Data ss:Type="Number">229.308</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Number files</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+   </Row>
+   <Row>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="RedText"><Data ss:Type="String">IF YOU DID NOT MARK ERRORS, DSS TOTAL WILL BE INFLATED.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="RedText"><Data ss:Type="String">Please be sure to mark utterances with errors with [*] to ensure accurate DSS computation.</Data></Cell>
+   </Row>
+   <Row>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="RedText"><Data ss:Type="String">PLEASE SEE SLP MANUAL FOR RECOMMENDED INTERPRETATION.</Data></Cell>
+   </Row>
+   <Row>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">+/- SD  * = 1 SD, ** = 2 SD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Database keywords: 5;6-6;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Database type: eng narrative TD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Database date: 2025-07-01, 04:24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Database minimum utterances: 50</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
