@@ -7,6 +7,7 @@ date: "2026-01-12"
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(readr)
+library(glue)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -344,10 +345,156 @@ kideval_trim <- kideval %>%
 norm_final <- all_norms_trim %>%
   full_join(kideval_trim) %>%
   filter(!Corpus=="Valian") %>%
-  dplyr::select(File_DB,Language,Corpus,Code,"Age(Month)",Sex,Group,Race,SES,Role,Education,Custom_field,Design,Activity,"Group...7",Total_Utts,MLU_Utts, MLU_Words, MLU_Morphemes,MLU50_Utts,MLU50_Words,MLU50_Morphemes,FREQ_types,FREQ_tokens,NDW_100,VOCD_D_optimum_average,Verbs_Utt,Word_Errors,Utt_Errors,retracing,repetition,DSS_Utts,DSS,mor_Words,"*-PRESP","in",on,"*-PL","*-POSS","u-cop", "det:art", "*-PAST", "*-3S", "irr-3S", "u-aux", "c-cop", "c-aux", "Total_non_zero_mors")
+  dplyr::select(File_DB,Language,Corpus,Code,"Age(Month)",Sex,Group,Race,SES,Role,Education,Custom_field,Design,Activity,"Group...7",Total_Utts,MLU_Utts, MLU_Words, MLU_Morphemes,MLU50_Utts,MLU50_Words,MLU50_Morphemes,FREQ_types,FREQ_tokens,NDW_100,VOCD_D_optimum_average,Verbs_Utt,Word_Errors,Utt_Errors,retracing,repetition,DSS_Utts,DSS,mor_Words,"*-PRESP","in",on,"*-PL","*-POSS","u-cop", "det:art", "*-PAST", "*-3S", "irr-3S", "u-aux", "c-cop", "c-aux", "Total_non_zero_mors", participants,Stat)
 
 write_csv(norm_final, "0all_norms_with_columns.csv")
 
 write_tsv(norm_final, "0all_norms_with_columns.tsv")
+```
+
+Now I'm going to try to convert it into a format similar to the .cut db files already present in the kideval comparison database. I'll split it into separate files based on the norming dataset/corpus
+```{r cuttify}
+
+norms_cut <-norm_final %>%
+  mutate(header=glue("+{Language}|{Corpus}|CHI|{norm_final$'Age(Month)'}|||Target_Child|||"))%>%
+  mutate(header=str_replace_all(header, " ", "_"),
+         File_DB="=NA",
+         dash="-") %>%
+  mutate(Corpus=ifelse(Corpus=="SALT Narrative Story Retell", paste("SALT", Activity, sep = " "), Corpus)) %>%
+  mutate(Corpus=ifelse(Corpus=="SALT Fables", paste("SALT", Activity, sep = " "), Corpus)) 
+
+salt_convo_cut <- norms_cut %>%
+  filter(Corpus=="SALT Conversation") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_convo_cut, "salt_converation_norms.cut", delim = "\n")
+
+salt_pers_cut <- norms_cut %>%
+  filter(Corpus=="SALT Persuasion") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_pers_cut, "salt_persuasion_norms.cut", delim = "\n")
+
+salt_expo <- norms_cut %>%
+  filter(Corpus=="SALT Expository") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_expo, "salt_expository_norms.cut", delim = "\n")
+
+salt_enni <- norms_cut %>%
+  filter(Corpus=="SALT ENNI") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_enni, "salt_enni_norms.cut", delim = "\n")
+
+salt_sss <- norms_cut %>%
+  filter(Corpus=="SALT Narrative SSS") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_sss, "salt_nsss_norms.cut", delim = "\n")
+
+saltnl <- norms_cut %>%
+  filter(Corpus=="SALT TNL Narrative Samples") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(saltnl, "salt_TNL_norms.cut", delim = "\n")
+
+salt_tnl2 <- norms_cut %>%
+  filter(Corpus=="SALT TNL2 Narrative Samples") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_tnl2, "salt_TNL2_norms.cut", delim = "\n")
+
+salt_play <- norms_cut %>%
+  filter(Corpus=="SALT Play") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_play, "salt_play_norms.cut", delim = "\n")
+
+salt_pghw<- norms_cut %>%
+  filter(Corpus=="SALT Narrative retell-- Pookins") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_pghw, "salt_pghw_norms.cut", delim = "\n")
+
+salt_dog <- norms_cut %>%
+  filter(Corpus=="SALT Narrative retell-- dog") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_dog, "salt_dog_norms.cut", delim = "\n")
+
+salt_oak <- norms_cut %>%
+  filter(Corpus=="SALT Narrative retell-- oak") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_oak, "salt_oak_norms.cut", delim = "\n")
+
+salt_stag <- norms_cut %>%
+  filter(Corpus=="SALT Narrative retell-- stag") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_stag, "salt_stag_norms.cut", delim = "\n")
+
+salt_fox <- norms_cut %>%
+  filter(Corpus=="SALT Narrative retell-- fox") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_fox, "salt_fox_norms.cut", delim = "\n")
+
+salt_dds <- norms_cut %>%
+  filter(Corpus=="SALT Narrative retell-- Dr. DeSoto") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_dds, "salt_dds_norms.cut", delim = "\n")
+
+salt_porc <- norms_cut %>%
+  filter(Corpus=="SALT Narrative retell-- Porcupine") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_porc, "salt_porcupine_norms.cut", delim = "\n")
+
+salt_frog <- norms_cut %>%
+  filter(Corpus=="SALT Narrative retell-- Frog") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(salt_frog, "salt_frog_norms.cut", delim = "\n")
+
+tmm_cut <- norms_cut %>%
+  filter(Corpus=="Tilstra McMaster 2007") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(tmm_cut, "tilstra_mcmaster_norms.cut", delim = "\n")
+
+sugar_cut <- norms_cut %>%
+  filter(Corpus=="SUGAR") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(sugar_cut, "sugar_norms.cut", delim = "\n")
+
+rice_TD_cut <- norms_cut %>%
+  filter(Corpus=="Rice (2010)" & Group=="TD") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(rice_TD_cut, "rice_TD_norms.cut", delim = "\n")
+
+rice_sli_cut <- norms_cut %>%
+  filter(Corpus=="Rice (2010)" & Group=="SLI") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(rice_sli_cut, "rice_SLI_norms.cut", delim = "\n")
+
+lm_cut <- norms_cut %>%
+  filter(Corpus=="Leadholm Miller 1992") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(lm_cut, "leadholm_miller_norms.cut", delim = "\n")
+
+#orrrr all together
+norms_cut2 <- norms_cut %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+
+write_delim(norms_cut2, "norms_db.cut", delim = "\n")
+
 ```
 

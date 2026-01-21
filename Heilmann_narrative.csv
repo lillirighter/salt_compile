@@ -1,3 +1,3 @@
 ﻿Age,Language,Stat,Corpus,Group,Activity,MLU_Morphemes,FREQ_types,FREQ_tokens
-5;0-7;0,English,Mean,Heilmann Miller 2009,TD,Narrative retell,7,92.5,264.1
-5;0-7;0,English,SD,Heilmann Miller 2009,TD,Narrative retell,0.9,19,77.2
+5;0-7;0,English,Mean,Heilmann etal Narrative 2009,TD,Narrative retell,7,92.5,264.1
+5;0-7;0,English,SD,Heilmann etal Narrative 2009,TD,Narrative retell,0.9,19,77.2
