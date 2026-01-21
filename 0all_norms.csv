@@ -1,299 +1,299 @@
-Corpus,participants,Stat,Age,Activity,Total_Utts,MLU_Utts,MLU_Words,MLU_Morphemes,Verbs_Utt,FREQ_types,FREQ_tokens,Language,Group,Age(Month),MLU50_Words,MLU50_Morphemes,TNW_50,Clauses_per_sentence_50,NDW_100,*-PRESP,*-PL,*-POSS,*-PAST,*-S3
-SALT Conversation,16,Mean,3.16,Conversation,114.5,104.5,3.29,3.59,0.57,122.5,338.69,English,TD,2;9 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,16,SD,0.20,Conversation,60.96,56.59,0.69,0.8,0.2,46.02,182.51,English,TD,2;9 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,11,Mean,3.89,Conversation,118.45,111.27,3.58,3.93,0.62,149.91,397.82,English,TD,3;9 to 4;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,11,SD,0.09,Conversation,26.55,28.26,0.77,0.87,0.17,37.05,119.49,English,TD,3;9 to 4;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,14,Mean,4.13,Conversation,113.29,108.36,4.11,4.51,0.75,157.71,436.71,English,TD,4;0 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,14,SD,0.11,Conversation,44.24,43.91,0.77,0.85,0.14,48.4,194.93,English,TD,4;0 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,8,Mean,4.80,Conversation,58.25,51.5,4.62,5.1,0.9,96.75,238,English,TD,4;7 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,8,SD,0.17,Conversation,25.29,23.16,0.65,0.64,0.13,34.83,104.76,English,TD,4;7 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,54,Mean,5.34,Conversation,117.76,108.98,4.86,5.34,0.93,180.5,536.33,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,54,SD,0.14,Conversation,63.39,60.86,0.98,1.07,0.2,74.69,327.66,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,90,Mean,5.72,Conversation,92.4,85.48,4.86,5.36,0.92,152.42,416.3,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,90,SD,0.15,Conversation,52.63,50.3,0.99,1.1,0.23,57.98,238.94,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,68,Mean,6.24,Conversation,94,87.82,5.11,5.64,0.96,159.32,435.03,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,68,SD,0.14,Conversation,62.69,59.46,1.11,1.22,0.24,65.32,285.23,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,67,Mean,6.79,Conversation,93.88,87.87,5.67,6.22,1.08,166.88,483.4,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,67,SD,0.16,Conversation,66.69,62.8,1.17,1.3,0.25,73.35,337.65,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,84,Mean,7.21,Conversation,136.93,128.58,5.48,6.04,1.03,213.64,685.73,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,84,SD,0.16,Conversation,86.66,81.83,1.17,1.29,0.27,87.35,428.84,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,39,Mean,7.74,Conversation,85.82,78.79,5.68,6.32,1.09,166.62,451.28,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,39,SD,0.18,Conversation,43.79,40.81,1.51,1.66,0.32,64.95,303.07,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,52,Mean,8.28,Conversation,129.87,119.96,5.95,6.59,1.12,229.23,712.46,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,52,SD,0.16,Conversation,58.23,55.66,1.11,1.23,0.23,79.93,360.39,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,43,Mean,8.78,Conversation,138.72,129.65,6.28,6.92,1.17,236.53,779.05,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,43,SD,0.19,Conversation,87.14,81.4,1.01,1.11,0.22,91.37,462.69,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,52,Mean,9.19,Conversation,142.94,133.08,6.19,6.84,1.17,239.08,797.54,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,52,SD,0.14,Conversation,99.55,91.76,1.09,1.2,0.25,107.65,539.86,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,9,Mean,9.62,Conversation,66.44,63.11,6.28,7.03,1.16,151.44,377.22,English,TD,9;6 to 9;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,9,SD,0.14,Conversation,28.07,26.73,1.11,1.26,0.22,33.76,115.56,English,TD,9;6 to 9;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,25,Mean,11.05,Conversation,233.68,218.88,6.14,6.74,1.09,355.36,1346.2,English,TD,10;9 to 11;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,25,SD,0.16,Conversation,45.46,42.61,1.28,1.41,0.25,65.41,376.89,English,TD,10;9 to 11;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,27,Mean,13.01,Conversation,229.93,212.04,5.78,6.38,1.07,330.37,1233.63,English,TD,12;9 to 13;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Conversation,27,SD,0.15,Conversation,47.86,40.1,1,1.06,0.22,61.65,338.85,English,TD,12;9 to 13;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,28,Mean,13.47,Persuasion,21.04,19.68,15.22,16.82,2.91,119.36,286.21,English,TD,12;10 to 13;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,28,SD,0.34,Persuasion,11.75,11.15,4.04,4.48,0.71,40.45,153.2,English,TD,12;10 to 13;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,15,Mean,14.83,Persuasion,29.8,28.87,16.25,17.99,3.09,164.2,462.47,English,TD,14;7 to 15;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,15,SD,0.15,Persuasion,17.66,17.32,2.25,2.47,0.48,55.77,278.3,English,TD,14;7 to 15;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,52,Mean,15.48,Persuasion,27.92,26.62,16.35,18.03,3.06,150.96,421.44,English,TD,15;0 to 15;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,52,SD,0.27,Persuasion,13.85,14.02,3.45,3.8,0.74,49.54,204.28,English,TD,15;0 to 15;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,32,Mean,16.57,Persuasion,35.38,33.5,16.66,18.31,3.07,174.38,528.31,English,TD,16;1 to 17;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,32,SD,0.35,Persuasion,19.4,18.27,3.35,3.66,0.57,56.76,250.42,English,TD,16;1 to 17;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,45,Mean,17.48,Persuasion,32.24,31.31,16.83,18.55,3.17,173.4,505.53,English,TD,17;0 to 18;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,45,SD,0.30,Persuasion,17.25,16.6,4.21,4.7,0.66,63.45,255.72,English,TD,17;0 to 18;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,19,Mean,18.32,Persuasion,34.89,33.95,16.88,18.68,3.3,185.11,546.58,English,TD,18;0 to 18;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Persuasion,19,SD,0.25,Persuasion,18.21,17.88,3.77,4.11,0.72,63.12,269.14,English,TD,18;0 to 18;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,88,Mean,11.48,Exposition,55.56,53.77,11.65,12.75,2.3,174.97,620.41,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,88,SD,0.29,Exposition,25.73,24.68,1.84,1.98,0.38,49.21,296.38,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,57,Mean,12.48,Exposition,51.44,50.12,11.84,13,2.3,173.4,585.39,English,TD,12;0 to 13;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,57,SD,0.29,Exposition,19.95,19.43,1.66,1.79,0.36,43.09,218.29,English,TD,12;0 to 13;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,34,Mean,13.35,Exposition,59.53,58.03,12.27,13.48,2.31,192.82,698.09,English,TD,13;0 to 14;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,34,SD,0.29,Exposition,36.4,36.07,1.8,1.93,0.39,62.41,438.37,English,TD,13;0 to 14;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,34,Mean,14.81,Exposition,62.38,60.59,12.5,13.77,2.33,209.38,775.24,English,TD,14;0 to 15;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,34,SD,0.23,Exposition,39.02,38.28,2.24,2.43,0.35,78.36,537.58,English,TD,14;0 to 15;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,65,Mean,15.38,Exposition,57.54,55.95,12.9,14.24,2.39,204.38,718.38,English,TD,15;0 to 15;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,65,SD,0.29,Exposition,25.39,24.88,2.04,2.23,0.38,56.53,348.12,English,TD,15;0 to 15;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,27,Mean,16.60,Exposition,66.37,64.48,12.75,14.01,2.42,214.41,786.22,English,TD,16;1 to 17;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,27,SD,0.33,Exposition,39.48,38.79,2.36,2.5,0.47,67.64,407.61,English,TD,16;1 to 17;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,31,Mean,17.46,Exposition,70.68,67.77,12.88,14.18,2.37,227.68,872.23,English,TD,17;0 to 18;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,31,SD,0.33,Exposition,34.77,33.25,2.38,2.57,0.37,71.3,485.57,English,TD,17;0 to 18;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,18,Mean,18.33,Exposition,76.39,74,12.61,13.95,2.36,234.78,927.33,English,TD,18;0 to 18;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Expository,18,SD,0.26,Exposition,63.17,60.88,2.33,2.53,0.46,120.83,812.5,English,TD,18;0 to 18;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,16,Mean,4.31,Picture narrative,57.75,56.69,5.66,6.12,1.13,103.06,321.25,English,TD,4;0 to 4;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,16,SD,0.14,Picture narrative,6.1,5.85,0.95,0.99,0.28,23.02,64.86,English,TD,4;0 to 4;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,34,Mean,4.75,Picture narrative,71.74,71,6.62,7.08,1.31,134.44,474.53,English,TD,4;6 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,34,SD,0.13,Picture narrative,16.71,16.54,0.99,1.03,0.16,30.62,146.66,English,TD,4;6 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,32,Mean,5.32,Picture narrative,75.63,75.25,7.06,7.56,1.36,142.19,532.94,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,32,SD,0.17,Picture narrative,26.77,26.53,0.73,0.71,0.13,37.54,200.64,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,32,Mean,5.68,Picture narrative,75.13,74.69,7.27,7.81,1.38,141.25,547.41,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,32,SD,0.17,Picture narrative,24.83,24.54,1.02,1.05,0.19,34.39,203.11,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,22,Mean,6.22,Picture narrative,70.23,70.09,7.04,7.63,1.35,136.64,496.55,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,22,SD,0.17,Picture narrative,18.11,18.19,0.88,0.88,0.13,25.76,146.85,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,37,Mean,6.76,Picture narrative,74.3,73.84,7.09,7.69,1.37,145.24,527.38,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,37,SD,0.16,Picture narrative,22.09,21.85,1.13,1.2,0.17,35.13,184.57,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,27,Mean,7.33,Picture narrative,74.37,74.04,8,8.7,1.48,155.26,592.74,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,27,SD,0.19,Picture narrative,20.13,20.06,1.06,1.14,0.21,30.18,170.91,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,36,Mean,7.71,Picture narrative,74.17,74.03,7.7,8.39,1.47,153.97,572.89,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,36,SD,0.18,Picture narrative,16.27,16.12,1.07,1.2,0.17,27.06,157.24,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,20,Mean,8.25,Picture narrative,73.8,73.65,7.87,8.65,1.51,155.65,583.05,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,20,SD,0.16,Picture narrative,13.21,13.26,1,1.2,0.15,20.19,147.26,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,37,Mean,8.78,Picture narrative,79.59,79.51,8.09,8.8,1.59,175.76,652.41,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,37,SD,0.15,Picture narrative,24.14,24.17,0.98,1.08,0.17,46.56,236.24,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,30,Mean,9.28,Picture narrative,76.93,76.9,8.5,9.27,1.67,173.37,660.37,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,30,SD,0.17,Picture narrative,20.1,20.12,0.85,0.97,0.16,36.55,220.33,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,26,Mean,9.71,Picture narrative,78,77.92,8.08,8.97,1.55,166.69,640.62,English,TD,9;6 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT ENNI,26,SD,0.16,Picture narrative,26.37,26.37,1.06,1.2,0.18,33.19,274.72,English,TD,9;6 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,36,Mean,5.37,Narration,37.03,34.25,6.2,6.85,1.18,78.25,199.97,English,TD,5;2 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,36,SD,0.11,Narration,32.59,30.15,0.96,1,0.17,47.09,168.26,English,TD,5;2 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,52,Mean,5.74,Narration,36.04,33.38,6.47,7.1,1.22,75.87,209.04,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,52,SD,0.16,Narration,15.86,15.09,1.54,1.61,0.2,25.67,92.31,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,37,Mean,6.22,Narration,32.62,30.81,6.98,7.63,1.29,81.97,208.76,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,37,SD,0.14,Narration,17.55,16.59,1.33,1.45,0.21,31.05,103.35,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,30,Mean,6.79,Narration,45.8,41.67,7.09,7.73,1.33,98.53,292.3,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,30,SD,0.16,Narration,23.76,21.59,1.19,1.31,0.22,37.86,148.84,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,62,Mean,7.22,Narration,48.58,45.42,7.16,7.85,1.38,108,322.84,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,62,SD,0.15,Narration,26.76,24.39,1.04,1.13,0.23,39.74,163.95,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,19,Mean,7.72,Narration,55.79,52.26,7.74,8.5,1.5,137.53,420.05,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,19,SD,0.19,Narration,32.61,30.01,1.54,1.7,0.31,65.57,292.08,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,36,Mean,8.31,Narration,77.78,70.53,8.04,8.86,1.58,166.06,557.03,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,36,SD,0.17,Narration,51.03,44.95,1.44,1.59,0.27,77.26,353.69,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,23,Mean,8.73,Narration,70.35,64.78,7.91,8.75,1.52,150,506.35,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,23,SD,0.20,Narration,38.43,32.76,0.95,1.14,0.22,66.27,262.79,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,22,Mean,9.14,Narration,52,49.09,7.44,8.2,1.45,106.91,358.09,English,TD,9;0 to 9;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,22,SD,0.11,Narration,25.82,24.11,1.24,1.36,0.27,36.23,176.93,English,TD,9;0 to 9;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,27,Mean,11.08,Narration,52.44,48.89,8.37,9.42,1.6,139.52,436.63,English,TD,10;9 to 11;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,27,SD,0.17,Narration,48.08,44.42,1.45,1.68,0.32,104.1,445.31,English,TD,10;9 to 11;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,27,Mean,13.01,Narration,60.7,56.04,8.45,9.37,1.65,142.44,463.59,English,TD,12;9 to 13;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative SSS,27,SD,0.15,Narration,52.76,49.02,1.96,2.16,0.34,76.19,399.21,English,TD,12;9 to 13;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,43,Mean,4.49,Narrative retell and picture narrative,22.51,15.93,5.7,6.32,1.17,48.6,94.72,English,TD,4;0 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,43,SD,0.30,Narrative retell and picture narrative,13.51,11.59,1.29,1.41,0.3,29.96,73.96,English,TD,4;0 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,66,Mean,5.67,Narrative retell and picture narrative,26.5,20,5.98,6.61,1.27,60.58,128.23,English,TD,5;0 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,66,SD,0.28,Narrative retell and picture narrative,19.82,14.52,1.29,1.4,0.27,35.93,108.74,English,TD,5;0 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,80,Mean,6.53,Narrative retell and picture narrative,30.05,25.96,6.62,7.27,1.36,80.84,177.32,English,TD,6;0 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,80,SD,0.32,Narrative retell and picture narrative,15.71,15.21,1.27,1.42,0.25,37.83,112.59,English,TD,6;0 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,114,Mean,7.49,Narrative retell and picture narrative,34.45,31.02,7.19,7.9,1.45,99.02,225.82,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,114,SD,0.31,Narrative retell and picture narrative,15.97,15.72,1.08,1.15,0.22,35.3,121.89,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,130,Mean,8.52,Narrative retell and picture narrative,40.25,36.91,7.54,8.28,1.56,117.56,278.5,English,TD,8;0 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,130,SD,0.33,Narrative retell and picture narrative,14.55,13.98,0.95,1,0.18,31.51,107.05,English,TD,8;0 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,137,Mean,9.51,Narrative retell and picture narrative,40.44,37.37,7.86,8.63,1.62,125.69,296.17,English,TD,9;0 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,137,SD,0.34,Narrative retell and picture narrative,11.85,11.69,1.03,1.14,0.22,33.75,104.74,English,TD,9;0 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,121,Mean,10.49,Narrative retell and picture narrative,45.59,42.76,8.34,9.15,1.74,146.35,354.77,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,121,SD,0.33,Narrative retell and picture narrative,15.21,14.22,1.14,1.27,0.25,36.77,117.63,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,85,Mean,11.38,Narrative retell and picture narrative,46.41,43.38,8.33,9.13,1.76,145.48,355.41,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,85,SD,0.30,Narrative retell and picture narrative,18.21,16.87,1.11,1.24,0.24,35.46,120.71,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,33,Mean,12.44,Narrative retell and picture narrative,52.55,49.67,8.72,9.61,1.86,168.7,423.42,English,TD,12;0 to 13;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,33,SD,0.32,Narrative retell and picture narrative,22.35,22.83,1.29,1.43,0.26,45.75,176.75,English,TD,12;0 to 13;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,31,Mean,13.40,Narrative retell and picture narrative,45.68,43.13,8.52,9.41,1.78,157.71,367.68,English,TD,13;0 to 14;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,31,SD,0.29,Narrative retell and picture narrative,15.01,14.95,1.09,1.2,0.23,45.7,134.55,English,TD,13;0 to 14;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,18,Mean,14.35,Narrative retell and picture narrative,50.06,47.44,8.81,9.86,1.86,169.22,411.61,English,TD,14;0 to 14;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL2 Narrative Samples,18,SD,0.24,Narrative retell and picture narrative,21.35,21.44,0.86,0.95,0.18,49.11,168.64,English,TD,14;0 to 14;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,55,Mean,5.61,Narrative retell and picture narrative,29.75,25.42,6.66,7.29,1.37,84.42,175.13,English,TD,5;0 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,55,SD,0.27,Narrative retell and picture narrative,10.86,9.84,1.21,1.27,0.25,30.48,86.98,English,TD,5;0 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,108,Mean,6.52,Narrative retell and picture narrative,31.43,27.68,7.18,7.87,1.46,93.78,203.47,English,TD,6;0 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,108,SD,0.31,Narrative retell and picture narrative,12.9,12.25,1.28,1.36,0.27,35.49,103.92,English,TD,6;0 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,112,Mean,7.50,Narrative retell and picture narrative,37.28,34.26,7.86,8.61,1.58,119.47,274.31,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,112,SD,0.33,Narrative retell and picture narrative,17.01,16.29,1.27,1.37,0.25,45.53,144.32,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,109,Mean,8.46,Narrative retell and picture narrative,44.47,41.36,8.06,8.81,1.64,138.89,335.53,English,TD,8;0 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,109,SD,0.32,Narrative retell and picture narrative,21.16,20.16,1.14,1.24,0.23,45.68,168.73,English,TD,8;0 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,49,Mean,9.43,Narrative retell and picture narrative,50.76,47.04,8.3,9.09,1.7,154.37,381,English,TD,9;0 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,49,SD,0.33,Narrative retell and picture narrative,21.55,18.66,1.3,1.45,0.28,34.19,132.55,English,TD,9;0 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,53,Mean,10.50,Narrative retell and picture narrative,50.53,48.66,8.93,9.8,1.83,166.23,430.75,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,53,SD,0.29,Narrative retell and picture narrative,26.98,26.9,1.49,1.64,0.34,52.47,216.2,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,52,Mean,11.43,Narrative retell and picture narrative,45.94,44.02,8.82,9.66,1.82,158.96,382.75,English,TD,11;0 to 11;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT TNL Narrative Samples,52,SD,0.22,Narrative retell and picture narrative,13.65,13.38,1.29,1.43,0.25,32.83,109.39,English,TD,11;0 to 11;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,9,Mean,2.89,Play,169,147,3.03,3.29,0.61,126.44,442,English,TD,2;8 to 3;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,9,SD,0.12,Play,83.34,68.95,0.35,0.39,0.11,30.23,204.3,English,TD,2;8 to 3;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,23,Mean,3.23,Play,132.7,116.48,3.23,3.54,0.69,126.26,377.04,English,TD,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,23,SD,0.14,Play,51.93,41.36,0.41,0.46,0.13,23.93,141.89,English,TD,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,14,Mean,3.89,Play,182.43,159.71,3.39,3.74,0.7,158.71,546.21,English,TD,3;9 to 4;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,14,SD,0.09,Play,61.19,50.73,0.57,0.65,0.14,39.96,212.59,English,TD,3;9 to 4;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,15,Mean,4.11,Play,139.07,124.53,3.47,3.82,0.73,137.73,426.73,English,TD,4;0 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,15,SD,0.1,Play,64.72,58.83,0.63,0.75,0.18,37.07,197.75,English,TD,4;0 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,15,Mean,5.47,Play,132.8,120.67,4.54,4.97,1.01,152.73,561.47,English,TD,5;4 to 5;8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Play,15,SD,0.09,Play,60.26,54.95,0.8,0.85,0.2,51.52,298.17,English,TD,5;4 to 5;8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,50,Mean,7.67,Narrative retell,39.1,37,8.37,9.4,1.7,125.16,310.16,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,50,SD,0.29,Narrative retell,10.87,10.44,0.9,1.02,0.21,25.29,95.6,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,59,Mean,8.31,Narrative retell,42,39.64,8.25,9.24,1.65,131.69,326.75,English,TD,8;0 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,59,SD,0.23,Narrative retell,12.69,11.8,1,1.11,0.21,28.57,107.58,English,TD,8;0 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Fables,30,Mean,14.07,Narrative retell,20.63,20.1,10.91,11.74,2.17,99,217.47,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Fables,30,SD,0.33,Narrative retell,10.33,9.73,2.42,2.62,0.5,32.99,104.15,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Fables,30,Mean,14.07,Narrative retell,21.17,20.7,11.47,12.4,2.37,107.77,233.23,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Fables,30,SD,0.33,Narrative retell,9.51,9.03,2.38,2.55,0.58,33.61,99.55,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Fables,30,Mean,14.07,Narrative retell,22.17,21.23,10.33,11.19,2.24,101.43,214.97,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Fables,30,SD,0.33,Narrative retell,10.01,9.28,2.3,2.35,0.53,30.48,94.86,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Fables,30,Mean,14.07,Narrative retell,28.8,27.4,10.42,11.53,1.99,126.7,283.67,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Fables,30,SD,0.33,Narrative retell,10.15,9.54,2.36,2.56,0.44,34.98,110.56,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,46,Mean,9.68,Narrative retell,55.63,53.67,9.71,10.54,1.93,178.98,516.04,English,TD,9;3 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,46,SD,0.26,Narrative retell,16.95,16.04,1.36,1.48,0.25,40.08,153.35,English,TD,9;3 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,39,Mean,10.59,Narrative retell,51,49.97,10.03,11,1.96,174.18,501.56,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,39,SD,0.37,Narrative retell,13.07,12.87,1.58,1.73,0.25,37.58,146.21,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,88,Mean,11.48,Narrative retell,55.58,54.39,10.3,11.27,2.02,187.09,548.3,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,88,SD,0.29,Narrative retell,15.58,15.15,1.47,1.6,0.25,34.66,126.1,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,43,Mean,12.34,Narrative retell,53.42,52.3,10.54,11.52,2.08,182.88,546.21,English,TD,12;0 to 12;8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,43,SD,0.18,Narrative retell,16.07,16.2,1.4,1.48,0.28,41.46,166.46,English,TD,12;0 to 12;8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,36,Mean,9.29,Narrative retell,48.28,46.97,7.49,8.42,1.64,129.58,347.69,English,TD,9;0 to 9;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,36,SD,0.23,Narrative retell,12.29,12.12,0.97,1.06,0.21,22.1,83.85,English,TD,9;0 to 9;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,23,Mean,8.67,Narrative retell,46.96,45.35,7.03,7.93,1.58,123.13,316,English,TD,7;11 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,23,SD,0.36,Narrative retell,10.64,10.56,1.04,1.13,0.24,18.18,71.79,English,TD,7;11 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,5,Mean,3.93,Narrative retell,48.2,37.8,5.23,5.69,0.91,75,209.4,English,TD,3;6 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,5,SD,0.35,Narrative retell,19.69,16.39,1.33,1.43,0.23,35.09,126.46,English,TD,3;6 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,19,Mean,4.85,Narrative retell,41.84,35.47,6.25,6.8,1.14,80.79,224.58,English,TD,4;7 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,19,SD,0.17,Narrative retell,17.41,12.91,1.03,1.15,0.19,18.81,102.89,English,TD,4;7 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,34,Mean,5.25,Narrative retell,39.29,34.06,6.56,7.23,1.2,85.12,223.74,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,34,SD,0.19,Narrative retell,10.75,8.32,0.94,1.09,0.17,15.49,62.42,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,47,Mean,5.71,Narrative retell,38.47,35.36,6.84,7.58,1.26,90.19,241.72,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,47,SD,0.14,Narrative retell,9.11,7.5,0.85,0.96,0.16,17.31,57.23,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,36,Mean,6.27,Narrative retell,40.78,37.14,7.27,8.03,1.3,99.5,269.08,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,36,SD,0.15,Narrative retell,9.24,7.42,0.67,0.71,0.15,13.96,53.92,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,43,Mean,6.77,Narrative retell,40.88,38.12,7.6,8.35,1.34,100.53,290.26,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,43,SD,0.15,Narrative retell,12.63,12.12,0.87,0.99,0.17,20.68,99.38,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,17,Mean,7.16,Narrative retell,43.24,41.47,8.18,8.96,1.49,113.65,335.24,English,TD,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SALT Narrative Story Retell,17,SD,0.13,Narrative retell,8.61,8.47,1.79,1.97,0.31,20.43,78.75,English,TD,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Tilstra McMaster 2007,NA,Mean,NA,Picture narrative,NA,9.31,6,NA,NA,NA,57.64,English,TD,6;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Tilstra McMaster 2007,NA,SD,NA,Picture narrative,NA,3.02,1.33,NA,NA,NA,24.92,English,TD,6;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Tilstra McMaster 2007,NA,Mean,NA,Picture narrative,NA,9.89,6.33,NA,NA,NA,59.6,English,TD,7;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Tilstra McMaster 2007,NA,SD,NA,Picture narrative,NA,4.42,1.3,NA,NA,NA,27.67,English,TD,7;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Tilstra McMaster 2007,NA,Mean,NA,Picture narrative,NA,14.31,7.45,NA,NA,NA,104.78,English,TD,9;1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Tilstra McMaster 2007,NA,SD,NA,Picture narrative,NA,7.81,1.05,NA,NA,NA,54.98,English,TD,9;1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,3;0-3;5,5.27,4.24,192.3,1.09,NA,NA,NA,NA,NA,NA
-SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,3;0-3;5,1.39,1.37,61.22,0.13,NA,NA,NA,NA,NA,NA
-SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,3;6-3;11,6.24,5.41,244.05,1.15,NA,NA,NA,NA,NA,NA
-SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,3;6-3;11,1.17,1.28,58.07,0.11,NA,NA,NA,NA,NA,NA
-SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,4;0-4;5,6.48,5.79,261.4,1.19,NA,NA,NA,NA,NA,NA
-SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,4;0-4;5,1.37,1.53,69.98,0.13,NA,NA,NA,NA,NA,NA
-SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,4;6-4;11,6.97,6.18,278.71,1.21,NA,NA,NA,NA,NA,NA
-SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,4;6-4;11,1.26,1.32,60.14,0.11,NA,NA,NA,NA,NA,NA
-SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,5;0-5;11,7.33,6.66,299.81,1.29,NA,NA,NA,NA,NA,NA
-SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,5;0-5;11,1.21,1.35,61.46,0.13,NA,NA,NA,NA,NA,NA
-SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,6;0-6;11,8.05,7.6,337.73,1.36,NA,NA,NA,NA,NA,NA
-SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,6;0-6;11,1.42,1.6,72.5,0.14,NA,NA,NA,NA,NA,NA
-SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,7;0-8;11,8.87,8.59,379.63,1.34,NA,NA,NA,NA,NA,NA
-SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,7;0-8;11,1.19,1.4,59.28,0.14,NA,NA,NA,NA,NA,NA
-SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,9;0-10;11,9.7,9.61,421.36,1.37,NA,NA,NA,NA,NA,NA
-SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,NA,English,TD,9;0-10;11,1.4,1.52,66.61,0.15,NA,NA,NA,NA,NA,NA
-Heilmann Miller 2009,NA,Mean,NA,Narrative retell,NA,NA,NA,7,NA,92.5,264.1,English,TD,5;0-7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Heilmann Miller 2009,NA,SD,NA,Narrative retell,NA,NA,NA,0.9,NA,19,77.2,English,TD,5;0-7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,265.6,219.1,2.91,3.23,NA,NA,NA,English,TD,2;6 to 2;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,64,66.6,0.58,0.71,NA,NA,NA,English,TD,2;6 to 2;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,235.2,155.5,2.37,2.59,NA,NA,NA,English,SLI,2;6 to 2;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,63.3,54.8,0.32,0.39,NA,NA,NA,English,SLI,2;6 to 2;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,271.5,219.1,2.43,3.81,NA,NA,NA,English,TD,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,74.5,56.9,0.61,0.69,NA,NA,NA,English,TD,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,261.3,177.6,2.84,3.07,NA,NA,NA,English,SLI,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,78,66.2,0.38,0.48,NA,NA,NA,English,SLI,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,256.2,203.9,3.71,4.09,NA,NA,NA,English,TD,3;6 to 3;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,53.8,56.6,0.58,0.67,NA,NA,NA,English,TD,3;6 to 3;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,249,176.8,3.1,3.36,NA,NA,NA,English,SLI,3;6 to 3;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,89.3,66.4,0.75,0.8,NA,NA,NA,English,SLI,3;6 to 3;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,282.6,224.2,4.1,4.57,NA,NA,NA,English,TD,4;0 to 4;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,75.3,72.7,0.65,0.76,NA,NA,NA,English,TD,4;0 to 4;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,282.6,198.2,3.31,3.64,NA,NA,NA,English,SLI,4;0 to 4;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,93.8,76.4,0.7,0.8,NA,NA,NA,English,SLI,4;0 to 4;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,278.1,232,4.28,4.75,NA,NA,NA,English,TD,4;6 to 4;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,77.6,69.8,0.72,0.79,NA,NA,NA,English,TD,4;6 to 4;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,284.7,213.2,3.6,3.95,NA,NA,NA,English,SLI,4;6 to 4;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,71.3,63.5,0.62,0.7,NA,NA,NA,English,SLI,4;6 to 4;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,274,223.6,4.38,4.88,NA,NA,NA,English,TD,5;0 to 5;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,62.7,51,0.63,0.72,NA,NA,NA,English,TD,5;0 to 5;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,292.1,223.1,3.72,4.09,NA,NA,NA,English,SLI,5;0 to 5;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,76.2,55.8,0.61,0.7,NA,NA,NA,English,SLI,5;0 to 5;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,278.2,224,4.47,4.96,NA,NA,NA,English,TD,5;6 to 5;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,79.9,65,0.61,0.7,NA,NA,NA,English,TD,5;6 to 5;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,289,222.5,3.95,4.34,NA,NA,NA,English,SLI,5;6 to 5;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,83.6,64.3,0.6,0.67,NA,NA,NA,English,SLI,5;6 to 5;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,291.2,236.3,4.57,5.07,NA,NA,NA,English,TD,6;0 to 6;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,86.2,72.2,0.66,0.75,NA,NA,NA,English,TD,6;0 to 6;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,275.7,217.2,3.98,4.38,NA,NA,NA,English,SLI,6;0 to 6;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,86.1,68.4,0.7,0.75,NA,NA,NA,English,SLI,6;0 to 6;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,285.7,228.3,4.7,5.22,NA,NA,NA,English,TD,6;6 to 6;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,96.6,80.6,0.66,0.71,NA,NA,NA,English,TD,6;6 to 6;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,281.2,214.5,4.18,4.63,NA,NA,NA,English,SLI,6;6 to 6;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,97,73.1,0.71,0.79,NA,NA,NA,English,SLI,6;6 to 6;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,275.6,221.5,4.72,5.22,NA,NA,NA,English,TD,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,90.3,77.4,0.83,0.91,NA,NA,NA,English,TD,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,277,217.1,4.15,4.56,NA,NA,NA,English,SLI,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,97.9,77,0.62,0.69,NA,NA,NA,English,SLI,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,271.5,218,4.92,5.45,NA,NA,NA,English,TD,7;6 to 7;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,94.5,79.3,1.03,1.13,NA,NA,NA,English,TD,7;6 to 7;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,280,217.4,4.33,4.77,NA,NA,NA,English,SLI,7;6 to 7;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,89,76.5,0.88,0.96,NA,NA,NA,English,SLI,7;6 to 7;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,278,229.7,5.08,5.67,NA,NA,NA,English,TD,8;0 to 8;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,92.9,81.8,0.84,0.97,NA,NA,NA,English,TD,8;0 to 8;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,266.1,212.4,4.36,4.8,NA,NA,NA,English,SLI,8;0 to 8;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,91.8,78.5,0.75,0.83,NA,NA,NA,English,SLI,8;0 to 8;5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,280.1,228.2,4.99,5.51,NA,NA,NA,English,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,98.6,80.6,0.71,0.79,NA,NA,NA,English,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,Mean,NA,Conversation,289.7,227.9,4.49,4.97,NA,NA,NA,English,SLI,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Rice (2010),NA,SD,NA,Conversation,93.9,76.9,0.86,0.93,NA,NA,NA,English,SLI,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Leadholm Miller 1992,NA,Mean,NA,Narration,143,100,NA,4.01,NA,NA,364,English,TD,3;0 to 3;11,NA,NA,NA,NA,127,7,8,3,4,3
-Leadholm Miller 1992,NA,SD,NA,Narration,34,100,NA,0.88,NA,NA,82,English,TD,3;0 to 3;11,NA,NA,NA,NA,23,5,5,3,4,3
-Leadholm Miller 1992,NA,Mean,NA,Narration,121,100,NA,5.23,NA,NA,478,English,TD,4;0 to 4;11,NA,NA,NA,NA,163,4,13,3,6,6
-Leadholm Miller 1992,NA,SD,NA,Narration,32,100,NA,1.02,NA,NA,94,English,TD,4;0 to 4;11,NA,NA,NA,NA,23,4,7,3,5,6
-Leadholm Miller 1992,NA,Mean,NA,Narration,140,100,NA,6.06,NA,NA,553,English,TD,5;0 to 5;11,NA,NA,NA,NA,178,7,11,7,8,7
-Leadholm Miller 1992,NA,SD,NA,Narration,22,100,NA,0.94,NA,NA,91,English,TD,5;0 to 5;11,NA,NA,NA,NA,18,5,5,5,5,7
-Leadholm Miller 1992,NA,Mean,NA,Narration,146,100,NA,6.17,NA,NA,564,English,TD,6;0 to 6;11,NA,NA,NA,NA,180,6,10,5,11,6
-Leadholm Miller 1992,NA,SD,NA,Narration,27,100,NA,1.02,NA,NA,112,English,TD,6;0 to 6;11,NA,NA,NA,NA,26,4,5,4,5,6
-Leadholm Miller 1992,NA,Mean,NA,Narration,154,100,NA,7.32,NA,NA,663,English,TD,7;0,NA,NA,NA,NA,194,9,14,5,12,10
-Leadholm Miller 1992,NA,SD,NA,Narration,32,100,NA,1.06,NA,NA,97,English,TD,7;0,NA,NA,NA,NA,20,5,6,4,7,13
-Leadholm Miller 1992,NA,Mean,NA,Narration,184,100,NA,8.8,NA,NA,800,English,TD,9;0,NA,NA,NA,NA,205,11,17,6,16,10
-Leadholm Miller 1992,NA,SD,NA,Narration,35,100,NA,1.64,NA,NA,148,English,TD,9;0,NA,NA,NA,NA,29,5,6,4,8,11
-Leadholm Miller 1992,NA,Mean,NA,Narration,167,100,NA,9.83,NA,NA,878,English,TD,11;0,NA,NA,NA,NA,253,15,23,2,17,19
-Leadholm Miller 1992,NA,SD,NA,Narration,26,100,NA,1.59,NA,NA,138,English,TD,11;0,NA,NA,NA,NA,34,7,9,2,7,18
-Leadholm Miller 1992,NA,Mean,NA,Narration,200,100,NA,9.32,NA,NA,842,English,TD,13;0,NA,NA,NA,NA,237,11,20,2,14,16
-Leadholm Miller 1992,NA,SD,NA,Narration,46,100,NA,1.49,NA,NA,132,English,TD,13;0,NA,NA,NA,NA,27,6,9,2,6,12
-Leadholm Miller 1992,NA,Mean,NA,Conversation,137,100,NA,3.38,NA,NA,310,English,TD,3;0 to 3;11,NA,NA,NA,NA,118,3,7,1,2,2
-Leadholm Miller 1992,NA,SD,NA,Conversation,34,100,NA,0.48,NA,NA,118,English,TD,3;0 to 3;11,NA,NA,NA,NA,20,2,4,2,2,3
-Leadholm Miller 1992,NA,Mean,NA,Conversation,138,100,NA,4.22,NA,NA,384,English,TD,4;0 to 4;11,NA,NA,NA,NA,144,3,11,1,2,4
-Leadholm Miller 1992,NA,SD,NA,Conversation,33,100,NA,1.02,NA,NA,90,English,TD,4;0 to 4;11,NA,NA,NA,NA,26,3,7,1,2,3
-Leadholm Miller 1992,NA,Mean,NA,Conversation,149,100,NA,5.71,NA,NA,520,English,TD,5;0 to 5;11,NA,NA,NA,NA,181,5,15,2,4,7
-Leadholm Miller 1992,NA,SD,NA,Conversation,27,100,NA,0.91,NA,NA,81,English,TD,5;0 to 5;11,NA,NA,NA,NA,25,4,8,2,3,5
-Leadholm Miller 1992,NA,Mean,NA,Conversation,154,100,NA,5.49,NA,NA,499,English,TD,6;0 to 6;11,NA,NA,NA,NA,177,4,17,2,4,6
-Leadholm Miller 1992,NA,SD,NA,Conversation,33,100,NA,0.97,NA,NA,86,English,TD,6;0 to 6;11,NA,NA,NA,NA,23,3,8,2,3,5
-Leadholm Miller 1992,NA,Mean,NA,Conversation,170,100,NA,5.92,NA,NA,540,English,TD,7;0,NA,NA,NA,NA,192,4,17,2,5,6
-Leadholm Miller 1992,NA,SD,NA,Conversation,32,100,NA,0.9,NA,NA,83,English,TD,7;0,NA,NA,NA,NA,19,3,6,2,3,5
-Leadholm Miller 1992,NA,Mean,NA,Conversation,181,100,NA,6.5,NA,NA,592,English,TD,9;0,NA,NA,NA,NA,209,4,20,3,4,6
-Leadholm Miller 1992,NA,SD,NA,Conversation,31,100,NA,10.6,NA,NA,95,English,TD,9;0,NA,NA,NA,NA,26,3,8,2,2,3
-Leadholm Miller 1992,NA,Mean,NA,Conversation,169,100,NA,7.62,NA,NA,693,English,TD,11;0,NA,NA,NA,NA,229,6,20,5,6,7
-Leadholm Miller 1992,NA,SD,NA,Conversation,38,100,NA,1.94,NA,NA,175,English,TD,11;0,NA,NA,NA,NA,38,4,7,4,4,5
-Leadholm Miller 1992,NA,Mean,NA,Conversation,200,100,NA,6.99,NA,NA,637,English,TD,13;0,NA,NA,NA,NA,216,7,19,1,7,5
-Leadholm Miller 1992,NA,SD,NA,Conversation,43,100,NA,1.43,NA,NA,134,English,TD,13;0,NA,NA,NA,NA,31,3,5,1,3,4
+Corpus,participants,Stat,Age,Activity,Total_Utts,MLU_Utts,MLU_Words,MLU_Morphemes,Verbs_Utt,FREQ_types,FREQ_tokens,Language,Group,Age(Month),MLU50_Words,MLU50_Morphemes,Clauses_per_sentence_50,NDW_100,*-PRESP,*-PL,*-POSS,*-PAST,*-S3
+SALT Conversation,16,Mean,3.16,Conversation,114.5,104.5,3.29,3.59,0.57,122.5,338.69,English,TD,2;9 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,16,SD,0.20,Conversation,60.96,56.59,0.69,0.8,0.2,46.02,182.51,English,TD,2;9 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,11,Mean,3.89,Conversation,118.45,111.27,3.58,3.93,0.62,149.91,397.82,English,TD,3;9 to 4;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,11,SD,0.09,Conversation,26.55,28.26,0.77,0.87,0.17,37.05,119.49,English,TD,3;9 to 4;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,14,Mean,4.13,Conversation,113.29,108.36,4.11,4.51,0.75,157.71,436.71,English,TD,4;0 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,14,SD,0.11,Conversation,44.24,43.91,0.77,0.85,0.14,48.4,194.93,English,TD,4;0 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,8,Mean,4.80,Conversation,58.25,51.5,4.62,5.1,0.9,96.75,238,English,TD,4;7 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,8,SD,0.17,Conversation,25.29,23.16,0.65,0.64,0.13,34.83,104.76,English,TD,4;7 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,54,Mean,5.34,Conversation,117.76,108.98,4.86,5.34,0.93,180.5,536.33,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,54,SD,0.14,Conversation,63.39,60.86,0.98,1.07,0.2,74.69,327.66,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,90,Mean,5.72,Conversation,92.4,85.48,4.86,5.36,0.92,152.42,416.3,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,90,SD,0.15,Conversation,52.63,50.3,0.99,1.1,0.23,57.98,238.94,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,68,Mean,6.24,Conversation,94,87.82,5.11,5.64,0.96,159.32,435.03,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,68,SD,0.14,Conversation,62.69,59.46,1.11,1.22,0.24,65.32,285.23,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,67,Mean,6.79,Conversation,93.88,87.87,5.67,6.22,1.08,166.88,483.4,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,67,SD,0.16,Conversation,66.69,62.8,1.17,1.3,0.25,73.35,337.65,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,84,Mean,7.21,Conversation,136.93,128.58,5.48,6.04,1.03,213.64,685.73,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,84,SD,0.16,Conversation,86.66,81.83,1.17,1.29,0.27,87.35,428.84,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,39,Mean,7.74,Conversation,85.82,78.79,5.68,6.32,1.09,166.62,451.28,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,39,SD,0.18,Conversation,43.79,40.81,1.51,1.66,0.32,64.95,303.07,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,52,Mean,8.28,Conversation,129.87,119.96,5.95,6.59,1.12,229.23,712.46,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,52,SD,0.16,Conversation,58.23,55.66,1.11,1.23,0.23,79.93,360.39,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,43,Mean,8.78,Conversation,138.72,129.65,6.28,6.92,1.17,236.53,779.05,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,43,SD,0.19,Conversation,87.14,81.4,1.01,1.11,0.22,91.37,462.69,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,52,Mean,9.19,Conversation,142.94,133.08,6.19,6.84,1.17,239.08,797.54,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,52,SD,0.14,Conversation,99.55,91.76,1.09,1.2,0.25,107.65,539.86,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,9,Mean,9.62,Conversation,66.44,63.11,6.28,7.03,1.16,151.44,377.22,English,TD,9;6 to 9;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,9,SD,0.14,Conversation,28.07,26.73,1.11,1.26,0.22,33.76,115.56,English,TD,9;6 to 9;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,25,Mean,11.05,Conversation,233.68,218.88,6.14,6.74,1.09,355.36,1346.2,English,TD,10;9 to 11;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,25,SD,0.16,Conversation,45.46,42.61,1.28,1.41,0.25,65.41,376.89,English,TD,10;9 to 11;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,27,Mean,13.01,Conversation,229.93,212.04,5.78,6.38,1.07,330.37,1233.63,English,TD,12;9 to 13;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Conversation,27,SD,0.15,Conversation,47.86,40.1,1,1.06,0.22,61.65,338.85,English,TD,12;9 to 13;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,28,Mean,13.47,Persuasion,21.04,19.68,15.22,16.82,2.91,119.36,286.21,English,TD,12;10 to 13;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,28,SD,0.34,Persuasion,11.75,11.15,4.04,4.48,0.71,40.45,153.2,English,TD,12;10 to 13;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,15,Mean,14.83,Persuasion,29.8,28.87,16.25,17.99,3.09,164.2,462.47,English,TD,14;7 to 15;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,15,SD,0.15,Persuasion,17.66,17.32,2.25,2.47,0.48,55.77,278.3,English,TD,14;7 to 15;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,52,Mean,15.48,Persuasion,27.92,26.62,16.35,18.03,3.06,150.96,421.44,English,TD,15;0 to 15;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,52,SD,0.27,Persuasion,13.85,14.02,3.45,3.8,0.74,49.54,204.28,English,TD,15;0 to 15;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,32,Mean,16.57,Persuasion,35.38,33.5,16.66,18.31,3.07,174.38,528.31,English,TD,16;1 to 17;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,32,SD,0.35,Persuasion,19.4,18.27,3.35,3.66,0.57,56.76,250.42,English,TD,16;1 to 17;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,45,Mean,17.48,Persuasion,32.24,31.31,16.83,18.55,3.17,173.4,505.53,English,TD,17;0 to 18;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,45,SD,0.30,Persuasion,17.25,16.6,4.21,4.7,0.66,63.45,255.72,English,TD,17;0 to 18;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,19,Mean,18.32,Persuasion,34.89,33.95,16.88,18.68,3.3,185.11,546.58,English,TD,18;0 to 18;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Persuasion,19,SD,0.25,Persuasion,18.21,17.88,3.77,4.11,0.72,63.12,269.14,English,TD,18;0 to 18;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,88,Mean,11.48,Exposition,55.56,53.77,11.65,12.75,2.3,174.97,620.41,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,88,SD,0.29,Exposition,25.73,24.68,1.84,1.98,0.38,49.21,296.38,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,57,Mean,12.48,Exposition,51.44,50.12,11.84,13,2.3,173.4,585.39,English,TD,12;0 to 13;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,57,SD,0.29,Exposition,19.95,19.43,1.66,1.79,0.36,43.09,218.29,English,TD,12;0 to 13;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,34,Mean,13.35,Exposition,59.53,58.03,12.27,13.48,2.31,192.82,698.09,English,TD,13;0 to 14;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,34,SD,0.29,Exposition,36.4,36.07,1.8,1.93,0.39,62.41,438.37,English,TD,13;0 to 14;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,34,Mean,14.81,Exposition,62.38,60.59,12.5,13.77,2.33,209.38,775.24,English,TD,14;0 to 15;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,34,SD,0.23,Exposition,39.02,38.28,2.24,2.43,0.35,78.36,537.58,English,TD,14;0 to 15;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,65,Mean,15.38,Exposition,57.54,55.95,12.9,14.24,2.39,204.38,718.38,English,TD,15;0 to 15;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,65,SD,0.29,Exposition,25.39,24.88,2.04,2.23,0.38,56.53,348.12,English,TD,15;0 to 15;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,27,Mean,16.60,Exposition,66.37,64.48,12.75,14.01,2.42,214.41,786.22,English,TD,16;1 to 17;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,27,SD,0.33,Exposition,39.48,38.79,2.36,2.5,0.47,67.64,407.61,English,TD,16;1 to 17;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,31,Mean,17.46,Exposition,70.68,67.77,12.88,14.18,2.37,227.68,872.23,English,TD,17;0 to 18;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,31,SD,0.33,Exposition,34.77,33.25,2.38,2.57,0.37,71.3,485.57,English,TD,17;0 to 18;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,18,Mean,18.33,Exposition,76.39,74,12.61,13.95,2.36,234.78,927.33,English,TD,18;0 to 18;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Expository,18,SD,0.26,Exposition,63.17,60.88,2.33,2.53,0.46,120.83,812.5,English,TD,18;0 to 18;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,16,Mean,4.31,Picture narrative,57.75,56.69,5.66,6.12,1.13,103.06,321.25,English,TD,4;0 to 4;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,16,SD,0.14,Picture narrative,6.1,5.85,0.95,0.99,0.28,23.02,64.86,English,TD,4;0 to 4;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,34,Mean,4.75,Picture narrative,71.74,71,6.62,7.08,1.31,134.44,474.53,English,TD,4;6 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,34,SD,0.13,Picture narrative,16.71,16.54,0.99,1.03,0.16,30.62,146.66,English,TD,4;6 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,32,Mean,5.32,Picture narrative,75.63,75.25,7.06,7.56,1.36,142.19,532.94,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,32,SD,0.17,Picture narrative,26.77,26.53,0.73,0.71,0.13,37.54,200.64,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,32,Mean,5.68,Picture narrative,75.13,74.69,7.27,7.81,1.38,141.25,547.41,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,32,SD,0.17,Picture narrative,24.83,24.54,1.02,1.05,0.19,34.39,203.11,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,22,Mean,6.22,Picture narrative,70.23,70.09,7.04,7.63,1.35,136.64,496.55,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,22,SD,0.17,Picture narrative,18.11,18.19,0.88,0.88,0.13,25.76,146.85,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,37,Mean,6.76,Picture narrative,74.3,73.84,7.09,7.69,1.37,145.24,527.38,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,37,SD,0.16,Picture narrative,22.09,21.85,1.13,1.2,0.17,35.13,184.57,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,27,Mean,7.33,Picture narrative,74.37,74.04,8,8.7,1.48,155.26,592.74,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,27,SD,0.19,Picture narrative,20.13,20.06,1.06,1.14,0.21,30.18,170.91,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,36,Mean,7.71,Picture narrative,74.17,74.03,7.7,8.39,1.47,153.97,572.89,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,36,SD,0.18,Picture narrative,16.27,16.12,1.07,1.2,0.17,27.06,157.24,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,20,Mean,8.25,Picture narrative,73.8,73.65,7.87,8.65,1.51,155.65,583.05,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,20,SD,0.16,Picture narrative,13.21,13.26,1,1.2,0.15,20.19,147.26,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,37,Mean,8.78,Picture narrative,79.59,79.51,8.09,8.8,1.59,175.76,652.41,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,37,SD,0.15,Picture narrative,24.14,24.17,0.98,1.08,0.17,46.56,236.24,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,30,Mean,9.28,Picture narrative,76.93,76.9,8.5,9.27,1.67,173.37,660.37,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,30,SD,0.17,Picture narrative,20.1,20.12,0.85,0.97,0.16,36.55,220.33,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,26,Mean,9.71,Picture narrative,78,77.92,8.08,8.97,1.55,166.69,640.62,English,TD,9;6 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT ENNI,26,SD,0.16,Picture narrative,26.37,26.37,1.06,1.2,0.18,33.19,274.72,English,TD,9;6 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,36,Mean,5.37,Narration,37.03,34.25,6.2,6.85,1.18,78.25,199.97,English,TD,5;2 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,36,SD,0.11,Narration,32.59,30.15,0.96,1,0.17,47.09,168.26,English,TD,5;2 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,52,Mean,5.74,Narration,36.04,33.38,6.47,7.1,1.22,75.87,209.04,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,52,SD,0.16,Narration,15.86,15.09,1.54,1.61,0.2,25.67,92.31,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,37,Mean,6.22,Narration,32.62,30.81,6.98,7.63,1.29,81.97,208.76,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,37,SD,0.14,Narration,17.55,16.59,1.33,1.45,0.21,31.05,103.35,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,30,Mean,6.79,Narration,45.8,41.67,7.09,7.73,1.33,98.53,292.3,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,30,SD,0.16,Narration,23.76,21.59,1.19,1.31,0.22,37.86,148.84,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,62,Mean,7.22,Narration,48.58,45.42,7.16,7.85,1.38,108,322.84,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,62,SD,0.15,Narration,26.76,24.39,1.04,1.13,0.23,39.74,163.95,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,19,Mean,7.72,Narration,55.79,52.26,7.74,8.5,1.5,137.53,420.05,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,19,SD,0.19,Narration,32.61,30.01,1.54,1.7,0.31,65.57,292.08,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,36,Mean,8.31,Narration,77.78,70.53,8.04,8.86,1.58,166.06,557.03,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,36,SD,0.17,Narration,51.03,44.95,1.44,1.59,0.27,77.26,353.69,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,23,Mean,8.73,Narration,70.35,64.78,7.91,8.75,1.52,150,506.35,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,23,SD,0.20,Narration,38.43,32.76,0.95,1.14,0.22,66.27,262.79,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,22,Mean,9.14,Narration,52,49.09,7.44,8.2,1.45,106.91,358.09,English,TD,9;0 to 9;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,22,SD,0.11,Narration,25.82,24.11,1.24,1.36,0.27,36.23,176.93,English,TD,9;0 to 9;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,27,Mean,11.08,Narration,52.44,48.89,8.37,9.42,1.6,139.52,436.63,English,TD,10;9 to 11;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,27,SD,0.17,Narration,48.08,44.42,1.45,1.68,0.32,104.1,445.31,English,TD,10;9 to 11;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,27,Mean,13.01,Narration,60.7,56.04,8.45,9.37,1.65,142.44,463.59,English,TD,12;9 to 13;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative SSS,27,SD,0.15,Narration,52.76,49.02,1.96,2.16,0.34,76.19,399.21,English,TD,12;9 to 13;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,43,Mean,4.49,Narrative retell and picture narrative,22.51,15.93,5.7,6.32,1.17,48.6,94.72,English,TD,4;0 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,43,SD,0.30,Narrative retell and picture narrative,13.51,11.59,1.29,1.41,0.3,29.96,73.96,English,TD,4;0 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,66,Mean,5.67,Narrative retell and picture narrative,26.5,20,5.98,6.61,1.27,60.58,128.23,English,TD,5;0 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,66,SD,0.28,Narrative retell and picture narrative,19.82,14.52,1.29,1.4,0.27,35.93,108.74,English,TD,5;0 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,80,Mean,6.53,Narrative retell and picture narrative,30.05,25.96,6.62,7.27,1.36,80.84,177.32,English,TD,6;0 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,80,SD,0.32,Narrative retell and picture narrative,15.71,15.21,1.27,1.42,0.25,37.83,112.59,English,TD,6;0 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,114,Mean,7.49,Narrative retell and picture narrative,34.45,31.02,7.19,7.9,1.45,99.02,225.82,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,114,SD,0.31,Narrative retell and picture narrative,15.97,15.72,1.08,1.15,0.22,35.3,121.89,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,130,Mean,8.52,Narrative retell and picture narrative,40.25,36.91,7.54,8.28,1.56,117.56,278.5,English,TD,8;0 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,130,SD,0.33,Narrative retell and picture narrative,14.55,13.98,0.95,1,0.18,31.51,107.05,English,TD,8;0 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,137,Mean,9.51,Narrative retell and picture narrative,40.44,37.37,7.86,8.63,1.62,125.69,296.17,English,TD,9;0 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,137,SD,0.34,Narrative retell and picture narrative,11.85,11.69,1.03,1.14,0.22,33.75,104.74,English,TD,9;0 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,121,Mean,10.49,Narrative retell and picture narrative,45.59,42.76,8.34,9.15,1.74,146.35,354.77,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,121,SD,0.33,Narrative retell and picture narrative,15.21,14.22,1.14,1.27,0.25,36.77,117.63,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,85,Mean,11.38,Narrative retell and picture narrative,46.41,43.38,8.33,9.13,1.76,145.48,355.41,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,85,SD,0.30,Narrative retell and picture narrative,18.21,16.87,1.11,1.24,0.24,35.46,120.71,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,33,Mean,12.44,Narrative retell and picture narrative,52.55,49.67,8.72,9.61,1.86,168.7,423.42,English,TD,12;0 to 13;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,33,SD,0.32,Narrative retell and picture narrative,22.35,22.83,1.29,1.43,0.26,45.75,176.75,English,TD,12;0 to 13;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,31,Mean,13.40,Narrative retell and picture narrative,45.68,43.13,8.52,9.41,1.78,157.71,367.68,English,TD,13;0 to 14;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,31,SD,0.29,Narrative retell and picture narrative,15.01,14.95,1.09,1.2,0.23,45.7,134.55,English,TD,13;0 to 14;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,18,Mean,14.35,Narrative retell and picture narrative,50.06,47.44,8.81,9.86,1.86,169.22,411.61,English,TD,14;0 to 14;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL2 Narrative Samples,18,SD,0.24,Narrative retell and picture narrative,21.35,21.44,0.86,0.95,0.18,49.11,168.64,English,TD,14;0 to 14;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,55,Mean,5.61,Narrative retell and picture narrative,29.75,25.42,6.66,7.29,1.37,84.42,175.13,English,TD,5;0 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,55,SD,0.27,Narrative retell and picture narrative,10.86,9.84,1.21,1.27,0.25,30.48,86.98,English,TD,5;0 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,108,Mean,6.52,Narrative retell and picture narrative,31.43,27.68,7.18,7.87,1.46,93.78,203.47,English,TD,6;0 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,108,SD,0.31,Narrative retell and picture narrative,12.9,12.25,1.28,1.36,0.27,35.49,103.92,English,TD,6;0 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,112,Mean,7.50,Narrative retell and picture narrative,37.28,34.26,7.86,8.61,1.58,119.47,274.31,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,112,SD,0.33,Narrative retell and picture narrative,17.01,16.29,1.27,1.37,0.25,45.53,144.32,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,109,Mean,8.46,Narrative retell and picture narrative,44.47,41.36,8.06,8.81,1.64,138.89,335.53,English,TD,8;0 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,109,SD,0.32,Narrative retell and picture narrative,21.16,20.16,1.14,1.24,0.23,45.68,168.73,English,TD,8;0 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,49,Mean,9.43,Narrative retell and picture narrative,50.76,47.04,8.3,9.09,1.7,154.37,381,English,TD,9;0 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,49,SD,0.33,Narrative retell and picture narrative,21.55,18.66,1.3,1.45,0.28,34.19,132.55,English,TD,9;0 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,53,Mean,10.50,Narrative retell and picture narrative,50.53,48.66,8.93,9.8,1.83,166.23,430.75,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,53,SD,0.29,Narrative retell and picture narrative,26.98,26.9,1.49,1.64,0.34,52.47,216.2,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,52,Mean,11.43,Narrative retell and picture narrative,45.94,44.02,8.82,9.66,1.82,158.96,382.75,English,TD,11;0 to 11;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT TNL Narrative Samples,52,SD,0.22,Narrative retell and picture narrative,13.65,13.38,1.29,1.43,0.25,32.83,109.39,English,TD,11;0 to 11;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,9,Mean,2.89,Play,169,147,3.03,3.29,0.61,126.44,442,English,TD,2;8 to 3;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,9,SD,0.12,Play,83.34,68.95,0.35,0.39,0.11,30.23,204.3,English,TD,2;8 to 3;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,23,Mean,3.23,Play,132.7,116.48,3.23,3.54,0.69,126.26,377.04,English,TD,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,23,SD,0.14,Play,51.93,41.36,0.41,0.46,0.13,23.93,141.89,English,TD,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,14,Mean,3.89,Play,182.43,159.71,3.39,3.74,0.7,158.71,546.21,English,TD,3;9 to 4;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,14,SD,0.09,Play,61.19,50.73,0.57,0.65,0.14,39.96,212.59,English,TD,3;9 to 4;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,15,Mean,4.11,Play,139.07,124.53,3.47,3.82,0.73,137.73,426.73,English,TD,4;0 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,15,SD,0.1,Play,64.72,58.83,0.63,0.75,0.18,37.07,197.75,English,TD,4;0 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,15,Mean,5.47,Play,132.8,120.67,4.54,4.97,1.01,152.73,561.47,English,TD,5;4 to 5;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Play,15,SD,0.09,Play,60.26,54.95,0.8,0.85,0.2,51.52,298.17,English,TD,5;4 to 5;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,50,Mean,7.67,Narrative retell-- Pookins,39.1,37,8.37,9.4,1.7,125.16,310.16,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,50,SD,0.29,Narrative retell-- Pookins,10.87,10.44,0.9,1.02,0.21,25.29,95.6,English,TD,7;0 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,59,Mean,8.31,Narrative retell-- Pookins,42,39.64,8.25,9.24,1.65,131.69,326.75,English,TD,8;0 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,59,SD,0.23,Narrative retell-- Pookins,12.69,11.8,1,1.11,0.21,28.57,107.58,English,TD,8;0 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Fables,30,Mean,14.07,Narrative retell-- dog,20.63,20.1,10.91,11.74,2.17,99,217.47,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Fables,30,SD,0.33,Narrative retell-- dog,10.33,9.73,2.42,2.62,0.5,32.99,104.15,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Fables,30,Mean,14.07,Narrative retell-- fox,21.17,20.7,11.47,12.4,2.37,107.77,233.23,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Fables,30,SD,0.33,Narrative retell-- fox,9.51,9.03,2.38,2.55,0.58,33.61,99.55,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Fables,30,Mean,14.07,Narrative retell-- oak,22.17,21.23,10.33,11.19,2.24,101.43,214.97,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Fables,30,SD,0.33,Narrative retell-- oak,10.01,9.28,2.3,2.35,0.53,30.48,94.86,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Fables,30,Mean,14.07,Narrative retell-- stag,28.8,27.4,10.42,11.53,1.99,126.7,283.67,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Fables,30,SD,0.33,Narrative retell-- stag,10.15,9.54,2.36,2.56,0.44,34.98,110.56,English,TD,13;5 to 14;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,46,Mean,9.68,Narrative retell-- Dr. DeSoto,55.63,53.67,9.71,10.54,1.93,178.98,516.04,English,TD,9;3 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,46,SD,0.26,Narrative retell-- Dr. DeSoto,16.95,16.04,1.36,1.48,0.25,40.08,153.35,English,TD,9;3 to 10;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,39,Mean,10.59,Narrative retell-- Dr. DeSoto,51,49.97,10.03,11,1.96,174.18,501.56,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,39,SD,0.37,Narrative retell-- Dr. DeSoto,13.07,12.87,1.58,1.73,0.25,37.58,146.21,English,TD,10;0 to 11;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,88,Mean,11.48,Narrative retell-- Dr. DeSoto,55.58,54.39,10.3,11.27,2.02,187.09,548.3,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,88,SD,0.29,Narrative retell-- Dr. DeSoto,15.58,15.15,1.47,1.6,0.25,34.66,126.1,English,TD,11;0 to 12;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,43,Mean,12.34,Narrative retell-- Dr. DeSoto,53.42,52.3,10.54,11.52,2.08,182.88,546.21,English,TD,12;0 to 12;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,43,SD,0.18,Narrative retell-- Dr. DeSoto,16.07,16.2,1.4,1.48,0.28,41.46,166.46,English,TD,12;0 to 12;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,36,Mean,9.29,Narrative retell-- Porcupine,48.28,46.97,7.49,8.42,1.64,129.58,347.69,English,TD,9;0 to 9;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,36,SD,0.23,Narrative retell-- Porcupine,12.29,12.12,0.97,1.06,0.21,22.1,83.85,English,TD,9;0 to 9;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,23,Mean,8.67,Narrative retell-- Porcupine,46.96,45.35,7.03,7.93,1.58,123.13,316,English,TD,7;11 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,23,SD,0.36,Narrative retell-- Porcupine,10.64,10.56,1.04,1.13,0.24,18.18,71.79,English,TD,7;11 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,5,Mean,3.93,Narrative retell-- Frog,48.2,37.8,5.23,5.69,0.91,75,209.4,English,TD,3;6 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,5,SD,0.35,Narrative retell-- Frog,19.69,16.39,1.33,1.43,0.23,35.09,126.46,English,TD,3;6 to 4;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,19,Mean,4.85,Narrative retell-- Frog,41.84,35.47,6.25,6.8,1.14,80.79,224.58,English,TD,4;7 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,19,SD,0.17,Narrative retell-- Frog,17.41,12.91,1.03,1.15,0.19,18.81,102.89,English,TD,4;7 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,34,Mean,5.25,Narrative retell-- Frog,39.29,34.06,6.56,7.23,1.2,85.12,223.74,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,34,SD,0.19,Narrative retell-- Frog,10.75,8.32,0.94,1.09,0.17,15.49,62.42,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,47,Mean,5.71,Narrative retell-- Frog,38.47,35.36,6.84,7.58,1.26,90.19,241.72,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,47,SD,0.14,Narrative retell-- Frog,9.11,7.5,0.85,0.96,0.16,17.31,57.23,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,36,Mean,6.27,Narrative retell-- Frog,40.78,37.14,7.27,8.03,1.3,99.5,269.08,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,36,SD,0.15,Narrative retell-- Frog,9.24,7.42,0.67,0.71,0.15,13.96,53.92,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,43,Mean,6.77,Narrative retell-- Frog,40.88,38.12,7.6,8.35,1.34,100.53,290.26,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,43,SD,0.15,Narrative retell-- Frog,12.63,12.12,0.87,0.99,0.17,20.68,99.38,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,17,Mean,7.16,Narrative retell-- Frog,43.24,41.47,8.18,8.96,1.49,113.65,335.24,English,TD,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Narrative Story Retell,17,SD,0.13,Narrative retell-- Frog,8.61,8.47,1.79,1.97,0.31,20.43,78.75,English,TD,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tilstra McMaster 2007,NA,Mean,NA,Picture narrative,NA,9.31,6,NA,NA,NA,57.64,English,TD,6;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tilstra McMaster 2007,NA,SD,NA,Picture narrative,NA,3.02,1.33,NA,NA,NA,24.92,English,TD,6;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tilstra McMaster 2007,NA,Mean,NA,Picture narrative,NA,9.89,6.33,NA,NA,NA,59.6,English,TD,7;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tilstra McMaster 2007,NA,SD,NA,Picture narrative,NA,4.42,1.3,NA,NA,NA,27.67,English,TD,7;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tilstra McMaster 2007,NA,Mean,NA,Picture narrative,NA,14.31,7.45,NA,NA,NA,104.78,English,TD,9;1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tilstra McMaster 2007,NA,SD,NA,Picture narrative,NA,7.81,1.05,NA,NA,NA,54.98,English,TD,9;1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,192.3,English,TD,3;0-3;5,5.27,4.24,1.09,NA,NA,NA,NA,NA,NA
+SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,61.22,English,TD,3;0-3;5,1.39,1.37,0.13,NA,NA,NA,NA,NA,NA
+SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,244.05,English,TD,3;6-3;11,6.24,5.41,1.15,NA,NA,NA,NA,NA,NA
+SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,58.07,English,TD,3;6-3;11,1.17,1.28,0.11,NA,NA,NA,NA,NA,NA
+SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,261.4,English,TD,4;0-4;5,6.48,5.79,1.19,NA,NA,NA,NA,NA,NA
+SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,69.98,English,TD,4;0-4;5,1.37,1.53,0.13,NA,NA,NA,NA,NA,NA
+SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,278.71,English,TD,4;6-4;11,6.97,6.18,1.21,NA,NA,NA,NA,NA,NA
+SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,60.14,English,TD,4;6-4;11,1.26,1.32,0.11,NA,NA,NA,NA,NA,NA
+SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,299.81,English,TD,5;0-5;11,7.33,6.66,1.29,NA,NA,NA,NA,NA,NA
+SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,61.46,English,TD,5;0-5;11,1.21,1.35,0.13,NA,NA,NA,NA,NA,NA
+SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,337.73,English,TD,6;0-6;11,8.05,7.6,1.36,NA,NA,NA,NA,NA,NA
+SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,72.5,English,TD,6;0-6;11,1.42,1.6,0.14,NA,NA,NA,NA,NA,NA
+SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,379.63,English,TD,7;0-8;11,8.87,8.59,1.34,NA,NA,NA,NA,NA,NA
+SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,59.28,English,TD,7;0-8;11,1.19,1.4,0.14,NA,NA,NA,NA,NA,NA
+SUGAR,NA,Mean,NA,Narration,NA,NA,NA,NA,NA,NA,421.36,English,TD,9;0-10;11,9.7,9.61,1.37,NA,NA,NA,NA,NA,NA
+SUGAR,NA,SD,NA,Narration,NA,NA,NA,NA,NA,NA,66.61,English,TD,9;0-10;11,1.4,1.52,0.15,NA,NA,NA,NA,NA,NA
+Heilmann Miller 2009,NA,Mean,NA,Narrative retell,NA,NA,NA,7,NA,92.5,264.1,English,TD,5;0-7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Heilmann Miller 2009,NA,SD,NA,Narrative retell,NA,NA,NA,0.9,NA,19,77.2,English,TD,5;0-7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,265.6,219.1,2.91,3.23,NA,NA,NA,English,TD,2;6 to 2;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,64,66.6,0.58,0.71,NA,NA,NA,English,TD,2;6 to 2;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,235.2,155.5,2.37,2.59,NA,NA,NA,English,SLI,2;6 to 2;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,63.3,54.8,0.32,0.39,NA,NA,NA,English,SLI,2;6 to 2;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,271.5,219.1,2.43,3.81,NA,NA,NA,English,TD,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,74.5,56.9,0.61,0.69,NA,NA,NA,English,TD,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,261.3,177.6,2.84,3.07,NA,NA,NA,English,SLI,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,78,66.2,0.38,0.48,NA,NA,NA,English,SLI,3;0 to 3;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,256.2,203.9,3.71,4.09,NA,NA,NA,English,TD,3;6 to 3;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,53.8,56.6,0.58,0.67,NA,NA,NA,English,TD,3;6 to 3;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,249,176.8,3.1,3.36,NA,NA,NA,English,SLI,3;6 to 3;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,89.3,66.4,0.75,0.8,NA,NA,NA,English,SLI,3;6 to 3;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,282.6,224.2,4.1,4.57,NA,NA,NA,English,TD,4;0 to 4;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,75.3,72.7,0.65,0.76,NA,NA,NA,English,TD,4;0 to 4;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,282.6,198.2,3.31,3.64,NA,NA,NA,English,SLI,4;0 to 4;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,93.8,76.4,0.7,0.8,NA,NA,NA,English,SLI,4;0 to 4;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,278.1,232,4.28,4.75,NA,NA,NA,English,TD,4;6 to 4;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,77.6,69.8,0.72,0.79,NA,NA,NA,English,TD,4;6 to 4;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,284.7,213.2,3.6,3.95,NA,NA,NA,English,SLI,4;6 to 4;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,71.3,63.5,0.62,0.7,NA,NA,NA,English,SLI,4;6 to 4;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,274,223.6,4.38,4.88,NA,NA,NA,English,TD,5;0 to 5;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,62.7,51,0.63,0.72,NA,NA,NA,English,TD,5;0 to 5;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,292.1,223.1,3.72,4.09,NA,NA,NA,English,SLI,5;0 to 5;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,76.2,55.8,0.61,0.7,NA,NA,NA,English,SLI,5;0 to 5;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,278.2,224,4.47,4.96,NA,NA,NA,English,TD,5;6 to 5;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,79.9,65,0.61,0.7,NA,NA,NA,English,TD,5;6 to 5;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,289,222.5,3.95,4.34,NA,NA,NA,English,SLI,5;6 to 5;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,83.6,64.3,0.6,0.67,NA,NA,NA,English,SLI,5;6 to 5;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,291.2,236.3,4.57,5.07,NA,NA,NA,English,TD,6;0 to 6;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,86.2,72.2,0.66,0.75,NA,NA,NA,English,TD,6;0 to 6;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,275.7,217.2,3.98,4.38,NA,NA,NA,English,SLI,6;0 to 6;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,86.1,68.4,0.7,0.75,NA,NA,NA,English,SLI,6;0 to 6;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,285.7,228.3,4.7,5.22,NA,NA,NA,English,TD,6;6 to 6;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,96.6,80.6,0.66,0.71,NA,NA,NA,English,TD,6;6 to 6;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,281.2,214.5,4.18,4.63,NA,NA,NA,English,SLI,6;6 to 6;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,97,73.1,0.71,0.79,NA,NA,NA,English,SLI,6;6 to 6;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,275.6,221.5,4.72,5.22,NA,NA,NA,English,TD,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,90.3,77.4,0.83,0.91,NA,NA,NA,English,TD,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,277,217.1,4.15,4.56,NA,NA,NA,English,SLI,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,97.9,77,0.62,0.69,NA,NA,NA,English,SLI,7;0 to 7;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,271.5,218,4.92,5.45,NA,NA,NA,English,TD,7;6 to 7;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,94.5,79.3,1.03,1.13,NA,NA,NA,English,TD,7;6 to 7;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,280,217.4,4.33,4.77,NA,NA,NA,English,SLI,7;6 to 7;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,89,76.5,0.88,0.96,NA,NA,NA,English,SLI,7;6 to 7;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,278,229.7,5.08,5.67,NA,NA,NA,English,TD,8;0 to 8;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,92.9,81.8,0.84,0.97,NA,NA,NA,English,TD,8;0 to 8;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,266.1,212.4,4.36,4.8,NA,NA,NA,English,SLI,8;0 to 8;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,91.8,78.5,0.75,0.83,NA,NA,NA,English,SLI,8;0 to 8;5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,280.1,228.2,4.99,5.51,NA,NA,NA,English,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,98.6,80.6,0.71,0.79,NA,NA,NA,English,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,Mean,NA,Conversation,289.7,227.9,4.49,4.97,NA,NA,NA,English,SLI,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rice (2010),NA,SD,NA,Conversation,93.9,76.9,0.86,0.93,NA,NA,NA,English,SLI,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Leadholm Miller 1992,42,Mean,NA,Narration,143,100,NA,4.01,NA,NA,364,English,TD,3;0 to 3;11,NA,NA,NA,127,7,8,3,4,3
+Leadholm Miller 1992,42,SD,NA,Narration,34,100,NA,0.88,NA,NA,82,English,TD,3;0 to 3;11,NA,NA,NA,23,5,5,3,4,3
+Leadholm Miller 1992,30,Mean,NA,Narration,121,100,NA,5.23,NA,NA,478,English,TD,4;0 to 4;11,NA,NA,NA,163,4,13,3,6,6
+Leadholm Miller 1992,30,SD,NA,Narration,32,100,NA,1.02,NA,NA,94,English,TD,4;0 to 4;11,NA,NA,NA,23,4,7,3,5,6
+Leadholm Miller 1992,28,Mean,NA,Narration,140,100,NA,6.06,NA,NA,553,English,TD,5;0 to 5;11,NA,NA,NA,178,7,11,7,8,7
+Leadholm Miller 1992,28,SD,NA,Narration,22,100,NA,0.94,NA,NA,91,English,TD,5;0 to 5;11,NA,NA,NA,18,5,5,5,5,7
+Leadholm Miller 1992,35,Mean,NA,Narration,146,100,NA,6.17,NA,NA,564,English,TD,6;0 to 6;11,NA,NA,NA,180,6,10,5,11,6
+Leadholm Miller 1992,35,SD,NA,Narration,27,100,NA,1.02,NA,NA,112,English,TD,6;0 to 6;11,NA,NA,NA,26,4,5,4,5,6
+Leadholm Miller 1992,50,Mean,NA,Narration,154,100,NA,7.32,NA,NA,663,English,TD,7;0,NA,NA,NA,194,9,14,5,12,10
+Leadholm Miller 1992,50,SD,NA,Narration,32,100,NA,1.06,NA,NA,97,English,TD,7;0,NA,NA,NA,20,5,6,4,7,13
+Leadholm Miller 1992,27,Mean,NA,Narration,184,100,NA,8.8,NA,NA,800,English,TD,9;0,NA,NA,NA,205,11,17,6,16,10
+Leadholm Miller 1992,27,SD,NA,Narration,35,100,NA,1.64,NA,NA,148,English,TD,9;0,NA,NA,NA,29,5,6,4,8,11
+Leadholm Miller 1992,27,Mean,NA,Narration,167,100,NA,9.83,NA,NA,878,English,TD,11;0,NA,NA,NA,253,15,23,2,17,19
+Leadholm Miller 1992,27,SD,NA,Narration,26,100,NA,1.59,NA,NA,138,English,TD,11;0,NA,NA,NA,34,7,9,2,7,18
+Leadholm Miller 1992,27,Mean,NA,Narration,200,100,NA,9.32,NA,NA,842,English,TD,13;0,NA,NA,NA,237,11,20,2,14,16
+Leadholm Miller 1992,27,SD,NA,Narration,46,100,NA,1.49,NA,NA,132,English,TD,13;0,NA,NA,NA,27,6,9,2,6,12
+Leadholm Miller 1992,42,Mean,NA,Conversation,137,100,NA,3.38,NA,NA,310,English,TD,3;0 to 3;11,NA,NA,NA,118,3,7,1,2,2
+Leadholm Miller 1992,42,SD,NA,Conversation,34,100,NA,0.48,NA,NA,118,English,TD,3;0 to 3;11,NA,NA,NA,20,2,4,2,2,3
+Leadholm Miller 1992,30,Mean,NA,Conversation,138,100,NA,4.22,NA,NA,384,English,TD,4;0 to 4;11,NA,NA,NA,144,3,11,1,2,4
+Leadholm Miller 1992,30,SD,NA,Conversation,33,100,NA,1.02,NA,NA,90,English,TD,4;0 to 4;11,NA,NA,NA,26,3,7,1,2,3
+Leadholm Miller 1992,28,Mean,NA,Conversation,149,100,NA,5.71,NA,NA,520,English,TD,5;0 to 5;11,NA,NA,NA,181,5,15,2,4,7
+Leadholm Miller 1992,28,SD,NA,Conversation,27,100,NA,0.91,NA,NA,81,English,TD,5;0 to 5;11,NA,NA,NA,25,4,8,2,3,5
+Leadholm Miller 1992,35,Mean,NA,Conversation,154,100,NA,5.49,NA,NA,499,English,TD,6;0 to 6;11,NA,NA,NA,177,4,17,2,4,6
+Leadholm Miller 1992,35,SD,NA,Conversation,33,100,NA,0.97,NA,NA,86,English,TD,6;0 to 6;11,NA,NA,NA,23,3,8,2,3,5
+Leadholm Miller 1992,50,Mean,NA,Conversation,170,100,NA,5.92,NA,NA,540,English,TD,7;0,NA,NA,NA,192,4,17,2,5,6
+Leadholm Miller 1992,50,SD,NA,Conversation,32,100,NA,0.9,NA,NA,83,English,TD,7;0,NA,NA,NA,19,3,6,2,3,5
+Leadholm Miller 1992,27,Mean,NA,Conversation,181,100,NA,6.5,NA,NA,592,English,TD,9;0,NA,NA,NA,209,4,20,3,4,6
+Leadholm Miller 1992,27,SD,NA,Conversation,31,100,NA,10.6,NA,NA,95,English,TD,9;0,NA,NA,NA,26,3,8,2,2,3
+Leadholm Miller 1992,27,Mean,NA,Conversation,169,100,NA,7.62,NA,NA,693,English,TD,11;0,NA,NA,NA,229,6,20,5,6,7
+Leadholm Miller 1992,27,SD,NA,Conversation,38,100,NA,1.94,NA,NA,175,English,TD,11;0,NA,NA,NA,38,4,7,4,4,5
+Leadholm Miller 1992,27,Mean,NA,Conversation,200,100,NA,6.99,NA,NA,637,English,TD,13;0,NA,NA,NA,216,7,19,1,7,5
+Leadholm Miller 1992,27,SD,NA,Conversation,43,100,NA,1.43,NA,NA,134,English,TD,13;0,NA,NA,NA,31,3,5,1,3,4

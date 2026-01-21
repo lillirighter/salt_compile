@@ -178,30 +178,30 @@ play5<- read_salt_trial(path="play_5.csv",activity="Play", titles="Tran1")
 
 
 #stories
-pghw_7<- read_salt(path="pghw_7.csv",activity="Narrative retell", titles="Tran2")
-pghw_8<- read_salt(path="pghw_8.csv",activity="Narrative retell", titles="Tran2")
-pghw_7<- read_salt(path="pghw_7.csv",activity="Narrative retell", titles="Tran2")
+pghw_7<- read_salt(path="pghw_7.csv",activity="Narrative retell-- Pookins", titles="Tran2")
+pghw_8<- read_salt(path="pghw_8.csv",activity="Narrative retell-- Pookins", titles="Tran2")
+pghw_7<- read_salt(path="pghw_7.csv",activity="Narrative retell-- Pookins", titles="Tran2")
 
-dog <- read_salt_trial(path="fables.csv",activity="Narrative retell", titles="Tran1")
-fox<- read_salt_trial(path="fables_fox.csv",activity="Narrative retell", titles="Tran1")
-oak<- read_salt_trial(path="fables_oak.csv",activity="Narrative retell", titles="Tran1")
-stag<- read_salt_trial(path="fables_stag.csv",activity="Narrative retell", titles="Tran1")
+dog <- read_salt_trial(path="fables.csv",activity="Narrative retell-- dog", titles="Tran1")
+fox<- read_salt_trial(path="fables_fox.csv",activity="Narrative retell-- fox", titles="Tran1")
+oak<- read_salt_trial(path="fables_oak.csv",activity="Narrative retell-- oak", titles="Tran1")
+stag<- read_salt_trial(path="fables_stag.csv",activity="Narrative retell-- stag", titles="Tran1")
 
-dds9<- read_salt(path="dds9.csv",activity="Narrative retell", titles="Tran2")
-dds10<- read_salt(path="dds10.csv",activity="Narrative retell", titles="Tran2")
-dds11<- read_salt(path="dds11.csv",activity="Narrative retell", titles="Tran2")
-dds12<- read_salt(path="dds12.csv",activity="Narrative retell", titles="Tran2")
+dds9<- read_salt(path="dds9.csv",activity="Narrative retell-- Dr. DeSoto", titles="Tran2")
+dds10<- read_salt(path="dds10.csv",activity="Narrative retell-- Dr. DeSoto", titles="Tran2")
+dds11<- read_salt(path="dds11.csv",activity="Narrative retell-- Dr. DeSoto", titles="Tran2")
+dds12<- read_salt(path="dds12.csv",activity="Narrative retell-- Dr. DeSoto", titles="Tran2")
 
-apnf9<- read_salt(path="apnf9.csv",activity="Narrative retell", titles="Tran2")
-apnf8<- read_salt(path="apnf8.csv",activity="Narrative retell", titles="Tran2")
+apnf9<- read_salt(path="apnf9.csv",activity="Narrative retell-- Porcupine", titles="Tran2")
+apnf8<- read_salt(path="apnf8.csv",activity="Narrative retell-- Porcupine", titles="Tran2")
 
-frog3half <- read_salt(path="frog3.5.csv",activity="Narrative retell", titles="Tran2")
-frog4 <- read_salt(path="frog_4half_5.csv",activity="Narrative retell", titles="Tran2")
-frog5 <- read_salt(path="frog_5_5half.csv",activity="Narrative retell", titles="Tran2")
-frog5half <- read_salt(path="frog_5half_6.csv",activity="Narrative retell", titles="Tran2")
-frog6 <- read_salt(path="frog_6_6half.csv",activity="Narrative retell", titles="Tran2")
-frog6half <- read_salt(path="frog_6half_7.csv",activity="Narrative retell", titles="Tran2")
-frog7 <- read_salt(path="frog_7_to7half.csv",activity="Narrative retell", titles="Tran2")
+frog3half <- read_salt(path="frog3.5.csv",activity="Narrative retell-- Frog", titles="Tran2")
+frog4 <- read_salt(path="frog_4half_5.csv",activity="Narrative retell-- Frog", titles="Tran2")
+frog5 <- read_salt(path="frog_5_5half.csv",activity="Narrative retell-- Frog", titles="Tran2")
+frog5half <- read_salt(path="frog_5half_6.csv",activity="Narrative retell-- Frog", titles="Tran2")
+frog6 <- read_salt(path="frog_6_6half.csv",activity="Narrative retell-- Frog", titles="Tran2")
+frog6half <- read_salt(path="frog_6half_7.csv",activity="Narrative retell-- Frog", titles="Tran2")
+frog7 <- read_salt(path="frog_7_to7half.csv",activity="Narrative retell-- Frog", titles="Tran2")
 
 #self narration
 nsss5 <- read_salt(path="nsss5.csv",activity="Narration", titles="Tran2")
@@ -283,7 +283,8 @@ salt_norms <- convo3 %>%
     dds9,dds10,dds11,dds12,
     apnf9,apnf8,
     frog3half,frog4,frog5,frog5half,frog6,frog6half,frog7
-)
+) %>%
+  mutate(participants=as.numeric(participants))
 ```
 
 Bring in other norms and make sure the columns align. These csvs were hand-compiled from publication pdfs.
@@ -292,7 +293,8 @@ Bring in other norms and make sure the columns align. These csvs were hand-compi
 TMN <- read_csv("TilstraMcMaster_norms.csv") %>%
   rename("Age(Month)"=Age)
 SUGAR <-read_csv("SUGAR_norms.csv")%>%
-  rename("Age(Month)"=Age)
+  rename("Age(Month)"=Age,
+         "FREQ_tokens"=TNW_50)
 Heilmann <-read_csv("heilmann_narrative.csv")%>%
   rename("Age(Month)"=Age)
 Rice <-read_csv("Rice_norms.csv")%>%
@@ -323,7 +325,8 @@ all_norms_cols <-all_norms %>%
 excl_norms <- setdiff(all_norms_cols, kideval_cols) #just give me a list of non-overlaps
 
 all_norms_trim <- all_norms%>%
-  dplyr::select(-TNW_50, -Clauses_per_sentence_50, -Age) %>% #these two were measures i included in an early norms spreadsheet that i thought might be relevant but don't line up, plus mean Age which isn't really relevant for norm
+  mutate(Language=ifelse(Language=="English", "eng", Language)) %>%
+  dplyr::select(-Clauses_per_sentence_50, -Age) %>% #these two were measures i included in an early norms spreadsheet that i thought might be relevant but don't line up, plus mean Age which isn't really relevant for norm
   rename("*-3S"= "*-S3")
 
 kideval_trim <- kideval %>%
@@ -340,10 +343,11 @@ kideval_trim <- kideval %>%
 
 norm_final <- all_norms_trim %>%
   full_join(kideval_trim) %>%
-  filter(!Corpus=="Valian")
+  filter(!Corpus=="Valian") %>%
+  dplyr::select(File_DB,Language,Corpus,Code,"Age(Month)",Sex,Group,Race,SES,Role,Education,Custom_field,Design,Activity,"Group...7",Total_Utts,MLU_Utts, MLU_Words, MLU_Morphemes,MLU50_Utts,MLU50_Words,MLU50_Morphemes,FREQ_types,FREQ_tokens,NDW_100,VOCD_D_optimum_average,Verbs_Utt,Word_Errors,Utt_Errors,retracing,repetition,DSS_Utts,DSS,mor_Words,"*-PRESP","in",on,"*-PL","*-POSS","u-cop", "det:art", "*-PAST", "*-3S", "irr-3S", "u-aux", "c-cop", "c-aux", "Total_non_zero_mors")
 
 write_csv(norm_final, "0all_norms_with_columns.csv")
 
-
+write_tsv(norm_final, "0all_norms_with_columns.tsv")
 ```
 
