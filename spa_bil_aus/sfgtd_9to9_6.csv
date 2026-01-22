@@ -1,0 +1,59 @@
+﻿Tran1,,,,,,,
+Transcript Cut: 15 Utterances,,,,,,,
+TRANSCRIPT INFORMATION,,,,,,,
+Speaker: Child,,,,,,,
+Sample Date: 7/19/2001,,,,,,,
+Current Age: 3;0,,,,,,,
+Context: ,,,,DATABASE INFORMATION,,,
+Database: Monolingual Spanish Story Retell,,,,,,,
+67 database samples,,,,,,,
+Context: Narration (FGTD),,,,,,,
+SD Interval: 1.0,,,,,,,
+STANDARD MEASURES REPORT,,,,,,,
+Compared to 67 Samples Matched by Age,,,,,,,
+LANGUAGE MEASURE,Child,,,DATABASE,,,
+,Score,+/-SD,,Mean,Min,Max,SD
+,,,,,,,
+        Current Age (3;0),3.00 **,-37.48,,9.2,9,9.5,0.17
+TRANSCRIPT LENGTH,,,,,,,
+        Total Utterances,0 **,-4.34,,42.87,28,85,9.87
+        C&I Verbal Utts,0 **,-4.43,,41.54,27,81,9.37
+        All Words Including Mazes,0 **,-3.64,,343.4,181,749,94.45
+        Elapsed Time,---,,,3.79,2.25,7.65,1.12
+INTELLIGIBILITY,,,,,,,
+        % Intelligible Utterances,0.0% **,-72.04,,99.42,93.48,100,1.38
+        % Intelligible Words,0.0% **,-468.64,,99.91,98.9,100,0.21
+SYNTAX/MORPHOLOGY,,,,,,,
+        MLU in Words,0.00 **,-7.91,,7.7,5.74,10.33,0.97
+        MLU in Morphemes,0.00 **,-7.96,,7.85,5.82,10.67,0.99
+        % Utterances with Verbs,0.0% **,-5.48,,64.11,43.24,93.02,11.7
+        Mean Verbs per Utterance,0.00 **,-3.77,,0.88,0.46,1.56,0.23
+SEMANTICS,,,,,,,
+        Number Total Words (NTW),0 **,-3.85,,320.12,181,670,83.09
+        Number Different Words (NDW),0 **,-6.19,,109.13,75,184,17.64
+        Moving-Average NTW,---,,,0,0,0,0
+        Moving-Average NDW,---,,,0,0,0,0
+        Moving-Average Type-Token Ratio (TTR),---,,,,,,
+DISCOURSE,,,,,,,
+        Mean Turn Length (utterances),0.00 **,-2.75,,35.79,6.67,63,13.01
+        Mean Turn Length (words),0.00 **,-2.63,,272.61,42.67,460,103.68
+        % Responses to Questions,---,,,,,,
+        % Responses to Intonation Prompts,---,,,,,,
+        % Utts with Overlapping Speech,0.00%,0,,0,0,0,0
+        % Utts Interrupted Other Speaker,0.00%,0,,0,0,0,0
+VERBAL FACILITY,,,,,,,
+        Words per Minute,---,,,94.91,39.6,143.16,26.96
+        Pause Time as % of Total Time~,---,,,5.09,0.88,26.57,6.18
+        Maze Words as % of Total Words,0.0% *,-1.05,,4.65,0,16.41,4.44
+        % Abandoned Utterances,0.00%,-0.66,,1.87,0,11.9,2.82
+ERRORS,,,,,,,
+        % Utterances with Errors,0.0% *,-1.88,,14.41,0,34.88,7.67
+        % Word Errors,0.0% *,-1.8,,2.09,0,4.63,1.16
+,,,,,,,
+* At least 1 SD (** 2 SD) from the database mean,,,,,,,
+Pause data based on a subset of 16 database samples,,,,,,,
+Italicized measures count occurrences and can be significantly affected by the different sample lengths.,,,,,,,
+Measures based on C&I Verbal Utts: Syntax/Morphology and Semantics sections,,,,,,,
+All other measures based on total utterances,,,,,,,
+~ Value Missing For Some Database Records,,,,,,,
+Database selection criteria: Age 9;0 - 9;6,,,,,,,
