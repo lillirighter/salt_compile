@@ -599,3 +599,379 @@ SALT Monolingual Spanish Story Retell,8,Mean,9.35,Narrative retell-- FOHO,52.63,
 SALT Monolingual Spanish Story Retell,8,Min,9,Narrative retell-- FOHO,28,24,6.44,6.47,0.58,77,175,spa,TD,9;0 to 10;1,NA,NA,NA,NA,NA,NA,NA,NA,NA
 SALT Monolingual Spanish Story Retell,8,Max,10.08,Narrative retell-- FOHO,63,60,8.03,8.18,0.95,147,482,spa,TD,9;0 to 10;1,NA,NA,NA,NA,NA,NA,NA,NA,NA
 SALT Monolingual Spanish Story Retell,8,SD,0.39,Narrative retell-- FOHO,12.28,11.83,0.56,0.6,0.11,22.89,94.96,spa,TD,9;0 to 10;1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,322,Mean,5.82,Bilingual Spanish Narrative retell-- FGTD,31.66,29.37,6.45,6.48,0.78,69.14,191.81,spa,TD,5;5 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,322,Min,5.42,Bilingual Spanish Narrative retell-- FGTD,7,6,3.7,3.8,0,19,25,spa,TD,5;5 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,322,Max,6,Bilingual Spanish Narrative retell-- FGTD,95,93,9.67,9.8,1.81,128,632,spa,TD,5;5 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,322,SD,0.14,Bilingual Spanish Narrative retell-- FGTD,10.16,9.93,1.06,1.07,0.25,19.05,77.07,spa,TD,5;5 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,125,Mean,6.56,Bilingual Spanish Narrative retell-- FGTD,35.14,33.09,6.61,6.65,0.77,78.23,222.03,spa,TD,6;6 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,125,Min,6.5,Bilingual Spanish Narrative retell-- FGTD,15,15,3.13,3.13,0.23,36,50,spa,TD,6;6 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,125,Max,6.75,Bilingual Spanish Narrative retell-- FGTD,114,107,9.77,9.84,1.61,179,701,spa,TD,6;6 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,125,SD,0.07,Bilingual Spanish Narrative retell-- FGTD,12.22,11.73,1.17,1.18,0.24,21.51,92.5,spa,TD,6;6 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,394,Mean,6.24,Bilingual Spanish Narrative retell-- FGTD,33.63,31.49,6.66,6.7,0.81,74.68,212.39,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,394,Min,6,Bilingual Spanish Narrative retell-- FGTD,13,7,2.88,2.88,0.22,22,30,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,394,Max,6.5,Bilingual Spanish Narrative retell-- FGTD,85,81,10.35,10.61,1.78,144,634,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,394,SD,0.17,Bilingual Spanish Narrative retell-- FGTD,10.39,10.1,1.09,1.11,0.28,19.86,81.13,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,410,Mean,7.81,Bilingual Spanish Narrative retell-- FGTD,38.15,36.18,7.64,7.73,0.91,90.2,277.83,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,410,Min,7.5,Bilingual Spanish Narrative retell-- FGTD,9,4,3.94,3.94,0.36,14,26,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,410,Max,8,Bilingual Spanish Narrative retell-- FGTD,79,72,10.84,10.94,1.88,142,538,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,410,SD,0.14,Bilingual Spanish Narrative retell-- FGTD,8.7,8.97,1.12,1.14,0.27,19.09,81.56,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,22,Mean,7.45,Bilingual Spanish Narrative retell-- FGTD,36.32,33.86,7.83,7.91,0.92,83.86,263.91,spa,TD,7;4 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,22,Min,7.33,Bilingual Spanish Narrative retell-- FGTD,21,14,5.43,5.64,0.64,42,76,spa,TD,7;4 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,22,Max,7.5,Bilingual Spanish Narrative retell-- FGTD,66,61,11.16,11.36,1.71,116,404,spa,TD,7;4 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,22,SD,0.05,Bilingual Spanish Narrative retell-- FGTD,10.59,10.26,1.23,1.24,0.26,18.61,75.54,spa,TD,7;4 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,167,Mean,8.58,Bilingual Spanish Narrative retell-- FGTD,39.1,37.76,7.96,8.07,0.95,96.13,300.96,spa,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,167,Min,8.5,Bilingual Spanish Narrative retell-- FGTD,12,7,5.43,5.45,0,22,55,spa,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,167,Max,8.92,Bilingual Spanish Narrative retell-- FGTD,90,85,10.31,10.48,1.76,152,709,spa,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,167,SD,0.09,Bilingual Spanish Narrative retell-- FGTD,9.74,9.61,0.97,0.99,0.25,19.42,85.42,spa,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,507,Mean,8.25,Bilingual Spanish Narrative retell-- FGTD,38.91,37.41,7.77,7.87,0.94,93.93,291.9,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,507,Min,8,Bilingual Spanish Narrative retell-- FGTD,2,2,4.63,4.63,0.46,8,11,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,507,Max,8.5,Bilingual Spanish Narrative retell-- FGTD,80,80,11.65,11.77,1.96,156,683,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,507,SD,0.17,Bilingual Spanish Narrative retell-- FGTD,9.17,9.37,1.08,1.1,0.25,19.38,84.73,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,480,Mean,6.73,Bilingual Spanish Narrative retell-- FOHO,41.62,39.9,6.37,6.44,0.81,83.62,258.04,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,480,Min,6.5,Bilingual Spanish Narrative retell-- FOHO,7,4,3.55,3.55,0.13,13,22,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,480,Max,7,Bilingual Spanish Narrative retell-- FOHO,128,116,9.14,9.18,1.76,175,792,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,480,SD,0.16,Bilingual Spanish Narrative retell-- FOHO,14.11,13.82,0.89,0.9,0.34,23.03,106.93,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,456,Mean,6.29,Bilingual Spanish Narrative retell-- FOHO,38.38,36.32,6.14,6.19,0.75,75.46,226.43,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,456,Min,6,Bilingual Spanish Narrative retell-- FOHO,12,4,3.33,3.33,0.18,13,22,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,456,Max,6.5,Bilingual Spanish Narrative retell-- FOHO,114,107,10,10.04,1.89,159,640,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,456,SD,0.15,Bilingual Spanish Narrative retell-- FOHO,12.15,12.06,0.94,0.96,0.31,21.01,90.33,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,125,Mean,7.12,Bilingual Spanish Narrative retell-- FOHO,45.44,43.96,6.42,6.49,0.87,91.66,286.68,spa,TD,7;0 to 7;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,125,Min,7,Bilingual Spanish Narrative retell-- FOHO,13,10,4.41,4.45,0.17,30,55,spa,TD,7;0 to 7;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,125,Max,7.67,Bilingual Spanish Narrative retell-- FOHO,116,115,8.81,8.9,2,185,846,spa,TD,7;0 to 7;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,125,SD,0.18,Bilingual Spanish Narrative retell-- FOHO,16.53,16.39,0.89,0.9,0.36,24.5,125.69,spa,TD,7;0 to 7;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,350,Mean,5.77,Bilingual Spanish Narrative retell-- FWAY,32.77,29.44,5.77,5.9,0.69,64.35,173.68,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,350,Min,5.5,Bilingual Spanish Narrative retell-- FWAY,2,2,2,2.17,0.09,10,12,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,350,Max,6,Bilingual Spanish Narrative retell-- FWAY,73,71,8.93,9,2,122,444,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,350,SD,0.16,Bilingual Spanish Narrative retell-- FWAY,10.17,9.93,0.98,1.02,0.28,19.74,72.82,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,136,Mean,6.77,Bilingual Spanish Narrative retell-- FWAY,37.71,35.35,6.39,6.58,0.78,78.62,227.33,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,136,Min,6.5,Bilingual Spanish Narrative retell-- FWAY,10,3,4.18,4.32,0.33,13,19,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,136,Max,7,Bilingual Spanish Narrative retell-- FWAY,68,68,9.31,9.78,1.54,120,437,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,136,SD,0.18,Bilingual Spanish Narrative retell-- FWAY,10.26,10.41,0.89,0.93,0.27,19.6,76.82,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,174,Mean,6.21,Bilingual Spanish Narrative retell-- FWAY,37.35,33.82,6.09,6.26,0.73,72.71,208.59,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,174,Min,6,Bilingual Spanish Narrative retell-- FWAY,14,4,2.5,2.5,0.15,8,13,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,174,Max,6.5,Bilingual Spanish Narrative retell-- FWAY,81,78,8.78,9,1.68,127,492,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,174,SD,0.19,Bilingual Spanish Narrative retell-- FWAY,10.75,11.34,0.93,0.98,0.29,19.83,78.77,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,480,Mean,7.74,Bilingual Spanish Narrative retell-- FWAY,38.68,37.42,6.43,6.61,0.82,81.85,241.98,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,480,Min,7.5,Bilingual Spanish Narrative retell-- FWAY,4,4,3.25,3.38,0.06,14,26,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,480,Max,8,Bilingual Spanish Narrative retell-- FWAY,73,71,10.07,10.24,1.83,138,500,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,480,SD,0.17,Bilingual Spanish Narrative retell-- FWAY,9.65,9.8,0.95,0.98,0.3,19.39,75.2,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,494,Mean,7.29,Bilingual Spanish Narrative retell-- FWAY,38.35,36.85,6.3,6.48,0.78,79.5,233.26,spa,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,494,Min,7,Bilingual Spanish Narrative retell-- FWAY,2,2,3,3,0.21,9,9,spa,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,494,Max,7.5,Bilingual Spanish Narrative retell-- FWAY,66,66,12.5,13,2,129,452,spa,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,494,SD,0.15,Bilingual Spanish Narrative retell-- FWAY,9.65,9.63,0.95,0.99,0.28,19.11,72.78,spa,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,145,Mean,8.71,Bilingual Spanish Narrative retell-- FWAY,42.61,41.12,7,7.21,0.86,92.99,288.33,spa,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,145,Min,8.5,Bilingual Spanish Narrative retell-- FWAY,14,4,4.51,4.6,0.32,19,21,spa,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,145,Max,9,Bilingual Spanish Narrative retell-- FWAY,71,71,11.04,11.42,1.73,138,558,spa,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,145,SD,0.18,Bilingual Spanish Narrative retell-- FWAY,10.41,10.61,1.01,1.05,0.31,19.29,85.73,spa,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,278,Mean,8.21,Bilingual Spanish Narrative retell-- FWAY,41.15,39.76,6.74,6.93,0.88,88.83,267.97,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,278,Min,8,Bilingual Spanish Narrative retell-- FWAY,9,7,3.92,4.07,0.32,24,50,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,278,Max,8.5,Bilingual Spanish Narrative retell-- FWAY,118,116,9.23,9.46,2.02,193,820,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,278,SD,0.18,Bilingual Spanish Narrative retell-- FWAY,10.67,10.59,0.88,0.9,0.33,19.22,80.16,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,136,Mean,9.25,Bilingual Spanish Narrative retell-- FWAY,43.4,42.15,7.17,7.38,0.9,96.23,303.64,spa,TD,9;0 to 9;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,136,Min,9,Bilingual Spanish Narrative retell-- FWAY,12,4,4.9,5.1,0.2,19,21,spa,TD,9;0 to 9;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,136,Max,9.67,Bilingual Spanish Narrative retell-- FWAY,75,73,10.98,11.44,1.72,165,558,spa,TD,9;0 to 9;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Story Retell,136,SD,0.19,Bilingual Spanish Narrative retell-- FWAY,10.75,11.2,0.91,0.95,0.34,20.86,91.09,spa,TD,9;0 to 9;8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,78,Mean,5.8,Bilingual Narrative Unique Story,35.28,32.91,5.99,6.02,0.76,60.24,199.73,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,78,Min,5.5,Bilingual Narrative Unique Story,13,11,3.93,3.93,0.14,25,55,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,78,Max,6,Bilingual Narrative Unique Story,91,90,8.13,8.19,1.65,106,599,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,78,SD,0.15,Bilingual Narrative Unique Story,15.86,16.18,1.03,1.04,0.31,18.99,108.38,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,78,Mean,5.8,Bilingual Narrative Unique Story,35.28,32.91,5.99,6.02,0.76,60.24,199.73,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,78,Min,5.5,Bilingual Narrative Unique Story,13,11,3.93,3.93,0.14,25,55,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,78,Max,6,Bilingual Narrative Unique Story,91,90,8.13,8.19,1.65,106,599,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,78,SD,0.15,Bilingual Narrative Unique Story,15.86,16.18,1.03,1.04,0.31,18.99,108.38,spa,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,73,Mean,6.74,Bilingual Narrative Unique Story,39.79,38.07,6.49,6.54,0.86,72.44,246.45,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,73,Min,6.5,Bilingual Narrative Unique Story,17,16,4.25,4.25,0,19,85,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,73,Max,7,Bilingual Narrative Unique Story,88,87,10.42,10.74,1.52,131,617,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,73,SD,0.18,Bilingual Narrative Unique Story,15.98,15.31,1.01,1.04,0.28,21.12,103.1,spa,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,74,Mean,6.27,Bilingual Narrative Unique Story,36.73,34.59,6.26,6.3,0.79,67.54,221.91,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,74,Min,6,Bilingual Narrative Unique Story,15,7,3.33,3.33,0.15,19,36,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,74,Max,6.5,Bilingual Narrative Unique Story,90,88,7.96,8.08,1.57,120,634,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,74,SD,0.18,Bilingual Narrative Unique Story,14.56,15.1,0.97,0.98,0.3,20.66,111.01,spa,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,65,Mean,7.77,Bilingual Narrative Unique Story,40.54,38.83,6.9,7,0.92,76.06,269.26,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,65,Min,7.5,Bilingual Narrative Unique Story,19,15,3.64,3.64,0.45,33,80,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,65,Max,8,Bilingual Narrative Unique Story,99,97,11.59,11.85,1.73,126,668,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,65,SD,0.17,Bilingual Narrative Unique Story,19.32,18.81,1.27,1.29,0.27,22.09,135.93,spa,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,62,Mean,7.23,Bilingual Narrative Unique Story,42.05,39.85,6.44,6.5,0.86,76.47,259.34,spa,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,62,Min,7,Bilingual Narrative Unique Story,10,10,4.05,4.16,0.25,27,61,spa,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,62,Max,7.5,Bilingual Narrative Unique Story,99,97,8.84,8.91,1.73,130,604,spa,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,62,SD,0.17,Bilingual Narrative Unique Story,18.63,17.82,0.92,0.93,0.27,22.81,124.96,spa,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,49,Mean,8.64,Bilingual Narrative Unique Story,41.16,40.14,6.84,6.95,0.88,83.45,276.53,spa,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,49,Min,8.5,Bilingual Narrative Unique Story,23,23,5.21,5.29,0.51,51,136,spa,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,49,Max,9,Bilingual Narrative Unique Story,95,91,9,9.19,1.6,146,620,spa,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,49,SD,0.17,Bilingual Narrative Unique Story,13.34,12.98,0.82,0.82,0.27,18.68,99.2,spa,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,93,Mean,8.28,Bilingual Narrative Unique Story,40.91,39.8,6.79,6.89,0.92,78.89,272.38,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,93,Min,8,Bilingual Narrative Unique Story,19,15,3.64,3.64,0.39,33,80,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,93,Max,8.5,Bilingual Narrative Unique Story,94,93,9.75,9.83,1.65,141,624,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,93,SD,0.17,Bilingual Narrative Unique Story,15.19,14.91,1.03,1.04,0.26,20.2,111.88,spa,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,25,Mean,9.22,Bilingual Narrative Unique Story,43.32,42.76,7.1,7.18,0.87,87.24,304.36,spa,TD,9;0 to 9;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,25,Min,9,Bilingual Narrative Unique Story,24,23,6.03,6.06,0.44,56,148,spa,TD,9;0 to 9;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,25,Max,9.58,Bilingual Narrative Unique Story,80,80,8.5,8.54,1.75,136,531,spa,TD,9;0 to 9;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual Spanish Unique Story,25,SD,0.16,Bilingual Narrative Unique Story,16.59,16.86,0.73,0.74,0.33,23.6,121.86,spa,TD,9;0 to 9;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,301,Mean,5.83,Bilingual English Narrative retell-- FGTD,34.09,27.58,6.36,6.66,1.17,64.53,181.67,English,TD,5;5 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,301,Min,5.42,Bilingual English Narrative retell-- FGTD,7,3,1.85,1.85,0,5,11,English,TD,5;5 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,301,Max,6,Bilingual English Narrative retell-- FGTD,88,68,9.36,9.61,1.82,125,477,English,TD,5;5 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,301,SD,0.14,Bilingual English Narrative retell-- FGTD,10.7,10.42,1.31,1.39,0.25,23.04,85.68,English,TD,5;5 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,142,Mean,6.57,Bilingual English Narrative retell-- FGTD,37.68,30.11,6.51,6.86,1.22,68.97,202.3,English,TD,6;6 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,142,Min,6.5,Bilingual English Narrative retell-- FGTD,14,3,1.39,1.39,0.06,11,13,English,TD,6;6 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,142,Max,6.75,Bilingual English Narrative retell-- FGTD,98,90,10.47,10.83,1.92,159,648,English,TD,6;6 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,142,SD,0.07,Bilingual English Narrative retell-- FGTD,13.42,12.43,1.41,1.47,0.27,26.03,100.32,English,TD,6;6 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,397,Mean,6.24,Bilingual English Narrative retell-- FGTD,35.48,28.8,6.55,6.88,1.2,67.23,193.14,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,397,Min,6,Bilingual English Narrative retell-- FGTD,8,3,1.39,1.39,0.06,13,15,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,397,Max,6.5,Bilingual English Narrative retell-- FGTD,88,65,10.47,10.83,1.92,143,543,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,397,SD,0.17,Bilingual English Narrative retell-- FGTD,11.08,10.85,1.27,1.34,0.25,23.71,88.11,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,393,Mean,7.82,Bilingual English Narrative retell-- FGTD,39.67,37.62,7.94,8.44,1.43,98.93,297.97,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,393,Min,7.5,Bilingual English Narrative retell-- FGTD,20,6,5.5,5.93,0.8,28,37,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,393,Max,8,Bilingual English Narrative retell-- FGTD,140,129,11.21,12.21,2.02,201,898,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,393,SD,0.14,Bilingual English Narrative retell-- FGTD,10.92,10.87,1.11,1.19,0.21,22.33,89.2,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,21,Mean,7.48,Bilingual English Narrative retell-- FGTD,40.43,39.29,8.12,8.6,1.42,102.33,313.38,English,TD,7;5 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,21,Min,7.42,Bilingual English Narrative retell-- FGTD,26,23,6.36,6.91,1.04,61,154,English,TD,7;5 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,21,Max,7.5,Bilingual English Narrative retell-- FGTD,83,82,10.42,10.85,1.9,173,567,English,TD,7;5 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,21,SD,0.04,Bilingual English Narrative retell-- FGTD,13.64,13.83,1.05,1.08,0.22,26.31,92.81,English,TD,7;5 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,197,Mean,8.59,Bilingual English Narrative retell-- FGTD,40.09,38.02,8.07,8.59,1.45,99.77,307.66,English,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,197,Min,8.5,Bilingual English Narrative retell-- FGTD,16,8,5,5.1,0.05,22,49,English,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,197,Max,8.92,Bilingual English Narrative retell-- FGTD,103,103,11.68,12.68,1.98,195,850,English,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,197,SD,0.1,Bilingual English Narrative retell-- FGTD,10.22,10.7,1.17,1.29,0.25,25.74,96.64,English,TD,8;6 to 8;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,509,Mean,8.25,Bilingual English Narrative retell-- FGTD,40.34,38.59,8.02,8.54,1.45,101.12,308.94,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,509,Min,8,Bilingual English Narrative retell-- FGTD,21,14,4.89,5.08,0.78,34,88,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,509,Max,8.5,Bilingual English Narrative retell-- FGTD,140,129,12.42,13.69,2.26,198,898,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,509,SD,0.17,Bilingual English Narrative retell-- FGTD,9.98,10.17,1.13,1.23,0.22,22.05,87.51,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,489,Mean,6.73,Bilingual English Narrative retell-- FOHO,42.24,36.95,6.39,6.75,1.12,74.73,241.68,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,489,Min,6.5,Bilingual English Narrative retell-- FOHO,3,3,1.86,1.86,0,12,16,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,489,Max,7,Bilingual English Narrative retell-- FOHO,93,92,9.33,9.7,1.8,174,754,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,489,SD,0.17,Bilingual English Narrative retell-- FOHO,12.8,13.5,1.11,1.18,0.25,27.76,106.65,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,428,Mean,6.3,Bilingual English Narrative retell-- FOHO,40.13,34.66,6.2,6.55,1.09,70.14,221.1,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,428,Min,6,Bilingual English Narrative retell-- FOHO,12,7,1,1.14,0,4,7,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,428,Max,6.5,Bilingual English Narrative retell-- FOHO,90,84,8.6,9.19,1.8,152,611,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,428,SD,0.15,Bilingual English Narrative retell-- FOHO,11.42,12.09,1.07,1.14,0.23,24,94.28,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,156,Mean,7.12,Bilingual English Narrative retell-- FOHO,45.4,39.45,6.41,6.79,1.14,78.87,260.35,English,TD,7;0 to 7;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,156,Min,7,Bilingual English Narrative retell-- FOHO,20,9,1.86,1.86,0,13,26,English,TD,7;0 to 7;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,156,Max,7.75,Bilingual English Narrative retell-- FOHO,111,92,10.62,11.52,1.88,174,754,English,TD,7;0 to 7;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,156,SD,0.17,Bilingual English Narrative retell-- FOHO,14.14,15,1.18,1.27,0.25,30.96,120.42,English,TD,7;0 to 7;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,346,Mean,5.76,Bilingual English Narrative retell-- FWAY,33.66,27.24,5.76,6.13,1.02,57.3,162.99,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,346,Min,5.5,Bilingual English Narrative retell-- FWAY,4,1,1.65,1.65,0.09,7,9,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,346,Max,6,Bilingual English Narrative retell-- FWAY,85,77,9.03,9.5,1.65,130,500,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,346,SD,0.17,Bilingual English Narrative retell-- FWAY,11.5,11.64,1.19,1.27,0.24,24.02,85.66,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,131,Mean,6.75,Bilingual English Narrative retell-- FWAY,39.34,34.37,6.29,6.69,1.08,72.02,219.29,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,131,Min,6.5,Bilingual English Narrative retell-- FWAY,14,5,2.77,2.95,0.4,16,37,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,131,Max,7,Bilingual English Narrative retell-- FWAY,84,68,8.89,9.52,1.55,137,493,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,131,SD,0.18,Bilingual English Narrative retell-- FWAY,12.01,12.64,1.11,1.21,0.23,25.94,93.2,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,195,Mean,6.2,Bilingual English Narrative retell-- FWAY,36.87,30.84,6.09,6.47,1.06,64.41,191.16,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,195,Min,6,Bilingual English Narrative retell-- FWAY,4,1,2.77,2.83,0.33,9,9,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,195,Max,6.5,Bilingual English Narrative retell-- FWAY,81,72,9,9.51,1.61,128,479,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,195,SD,0.18,Bilingual English Narrative retell-- FWAY,10.95,11.21,0.99,1.06,0.19,22.94,82.28,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,488,Mean,7.74,Bilingual English Narrative retell-- FWAY,40.61,36.88,6.74,7.16,1.14,79.37,250.66,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,488,Min,7.5,Bilingual English Narrative retell-- FWAY,13,6,3.45,3.55,0.45,11,35,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,488,Max,8,Bilingual English Narrative retell-- FWAY,82,81,9.23,9.9,1.62,155,555,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,488,SD,0.17,Bilingual English Narrative retell-- FWAY,9.73,10.65,0.85,0.93,0.17,22.61,81.95,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,469,Mean,7.29,Bilingual English Narrative retell-- FWAY,39.93,36.04,6.61,7.03,1.12,77.49,240.96,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,469,Min,7,Bilingual English Narrative retell-- FWAY,11,4,2.79,3.05,0.21,12,23,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,469,Max,7.5,Bilingual English Narrative retell-- FWAY,78,73,8.93,9.52,1.81,142,523,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,469,SD,0.15,Bilingual English Narrative retell-- FWAY,9.74,11.01,0.88,0.94,0.19,23.42,84.09,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,151,Mean,8.7,Bilingual English Narrative retell-- FWAY,42.77,40.22,7.02,7.51,1.23,92.54,283.34,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,151,Min,8.5,Bilingual English Narrative retell-- FWAY,11,6,4.72,5,0.59,23,34,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,151,Max,9,Bilingual English Narrative retell-- FWAY,90,89,10.26,11.11,1.77,164,584,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,151,SD,0.17,Bilingual English Narrative retell-- FWAY,11.63,12.38,0.92,1.03,0.19,26.88,95.07,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,292,Mean,8.19,Bilingual English Narrative retell-- FWAY,41.87,37.7,6.8,7.23,1.15,83.12,258.54,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,292,Min,8,Bilingual English Narrative retell-- FWAY,16,9,2.5,2.5,0.33,11,30,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,292,Max,8.5,Bilingual English Narrative retell-- FWAY,109,96,9.13,9.83,1.71,159,622,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,292,SD,0.17,Bilingual English Narrative retell-- FWAY,11.28,11.9,0.9,0.98,0.18,25.88,90.8,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,127,Mean,9.22,Bilingual English Narrative retell-- FWAY,45.09,43.04,7.11,7.62,1.28,99.91,306.8,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,127,Min,9,Bilingual English Narrative retell-- FWAY,8,5,4.48,4.52,0.57,19,33,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,127,Max,9.5,Bilingual English Narrative retell-- FWAY,90,89,10.71,11.5,1.77,201,557,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,127,SD,0.15,Bilingual English Narrative retell-- FWAY,12.3,12.66,0.97,1.09,0.21,28.31,94.75,English,TD,9;0 to 9;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,32,Mean,9.6,Bilingual English Narrative retell-- FWAY,40.06,38.31,7.04,7.53,1.24,90.13,271.56,English,TD,9;6 to 9;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,32,Min,9.5,Bilingual English Narrative retell-- FWAY,26,24,4.48,4.52,0.76,35,112,English,TD,9;6 to 9;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,32,Max,9.75,Bilingual English Narrative retell-- FWAY,58,58,9.4,10.17,1.56,142,430,English,TD,9;6 to 9;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Story Retell,32,SD,0.08,Bilingual English Narrative retell-- FWAY,8.12,8.29,1,1.12,0.2,21.75,76.96,English,TD,9;6 to 9;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,78,Mean,5.79,Bilingual Narrative Unique Story,35.54,29.35,5.93,6.22,0.98,50.45,181.95,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,78,Min,5.5,Bilingual Narrative Unique Story,12,3,2,2.4,0.13,8,12,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,78,Max,6,Bilingual Narrative Unique Story,98,77,8.96,9.48,1.53,102,467,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,78,SD,0.16,Bilingual Narrative Unique Story,16.4,15.94,1.38,1.41,0.24,21.89,111.85,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,78,Mean,5.79,Bilingual Narrative Unique Story,35.54,29.35,5.93,6.22,0.98,50.45,181.95,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,78,Min,5.5,Bilingual Narrative Unique Story,12,3,2,2.4,0.13,8,12,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,78,Max,6,Bilingual Narrative Unique Story,98,77,8.96,9.48,1.53,102,467,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,78,SD,0.16,Bilingual Narrative Unique Story,16.4,15.94,1.38,1.41,0.24,21.89,111.85,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,71,Mean,6.74,Bilingual Narrative Unique Story,35.41,31.73,6.6,6.91,1.05,59.03,209.42,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,71,Min,6.5,Bilingual Narrative Unique Story,15,12,4.19,4.6,0.1,20,63,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,71,Max,7,Bilingual Narrative Unique Story,90,82,9.08,9.19,1.42,122,489,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,71,SD,0.18,Bilingual Narrative Unique Story,13.36,12.7,1.01,1.05,0.2,19.11,83.55,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,79,Mean,6.26,Bilingual Narrative Unique Story,34.72,29.53,6.25,6.53,1.03,54.49,189.47,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,79,Min,6,Bilingual Narrative Unique Story,14,7,3.68,3.94,0.39,14,30,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,79,Max,6.5,Bilingual Narrative Unique Story,83,75,9.08,9.08,1.39,102,584,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,79,SD,0.18,Bilingual Narrative Unique Story,13.09,13.29,1.08,1.11,0.17,19.09,100.63,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,64,Mean,7.76,Bilingual Narrative Unique Story,40.38,38.67,6.89,7.27,1.12,73.3,264.78,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,64,Min,7.5,Bilingual Narrative Unique Story,13,6,4.4,4.6,0.67,16,38,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,64,Max,8,Bilingual Narrative Unique Story,88,81,9.1,9.57,1.57,129,533,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,64,SD,0.16,Bilingual Narrative Unique Story,16.37,15.82,0.91,0.96,0.16,21.57,108.2,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,63,Mean,7.22,Bilingual Narrative Unique Story,36.25,32.52,6.47,6.81,1.08,61.94,213.37,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,63,Min,7,Bilingual Narrative Unique Story,13,6,3.47,3.67,0.4,16,38,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,63,Max,7.5,Bilingual Narrative Unique Story,64,63,8.58,9,1.42,101,398,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,63,SD,0.17,Bilingual Narrative Unique Story,10.86,11.62,0.83,0.89,0.17,20.4,85.66,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,53,Mean,8.63,Bilingual Narrative Unique Story,38.28,36.75,7.16,7.55,1.14,75.85,264.19,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,53,Min,8.5,Bilingual Narrative Unique Story,20,19,5.43,5.7,0.88,41,134,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,53,Max,9,Bilingual Narrative Unique Story,107,102,9.41,9.86,1.49,151,602,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,53,SD,0.15,Bilingual Narrative Unique Story,14.35,14.11,1.05,1.13,0.15,22.98,105.82,English,TD,8;6 to 9;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,84,Mean,8.29,Bilingual Narrative Unique Story,38.31,36.48,6.96,7.34,1.12,72.5,256.44,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,84,Min,8,Bilingual Narrative Unique Story,21,12,5.22,5.47,0.72,25,72,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,84,Max,8.5,Bilingual Narrative Unique Story,77,76,9.74,10.12,1.63,128,522,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,84,SD,0.17,Bilingual Narrative Unique Story,12.47,12.78,0.96,1.01,0.15,20.46,102.22,English,TD,8;0 to 8;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,29,Mean,9.26,Bilingual Narrative Unique Story,43.83,42.34,7.41,7.8,1.15,81.86,314.21,English,TD,9;0 to 9;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,29,Min,9,Bilingual Narrative Unique Story,24,24,5.74,6.16,0.88,31,160,English,TD,9;0 to 9;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,29,Max,9.58,Bilingual Narrative Unique Story,85,83,9.24,9.7,1.46,143,702,English,TD,9;0 to 9;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT Bilingual English Unique Story,29,SD,0.18,Bilingual Narrative Unique Story,15.89,15.86,0.98,1,0.15,26.54,124.4,English,TD,9;0 to 9;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,28,Mean,13.47,Persuasion,21.04,19.68,15.22,16.82,2.91,119.36,286.21,eng,TD,12;10 to 13;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,28,Min,12.83,Persuasion,8,7,9.96,11.33,1.83,74,121,eng,TD,12;10 to 13;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,28,Max,13.92,Persuasion,58,58,27.06,29.33,4.67,247,819,eng,TD,12;10 to 13;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,28,SD,0.34,Persuasion,11.75,11.15,4.04,4.48,0.71,40.45,153.2,eng,TD,12;10 to 13;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,4,Mean,14.69,Persuasion,19.5,19,15.18,16.8,2.91,125.75,289.25,eng,TD,14;7 to 14;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,4,Min,14.58,Persuasion,16,16,12.38,13.62,2.48,113,223,eng,TD,14;7 to 14;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,4,Max,14.92,Persuasion,23,22,17.82,19.68,3.29,146,392,eng,TD,14;7 to 14;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,4,SD,0.16,Persuasion,3.11,2.94,2.47,2.82,0.39,14.24,72.7,eng,TD,14;7 to 14;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,15,Mean,15.46,Persuasion,22.67,21.47,17.53,19.35,3.31,140.8,354.27,eng,TD,15;0 to 15;10,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,15,Min,15,Persuasion,11,11,9.54,10.68,1.82,83,153,eng,TD,15;0 to 15;10,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,15,Max,15.83,Persuasion,38,37,26.81,29.44,5.69,216,585,eng,TD,15;0 to 15;10,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,15,SD,0.26,Persuasion,9.07,9.33,4.69,5.16,1.01,37.66,123.66,eng,TD,15;0 to 15;10,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,6,Mean,16.49,Persuasion,22,20.33,16.93,18.72,2.99,125.33,309.5,eng,TD,16;1 to 16;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,6,Min,16.08,Persuasion,9,9,12.26,13.42,2.3,94,188,eng,TD,16;1 to 16;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,6,Max,16.92,Persuasion,55,53,20.89,23.33,3.67,210,650,eng,TD,16;1 to 16;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,6,SD,0.39,Persuasion,16.73,16.51,3.03,3.55,0.56,44.27,176.88,eng,TD,16;1 to 16;11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,12,Mean,17.56,Persuasion,27.92,26.92,16.33,18.07,2.98,151.08,421.75,eng,TD,17;3 to 17;10,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,12,Min,17.25,Persuasion,8,8,10.2,11.26,2,72,133,eng,TD,17;3 to 17;10,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,12,Max,17.83,Persuasion,77,74,24.95,28.1,4.38,308,1147,eng,TD,17;3 to 17;10,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT AU-USA Persuasion,12,SD,0.23,Persuasion,18.41,17.77,4.23,4.85,0.62,66.08,274.59,eng,TD,17;3 to 17;10,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,42,Mean,5.29,Conversation,96.5,89.64,4.54,5.08,0.83,157.5,410.86,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,42,Min,5,Conversation,50,35,2.91,3.24,0.39,72,128,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,42,Max,5.5,Conversation,160,154,6.27,6.87,1.2,265,857,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,42,SD,0.14,Conversation,26.83,26.77,0.84,0.94,0.2,39.36,149.94,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,45,Mean,5.74,Conversation,90.31,83.62,4.97,5.52,0.95,153,410.96,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,45,Min,5.5,Conversation,47,43,3.23,3.57,0.55,93,171,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,45,Max,6,Conversation,187,174,7.97,8.79,1.69,300,1158,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,45,SD,0.15,Conversation,34.11,32.54,1.16,1.24,0.26,43.11,183.16,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,98,Mean,6.29,Conversation,94.98,88.63,5.32,5.93,1,172.84,471.27,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,98,Min,6,Conversation,44,43,3.33,3.69,0.56,87,149,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,98,Max,6.5,Conversation,187,174,7.93,8.81,1.47,300,1158,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,98,SD,0.14,Conversation,29.85,28.37,0.9,0.98,0.18,41.26,170.66,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,58,Mean,6.68,Conversation,95.12,88.22,5.22,5.8,0.98,168.97,458.78,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,58,Min,6.5,Conversation,44,42,3.8,4.12,0.63,96,224,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,58,Max,7,Conversation,158,144,7.25,7.95,1.47,260,942,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,58,SD,0.18,Conversation,27.01,25.65,0.91,0.97,0.21,37.29,153.76,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,78,Mean,7.27,Conversation,94.53,87.83,5.4,6.04,1.01,179.49,471.54,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,78,Min,7,Conversation,44,41,3.05,3.34,0.49,80,133,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,78,Max,7.5,Conversation,164,160,8.62,9.53,1.59,256,863,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,78,SD,0.16,Conversation,28.04,26.71,1.12,1.23,0.23,40.57,160.86,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,33,Mean,7.67,Conversation,78.7,72.97,5.86,6.51,1.1,167.21,422.12,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,33,Min,7.5,Conversation,50,46,3.33,3.77,0.59,99,193,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,33,Max,8,Conversation,155,141,9.13,10.13,1.61,245,772,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,33,SD,0.19,Conversation,23.4,21.56,1.31,1.44,0.23,37.21,134.91,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,16,Mean,8.11,Conversation,67.44,62.81,5.68,6.3,1.1,150.56,356.38,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,16,Min,8,Conversation,48,48,3.39,3.88,0.66,100,193,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,16,Max,8.33,Conversation,85,84,9.13,10.13,1.61,207,511,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,16,SD,0.1,Conversation,8.53,8.41,1.39,1.54,0.26,31.85,95.56,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,33,Mean,4.67,Conversation,99.45,92.79,4.05,4.53,0.77,146.03,380.48,English,TD,4;5 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,33,Min,4.42,Conversation,51,46,2.57,2.92,0.51,83,162,English,TD,4;5 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,33,Max,5,Conversation,147,145,5.85,6.67,1.18,217,807,English,TD,4;5 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Conversation,33,SD,0.18,Conversation,27.43,26.27,0.84,0.92,0.17,36.76,151.44,English,TD,4;5 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,12,Mean,6.31,Expository,21.08,19.83,7.28,7.91,1.56,67.42,145.67,English,TD,6;1 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,12,Min,6.08,Expository,12,12,5.69,6.23,0.77,47,74,English,TD,6;1 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,12,Max,6.5,Expository,41,38,8.69,9.32,1.92,103,286,English,TD,6;1 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,12,SD,0.11,Expository,7.93,7.8,0.9,0.9,0.34,17.93,62.75,English,TD,6;1 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,17,Mean,6.71,Expository,23.76,21.88,7.9,8.39,1.7,75.88,177.18,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,17,Min,6.5,Expository,9,3,3,3,0.67,9,9,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,17,Max,7,Expository,48,47,10.59,11.26,2.19,115,393,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,17,SD,0.14,Expository,11.56,11.39,2.12,2.32,0.45,30.23,95.76,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,32,Mean,7.3,Expository,22.88,21.66,7.93,8.58,1.66,78.41,179.59,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,32,Min,7,Expository,7,7,4.44,5.11,0.86,27,37,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,32,Max,7.5,Expository,60,56,14,14.97,2.66,161,490,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,32,SD,0.16,Expository,12.71,12.04,1.97,2.13,0.43,36.39,118.25,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,42,Mean,7.72,Expository,25.9,24.83,8.24,9.04,1.63,85.26,209.26,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,42,Min,7.5,Expository,7,7,4.93,5.27,0.86,30,37,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,42,Max,8,Expository,60,56,12.33,13.62,2.42,163,461,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,42,SD,0.17,Expository,13.46,12.94,1.86,2.06,0.38,34.19,117.28,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,18,Mean,8.12,Expository,35.72,34.17,8.1,8.82,1.68,105.22,274.17,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,18,Min,8,Expository,13,9,5.44,6.17,1.22,47,86,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,18,Max,8.33,Expository,75,72,10.19,11.08,2.17,163,579,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Expository,18,SD,0.1,Expository,17.63,17.05,1.31,1.4,0.31,37.59,137.43,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,30,Mean,4.7,Personal narrative,59.23,55.03,4.66,5.06,0.89,105.77,259.73,English,TD,4;5 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,30,Min,4.42,Personal narrative,9,7,2.77,3.02,0.46,19,26,English,TD,4;5 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,30,Max,5,Personal narrative,124,114,6.58,7.2,1.19,170,495,English,TD,4;5 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,30,SD,0.16,Personal narrative,28.95,26.37,0.92,1,0.19,39.89,127.79,English,TD,4;5 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,47,Mean,5.29,Personal narrative,70.13,65.06,4.86,5.31,0.92,122.57,322.34,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,47,Min,5,Personal narrative,15,12,1.42,1.5,0.25,14,17,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,47,Max,5.5,Personal narrative,142,132,7.74,7.99,1.33,214,615,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,47,SD,0.13,Personal narrative,29.84,28.98,0.98,1.05,0.2,42.98,154.61,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,44,Mean,5.72,Personal narrative,85.27,77.57,5.34,5.82,1.01,150.34,414.27,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,44,Min,5.5,Personal narrative,31,22,3.18,3.64,0.64,62,105,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,44,Max,6,Personal narrative,216,192,7.35,7.96,1.45,279,961,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,44,SD,0.15,Personal narrative,38.79,36.04,1.05,1.11,0.2,52.28,202.03,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,93,Mean,6.28,Personal narrative,90.31,84.67,5.77,6.26,1.07,172.49,490.54,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,93,Min,6,Personal narrative,5,5,3.4,3.6,0.65,14,17,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,93,Max,6.5,Personal narrative,227,219,8.81,9.47,1.52,344,1328,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,93,SD,0.14,Personal narrative,31.86,30.42,1.03,1.1,0.19,48.4,195,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,57,Mean,6.7,Personal narrative,91.05,85.05,5.74,6.21,1.06,171.86,488.37,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,57,Min,6.5,Personal narrative,43,28,3.67,3.95,0.64,86,174,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,57,Max,7,Personal narrative,168,164,7.67,8.22,1.46,272,994,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,57,SD,0.18,Personal narrative,26.3,25.46,0.87,0.91,0.18,38.02,162.24,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,77,Mean,7.26,Personal narrative,95.14,89.35,5.97,6.47,1.09,188.39,531.22,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,77,Min,7,Personal narrative,32,28,3.61,3.91,0.63,64,148,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,77,Max,7.5,Personal narrative,176,170,8.27,8.95,1.62,299,1004,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,77,SD,0.17,Personal narrative,30.88,30.34,1.05,1.11,0.2,48.19,188.11,English,TD,7;0 to 7;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,36,Mean,7.67,Personal narrative,85.39,80.61,6.47,7.02,1.18,187.22,515.53,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,36,Min,7.5,Personal narrative,49,45,4.64,5.05,0.78,94,215,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,36,Max,8,Personal narrative,184,175,9.07,9.72,1.69,311,1114,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,36,SD,0.18,Personal narrative,27.23,25.87,1.22,1.31,0.22,42.57,166.05,English,TD,7;6 to 8;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,18,Mean,8.13,Personal narrative,81.67,76.67,6.21,6.75,1.16,177.83,477,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,18,Min,8,Personal narrative,49,45,4.78,5.18,0.89,94,215,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,18,Max,8.33,Personal narrative,128,124,8.45,8.96,1.46,277,831,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Personal Narrative,18,SD,0.1,Personal narrative,21.64,21.96,1.06,1.1,0.17,40.51,154.04,English,TD,8;0 to 8;4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,69,Mean,4.71,AU/NZ Narrative retell-- AGL,9.22,8.51,5.8,6.01,1.16,30.74,52.38,English,TD,4;6 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,69,Min,4.5,AU/NZ Narrative retell-- AGL,2,1,2.33,2.33,0.33,3,3,English,TD,4;6 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,69,Max,5,AU/NZ Narrative retell-- AGL,26,25,9.22,9.67,2,76,168,English,TD,4;6 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,69,SD,0.16,AU/NZ Narrative retell-- AGL,5.22,5.02,1.57,1.64,0.33,17.72,37.16,English,TD,4;6 to 5;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,30,Mean,5.27,AU/NZ Narrative retell-- AGL,10.27,9.77,6.48,6.91,1.36,37.33,63.07,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,30,Min,5,AU/NZ Narrative retell-- AGL,4,4,4.4,4.5,0.85,13,18,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,30,Max,5.5,AU/NZ Narrative retell-- AGL,22,19,10.38,11.13,2.13,57,106,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,30,SD,0.16,AU/NZ Narrative retell-- AGL,4.14,3.85,1.44,1.51,0.26,13.22,24.71,English,TD,5;0 to 5;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,37,Mean,5.75,AU/NZ Narrative retell-- AGL,12.43,11.84,6.74,7.18,1.49,44.68,80.92,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,37,Min,5.5,AU/NZ Narrative retell-- AGL,7,5,3.85,4.23,1,21,31,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,37,Max,6,AU/NZ Narrative retell-- AGL,25,23,8.21,8.93,2.09,94,183,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,37,SD,0.13,AU/NZ Narrative retell-- AGL,4.34,4.18,1.06,1.2,0.27,15.33,34.22,English,TD,5;6 to 6;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,93,Mean,6.31,AU/NZ Narrative retell-- AGL,13.9,13.26,7.08,7.49,1.48,50.9,93.88,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,93,Min,6,AU/NZ Narrative retell-- AGL,4,4,3.85,4.23,1,19,24,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,93,Max,6.5,AU/NZ Narrative retell-- AGL,42,36,9.78,10.56,2.78,125,299,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,93,SD,0.14,AU/NZ Narrative retell-- AGL,5.54,5.21,1.11,1.16,0.26,17.82,40.9,English,TD,6;0 to 6;6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,59,Mean,6.69,AU/NZ Narrative retell-- AGL,13.24,12.61,7.19,7.59,1.52,49.19,88.8,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,59,Min,6.5,AU/NZ Narrative retell-- AGL,5,4,4.92,5.31,1,23,32,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,59,Max,7,AU/NZ Narrative retell-- AGL,26,26,13.38,14,2.25,91,187,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,59,SD,0.18,AU/NZ Narrative retell-- AGL,5.16,5.02,1.32,1.36,0.27,15.31,33.8,English,TD,6;6 to 7;0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,73,Mean,7.25,AU/NZ Narrative retell-- AGL,15.88,15.37,7.11,7.55,1.55,58.44,108.16,English,TD,7;0 to 7;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,73,Min,7,AU/NZ Narrative retell-- AGL,3,3,5,5.29,1.1,18,21,English,TD,7;0 to 7;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,73,Max,7.58,AU/NZ Narrative retell-- AGL,27,26,10.57,11.43,3,91,176,English,TD,7;0 to 7;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,73,SD,0.17,AU/NZ Narrative retell-- AGL,5.23,4.98,0.97,1.02,0.29,15.66,34.37,English,TD,7;0 to 7;7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,14,Mean,5.63,AU/NZ Narrative retell-- Bus,16.07,14.93,6.89,7.27,1.31,53.14,104.36,English,TD,5;3 to 5;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,14,Min,5.25,AU/NZ Narrative retell-- Bus,7,5,4.7,4.9,0.9,21,33,English,TD,5;3 to 5;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,14,Max,5.75,AU/NZ Narrative retell-- Bus,27,25,8.46,9.08,1.77,84,186,English,TD,5;3 to 5;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,14,SD,0.16,AU/NZ Narrative retell-- Bus,4.39,4.8,1.01,1.14,0.22,16.67,39.36,English,TD,5;3 to 5;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,28,Mean,6.05,AU/NZ Narrative retell-- Bus,18.54,17.21,7.17,7.71,1.43,64.36,123.18,English,TD,5;9 to 6;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,28,Min,5.75,AU/NZ Narrative retell-- Bus,14,13,4.53,5.13,1,49,68,English,TD,5;9 to 6;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,28,Max,6.25,AU/NZ Narrative retell-- Bus,30,25,9.06,9.88,1.88,86,186,English,TD,5;9 to 6;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,28,SD,0.19,AU/NZ Narrative retell-- Bus,3.9,3.07,1.04,1.05,0.22,10.52,26.9,English,TD,5;9 to 6;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,33,Mean,6.4,AU/NZ Narrative retell-- Bus,18.48,17.21,7.23,7.81,1.44,64.3,124.67,English,TD,6;3 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,33,Min,6.25,AU/NZ Narrative retell-- Bus,11,9,3.89,4.11,0.89,29,35,English,TD,6;3 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,33,Max,6.75,AU/NZ Narrative retell-- Bus,25,23,9.69,10.31,1.89,86,176,English,TD,6;3 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,33,SD,0.14,AU/NZ Narrative retell-- Bus,3.4,3.16,1.1,1.18,0.24,11.21,27.54,English,TD,6;3 to 6;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,22,Mean,7.07,AU/NZ Narrative retell-- Bus,17.91,17.32,8.22,8.8,1.62,73.09,141.05,English,TD,6;9 to 7;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,22,Min,6.75,AU/NZ Narrative retell-- Bus,13,10,6.29,6.86,1.11,49,74,English,TD,6;9 to 7;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,22,Max,7.25,AU/NZ Narrative retell-- Bus,22,22,10,10.61,2.06,87,180,English,TD,6;9 to 7;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,22,SD,0.13,AU/NZ Narrative retell-- Bus,2.94,3.12,0.97,1,0.26,9.8,23.42,English,TD,6;9 to 7;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,22,Mean,7.53,AU/NZ Narrative retell-- Bus,17.77,17.23,8.4,9.04,1.7,74.36,143.86,English,TD,7;3 to 7;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,22,Min,7.25,AU/NZ Narrative retell-- Bus,11,11,7.05,7.57,1.33,53,86,English,TD,7;3 to 7;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,22,Max,7.75,AU/NZ Narrative retell-- Bus,23,23,10.83,11.83,2.17,90,187,English,TD,7;3 to 7;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,22,SD,0.14,AU/NZ Narrative retell-- Bus,3.1,3.09,0.97,1.04,0.25,11.03,25.21,English,TD,7;3 to 7;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,25,Mean,8.02,AU/NZ Narrative retell-- Bus,19.24,18.8,8.32,8.98,1.62,75.32,156.56,English,TD,7;9 to 8;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,25,Min,7.75,AU/NZ Narrative retell-- Bus,10,10,6.56,7.11,1.1,38,76,English,TD,7;9 to 8;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,25,Max,8.25,AU/NZ Narrative retell-- Bus,28,28,10.25,11.25,1.95,108,234,English,TD,7;9 to 8;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,25,SD,0.14,AU/NZ Narrative retell-- Bus,4.04,3.97,0.98,1.07,0.22,15.29,37.28,English,TD,7;9 to 8;3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,4,Mean,8.46,AU/NZ Narrative retell-- Bus,20.5,19.25,7.01,7.59,1.44,69.5,134.75,English,TD,8;3 to 8;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,4,Min,8.25,AU/NZ Narrative retell-- Bus,18,18,6,6.57,1.33,57,118,English,TD,8;3 to 8;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,4,Max,8.75,AU/NZ Narrative retell-- Bus,24,21,8.3,8.85,1.6,83,166,English,TD,8;3 to 8;9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SALT NZ-AU Story Retell,4,SD,0.25,AU/NZ Narrative retell-- Bus,2.65,1.5,0.99,0.99,0.12,12.07,21.34,English,TD,8;3 to 8;9,NA,NA,NA,NA,NA,NA,NA,NA,NA

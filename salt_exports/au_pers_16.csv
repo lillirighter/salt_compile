@@ -4,51 +4,53 @@ TRANSCRIPT INFORMATION,,,,,,,
 Speaker: Child,,,,,,,
 Sample Date: ,,,,,,,
 Current Age: ,,,,,,,
-Context: ,,,,DATABASE INFORMATION,,,
+Context: ,,,,,,,
+Location:,,,,DATABASE INFORMATION,,,
 Database: AU-USA Persuasion,,,,,,,
-26 database samples,,,,,,,
+6 database samples,,,,,,,
 Context: Persuasion,,,,,,,
+Location: Australia,,,,,,,
 SD Interval: 1.0,,,,,,,
 STANDARD MEASURES REPORT,,,,,,,
-Compared to 26 Samples Matched by Age,,,,,,,
+Compared to 6 Samples Matched by Age,,,,,,,
 LANGUAGE MEASURE,Child,,,DATABASE,,,
 ,Score,+/-SD,,Mean,Min,Max,SD
 ,,,,,,,
-        Current Age (),---,,,16.46,16.08,16.92,0.3
+        Current Age (),---,,,16.49,16.08,16.92,0.39
 TRANSCRIPT LENGTH,,,,,,,
-        Total Utterances,0 *,-1.69,,36.08,9,90,21.34
-        C&I Verbal Utts,0 *,-1.69,,34,9,75,20.13
-        All Words Including Mazes,0 **,-2.01,,592.15,203,1188,294.34
-        Elapsed Time,---,,,3.79,1.18,7.1,1.68
+        Total Utterances,0 *,-1.31,,22,9,55,16.73
+        C&I Verbal Utts,0 *,-1.23,,20.33,9,53,16.51
+        All Words Including Mazes,0 *,-1.83,,371.17,203,760,203.11
+        Elapsed Time,---,,,2.77,1.18,4.85,1.29
 INTELLIGIBILITY,,,,,,,
-        % Intelligible Utterances,0.0% **,-24.68,,97.94,81.25,100,3.97
-        % Intelligible Words,0.0% **,-382.58,,99.86,98.81,100,0.26
+        % Intelligible Utterances,0.0% **,-13.03,,95.23,81.25,100,7.31
+        % Intelligible Words,0.0% **,-215.47,,99.69,98.81,100,0.46
 SYNTAX/MORPHOLOGY,,,,,,,
-        MLU in Words,0.00 **,-5.6,,16.12,9.21,20.89,2.88
-        MLU in Morphemes,0.00 **,-5.67,,17.78,10.33,23.33,3.14
-        % Utterances with Verbs,0.0% **,-19.23,,95.8,83.33,100,4.98
-        Mean Verbs per Utterance,0.00 **,-6.14,,2.96,2.15,4,0.48
+        MLU in Words,0.00 **,-5.58,,16.93,12.26,20.89,3.03
+        MLU in Morphemes,0.00 **,-5.28,,18.72,13.42,23.33,3.55
+        % Utterances with Verbs,0.0% **,-15.15,,93.78,83.33,100,6.19
+        Mean Verbs per Utterance,0.00 **,-5.36,,2.99,2.3,3.67,0.56
 SEMANTICS,,,,,,,
-        Number Total Words (NTW),0 **,-2.02,,509.15,188,1142,252.68
-        Number Different Words (NDW),0 **,-3.01,,171.65,94,304,56.94
+        Number Total Words (NTW),0 *,-1.75,,309.5,188,650,176.88
+        Number Different Words (NDW),0 **,-2.83,,125.33,94,210,44.27
         Moving-Average NTW,---,,,0,0,0,0
         Moving-Average NDW,---,,,0,0,0,0
         Moving-Average Type-Token Ratio (TTR),---,,,,,,
 DISCOURSE,,,,,,,
-        Mean Turn Length (utterances),0.00 *,-1.32,,23.17,1.86,59,17.5
-        Mean Turn Length (words),0.00 *,-1.38,,345.86,28.29,992,251.43
+        Mean Turn Length (utterances),0,-0.8,,15.95,1.86,55,19.84
+        Mean Turn Length (words),0,-0.97,,232.16,28.29,684,240.1
         % Responses to Questions,---,,,100,100,100,0
         % Responses to Intonation Prompts,---,,,,,,
-        % Utts with Overlapping Speech,0.00%,-0.4,,1.43,0,15.38,3.53
-        % Utts Interrupted Other Speaker,0.00%,-0.2,,0.2,0,5.26,1.03
+        % Utts with Overlapping Speech,0.00%,-0.41,,2.56,0,15.38,6.28
+        % Utts Interrupted Other Speaker,0.00%,0,,0,0,0,0
 VERBAL FACILITY,,,,,,,
-        Words per Minute,---,,,155.09,98.62,206.17,26.23
-        Pause Time as % of Total Time,---,,,3.14,0,12.63,4.36
-        Maze Words as % of Total Words,0.0% *,-1.68,,11.67,2.3,32.7,6.96
-        % Abandoned Utterances,0.00%,-0.58,,2.16,0,13.64,3.74
+        Words per Minute,---,,,135.66,98.62,171.55,26.15
+        Pause Time as % of Total Time,---,,,7.51,1.55,12.63,4.26
+        Maze Words as % of Total Words,0.0% **,-3.65,,13.13,8.29,18.12,3.6
+        % Abandoned Utterances,0.00%,-0.64,,1.74,0,5.88,2.73
 ERRORS,,,,,,,
-        % Utterances with Errors,0.0% *,-1.44,,23.38,0,55.56,16.28
-        % Word Errors,0.0% *,-1.43,,1.53,0,3.51,1.07
+        % Utterances with Errors,0.0% *,-1.63,,28.44,7.27,54.55,17.43
+        % Word Errors,0.0% *,-1.39,,1.47,0,2.55,1.06
 ,,,,,,,
 * At least 1 SD (** 2 SD) from the database mean,,,,,,,
 Italicized measures count occurrences and can be significantly affected by the different sample lengths.,,,,,,,

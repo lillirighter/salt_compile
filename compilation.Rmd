@@ -2,6 +2,7 @@
 title: "Salt_data_compilation"
 output: html_document
 date: "2026-01-12"
+author: "Lilli Righter"
 ---
 
 ```{r setup, include=FALSE}
@@ -11,7 +12,7 @@ library(glue)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# introduce functions
+# introduce functions to read in the SALT files i had to exported individually by database and by age range. these functions differ in 1) the language they assign to the output and b) the line numbers in the particular salt export file, which are different depending on the version of SALT used to export each sheet
 
 ```{r functions}
 month_convert <- function(x) {
@@ -147,12 +148,55 @@ df_name %>%
          Total_Utts=as.numeric(Total_Utts))
 }
 
+
+read_aunz <- function(path,activity,titles) {
+df_name <-read_csv(path) 
+df_name %>%
+  dplyr::select(-c(2:4))%>%
+  rename("Mean"="...5",
+         "Min"="...6",
+         "Max"="...7",
+         "SD"="...8") %>%
+  mutate(Corpus=paste("SALT",str_remove(df_name[8, titles], "Database: ")),
+         participants=str_extract(df_name[9, titles], "\\d+"))%>%
+  slice(18, 20:23,25,26,28:31,33:37,39:44,46:49,51:52) %>%
+  pivot_longer(cols = c(Mean,Min,Max,SD),
+               names_to = "Stat") %>%
+  pivot_wider(names_from = titles,
+              values_from = value) %>%
+  rename(Age= 4) %>%
+  mutate(Age_Min=as.numeric(Age[[2]]),
+         Age_Max=as.numeric(Age[[3]]),
+         Language="eng",
+         Group="TD",
+         Activity = activity) %>%
+  mutate(Age_Min=month_convert(Age_Min),
+         Age_Max=month_convert(Age_Max)) %>%
+  mutate("Age(Month)"=paste(Age_Min, "to", Age_Max)) %>%
+  rename(Verbs_Utt= "Mean Verbs per Utterance",
+         MLU_Words= "MLU in Words",
+         MLU_Morphemes = "MLU in Morphemes",
+         Total_Utts="Total Utterances",
+         MLU_Utts="C&I Verbal Utts",
+         FREQ_tokens="Number Total Words (NTW)",
+         FREQ_types="Number Different Words (NDW)"
+         ) %>%
+  dplyr::select(Corpus,participants,Stat,Age,Activity,Total_Utts,MLU_Utts,MLU_Words,MLU_Morphemes,Verbs_Utt,FREQ_types,FREQ_tokens,Language,Group,"Age(Month)") %>%
+  mutate(MLU_Utts=as.numeric(MLU_Utts),
+         MLU_Words=as.numeric(MLU_Words),
+         MLU_Morphemes=as.numeric(MLU_Morphemes),
+         Verbs_Utt=as.numeric(Verbs_Utt),
+         FREQ_types=as.numeric(FREQ_types),
+         FREQ_tokens=as.numeric(FREQ_tokens),
+         Total_Utts=as.numeric(Total_Utts))
+}
+
 ```
-I have a whole lot of SALT means that i have compiled from custom age ranges and various corpora. I used SALT20 to select each database and age range, then individually-export the computed means. They put out an ugly, human-readable csv, and I want to first put them into a machine-readbable format, then compile them into a single spreadsheet, then combine them with other norms databases, and finally convert the big norms into a .cut file.
+I have a whole lot of SALT means that i have compiled from custom age ranges and various corpora. I used SALT20 and 24 to select each database and age range, then individually-export the computed means. They put out an ugly, human-readable csv, and I want to first put them into a machine-readbable format, then compile them into a single spreadsheet, then combine them with other norms databases, and finally convert the big norms into a .cut file.
 
-#use function to import individual salt reports
+#use function to import individual salt reports. i did this for NA English first, then for Spanish, English/Spanish bilinguals, and NZ/AU English
 
-```{r imports}
+```{r na-eng}
 ##TNL2
 tnl2_4<- read_salt(path="salt_exports/tnl2_4.csv",activity="Narrative retell and picture narrative", titles="Tran2")
 tnl2_5<- read_salt(path="salt_exports/tnl2_5.csv",activity="Narrative retell and picture narrative", titles="Tran2")
@@ -237,12 +281,12 @@ enni9 <- read_salt(path="salt_exports/enni9.csv",activity="Picture narrative", t
 enni9half <- read_salt(path="salt_exports/enni9half.csv",activity="Picture narrative", titles="Tran2")
 
 #persuasion
-pers13 <- read_salt(path="13persuasion.csv",activity="Persuasion", titles="Tran2")
-pers14 <- read_salt(path="14persuasion.csv",activity="Persuasion", titles="Tran2")
-pers15 <- read_salt(path="15persuasion.csv",activity="Persuasion", titles="Tran2")
-pers16 <- read_salt(path="16persuasion.csv",activity="Persuasion", titles="Tran2")
-pers17 <- read_salt(path="17persuasion.csv",activity="Persuasion", titles="Tran2")
-pers18 <- read_salt(path="18persuasion.csv",activity="Persuasion", titles="Tran2")
+pers13 <- read_salt(path="salt_exports/13persuasion.csv",activity="Persuasion", titles="Tran2")
+pers14 <- read_salt(path="salt_exports/14persuasion.csv",activity="Persuasion", titles="Tran2")
+pers15 <- read_salt(path="salt_exports/15persuasion.csv",activity="Persuasion", titles="Tran2")
+pers16 <- read_salt(path="salt_exports/16persuasion.csv",activity="Persuasion", titles="Tran2")
+pers17 <- read_salt(path="salt_exports/17persuasion.csv",activity="Persuasion", titles="Tran2")
+pers18 <- read_salt(path="salt_exports/18persuasion.csv",activity="Persuasion", titles="Tran2")
 
 # exposition
 expo11 <- read_salt(path="salt_exports/11yoexpo.csv",activity="Exposition", titles="Tran2")
@@ -259,7 +303,7 @@ convo3half<- read_salt(path="salt_exports/36-to4.csv",activity="Conversation", t
 convo4<- read_salt(path="salt_exports/4to4-6.csv",activity="Conversation", titles="Tran2")
 convo4half<- read_salt(path="salt_exports/4-6to5.csv",activity="Conversation", titles="Tran2")
 convo5<- read_salt(path="salt_exports/5to5-6.csv",activity="Conversation", titles="Tran2")
-convo5half<- read_salt(path="5-6to6.csv",activity="Conversation", titles="Tran2")
+convo5half<- read_salt(path="salt_exports/5-6to6.csv",activity="Conversation", titles="Tran2")
 convo6<- read_salt(path="salt_exports/6to6-6.csv",activity="Conversation", titles="Tran2")
 convo6half<- read_salt(path="salt_exports/6-6to7.csv",activity="Conversation", titles="Tran2")
 convo7<- read_salt(path="salt_exports/7to7-6.csv",activity="Conversation", titles="Tran2")
@@ -270,8 +314,9 @@ convo9<- read_salt(path="salt_exports/9to9-6.csv",activity="Conversation", title
 convo9half<- read_salt(path="salt_exports/9-6to10.csv",activity="Conversation", titles="Tran2")
 convo11<- read_salt(path="salt_exports/11yo.csv",activity="Conversation", titles="Tran2")
 convo13<- read_salt(path="salt_exports/13yo.csv",activity="Conversation", titles="Tran2")
+```
 
-
+```{r spanish}
 #spanish monoloingual storytelling
 sfgtd_6to7<-read_spa(path="salt_exports/sfgtd_6to7.csv",activity="Narrative retell-- FGTD", titles="Tran1")
 sfgtd_7_6to8<-read_spa(path="salt_exports/sfgtd_7_6to8.csv",activity="Narrative retell-- FGTD", titles="Tran1")
@@ -312,16 +357,154 @@ mono_spanish <- sfgtd_6to7 %>%
             foho_6_6to7,foho_7to7_6,foho_7_6to8,foho_8to8_6,foho_8_6to9,foho_9to10_1
 ) %>%
   mutate(participants=as.numeric(participants))
-
-#bilingual
-
-play2<- read_salt_trial(path="salt_exports/play_2_8to3.csv",activity="Play", titles="Tran1")
+```
 
 
+```{r bilingual-spa}
+bis_fgtd_5_5to6<- read_spa(path="salt_exports/bis_fgtd_5_5to6.csv",activity="Bilingual Spanish Narrative retell-- FGTD", titles="Tran1")
+bis_fgtd_6_6to7<- read_spa(path="salt_exports/bis_fgtd_6_6to7.csv",activity="Bilingual Spanish Narrative retell-- FGTD", titles="Tran1")
+bis_fgtd_6to6_6<- read_spa(path="salt_exports/bis_fgtd_6to6_6.csv",activity="Bilingual Spanish Narrative retell-- FGTD", titles="Tran1")
+bis_fgtd_7_6to8<- read_spa(path="salt_exports/bis_fgtd_7_6to8.csv",activity="Bilingual Spanish Narrative retell-- FGTD", titles="Tran1")
+bis_fgtd_7to7_6<- read_spa(path="salt_exports/bis_fgtd_7to7_6.csv",activity="Bilingual Spanish Narrative retell-- FGTD", titles="Tran1")
+bis_fgtd_8_6to9<- read_spa(path="salt_exports/bis_fgtd_8_6to9.csv",activity="Bilingual Spanish Narrative retell-- FGTD", titles="Tran1")
+bis_fgtd_8to8_6<- read_spa(path="salt_exports/bis_fgtd_8to8_6.csv",activity="Bilingual Spanish Narrative retell-- FGTD", titles="Tran1")
+
+bis_foho_6_6to7<- read_spa(path="salt_exports/bis_foho_6_6to7.csv",activity="Bilingual Spanish Narrative retell-- FOHO", titles="Tran1")
+bis_foho_6to6_6<- read_spa(path="salt_exports/bis_foho_6to6_6.csv",activity="Bilingual Spanish Narrative retell-- FOHO", titles="Tran1")
+bis_foho_7to7_9<- read_spa(path="salt_exports/bis_foho_7to7_8.csv",activity="Bilingual Spanish Narrative retell-- FOHO", titles="Tran1")
+
+bis_fway_5_6to6<- read_spa(path="salt_exports/bis_fway_5_6to6.csv",activity="Bilingual Spanish Narrative retell-- FWAY", titles="Tran1")
+bis_fway_6_6to7<- read_spa(path="salt_exports/bis_fway_6_6to7.csv",activity="Bilingual Spanish Narrative retell-- FWAY", titles="Tran1")
+bis_fway_6to6_6<- read_spa(path="salt_exports/bis_fway_6to6_6.csv",activity="Bilingual Spanish Narrative retell-- FWAY", titles="Tran1")
+bis_fway_7_6to8<- read_spa(path="salt_exports/bis_fway_7_6to8.csv",activity="Bilingual Spanish Narrative retell-- FWAY", titles="Tran1")
+bis_fway_7to7_6<- read_spa(path="salt_exports/bis_fway_7to7_6.csv",activity="Bilingual Spanish Narrative retell-- FWAY", titles="Tran1")
+bis_fway_8_6to9<- read_spa(path="salt_exports/bis_fway_8_6to9.csv",activity="Bilingual Spanish Narrative retell-- FWAY", titles="Tran1")
+bis_fway_8to8_6<- read_spa(path="salt_exports/bis_fway_8to8_6.csv",activity="Bilingual Spanish Narrative retell-- FWAY", titles="Tran1")
+bis_fway_9to9_8<- read_spa(path="salt_exports/bis_fway_9to9_8.csv",activity="Bilingual Spanish Narrative retell-- FWAY", titles="Tran1")
+
+
+bis_us_5to5_6<- read_spa(path="salt_exports/bis_us_5_6to6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bis_us_5_6to6<- read_spa(path="salt_exports/bis_us_5_6to6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bis_us_6_6to7<- read_spa(path="salt_exports/bis_us_6_6to7.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bis_us_6to6_6<- read_spa(path="salt_exports/bis_us_6to6_6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bis_us_7_6to8<- read_spa(path="salt_exports/bis_us_7_6to8.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bis_us_7to7_6<- read_spa(path="salt_exports/bis_us_7to7_6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bis_us_8_6to9<- read_spa(path="salt_exports/bis_us_8_6to9.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bis_us_8to8_6<- read_spa(path="salt_exports/bis_us_8to8_6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bis_us_9to9_7<- read_spa(path="salt_exports/bis_us_9to9_7.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
 
 ```
 
-# one giant SALT df
+```{r bilingual-eng}
+bie_fgtd_5_5to6<- read_salt_trial(path="salt_exports/bie_fgtd_5_5to6.csv",activity="Bilingual English Narrative retell-- FGTD", titles="Tran1")
+bie_fgtd_6_6to7<- read_salt_trial(path="salt_exports/bie_fgtd_6_6to7.csv",activity="Bilingual English Narrative retell-- FGTD", titles="Tran1")
+bie_fgtd_6to6_6<- read_salt_trial(path="salt_exports/bie_fgtd_6to6_6.csv",activity="Bilingual English Narrative retell-- FGTD", titles="Tran1")
+bie_fgtd_7_6to8<- read_salt_trial(path="salt_exports/bie_fgtd_7_6to8.csv",activity="Bilingual English Narrative retell-- FGTD", titles="Tran1")
+bie_fgtd_7to7_6<- read_salt_trial(path="salt_exports/bie_fgtd_7to7_6.csv",activity="Bilingual English Narrative retell-- FGTD", titles="Tran1")
+bie_fgtd_8_6to9<- read_salt_trial(path="salt_exports/bie_fgtd_8_6to9.csv",activity="Bilingual English Narrative retell-- FGTD", titles="Tran1")
+bie_fgtd_8to8_6<- read_salt_trial(path="salt_exports/bie_fgtd_8to8_6.csv",activity="Bilingual English Narrative retell-- FGTD", titles="Tran1")
+
+bie_foho_6_6to7<- read_salt_trial(path="salt_exports/bie_foho_6_6to7.csv",activity="Bilingual English Narrative retell-- FOHO", titles="Tran1")
+bie_foho_6to6_6<- read_salt_trial(path="salt_exports/bie_foho_6tot6_6.csv",activity="Bilingual English Narrative retell-- FOHO", titles="Tran1")
+bie_foho_7to7_9<- read_salt_trial(path="salt_exports/bie_foho_7to7_9.csv",activity="Bilingual English Narrative retell-- FOHO", titles="Tran1")
+
+bie_fway_5_6to6<- read_salt_trial(path="salt_exports/bie_fway_5_6to6.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+bie_fway_6_6to7<- read_salt_trial(path="salt_exports/bie_fway_6_6to7.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+bie_fway_6to6_6<- read_salt_trial(path="salt_exports/bie_fway_6to6_6.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+bie_fway_7_6to8<- read_salt_trial(path="salt_exports/bie_fway_7_6to8.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+bie_fway_7to7_6<- read_salt_trial(path="salt_exports/bie_fway_7to7_6.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+bie_fway_8_6to9<- read_salt_trial(path="salt_exports/bie_fway_8_6to9.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+bie_fway_8to8_6<- read_salt_trial(path="salt_exports/bie_fway_8to8_6.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+bie_fway_9to9_6<- read_salt_trial(path="salt_exports/bie_fway_9to9_6.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+bie_fway_9_6to10<- read_salt_trial(path="salt_exports/bie_fway_9_6to10.csv",activity="Bilingual English Narrative retell-- FWAY", titles="Tran1")
+
+bie_us_5to5_6<- read_salt_trial(path="salt_exports/bie_us_5_6to6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bie_us_5_6to6<- read_salt_trial(path="salt_exports/bie_us_5_6to6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bie_us_6_6to7<- read_salt_trial(path="salt_exports/bie_us_6_7to7.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bie_us_6to6_6<- read_salt_trial(path="salt_exports/bie_us_6to6_6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bie_us_7_6to8<- read_salt_trial(path="salt_exports/bie_us_7_6to8.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bie_us_7to7_6<- read_salt_trial(path="salt_exports/bie_us_7to7_6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bie_us_8_6to9<- read_salt_trial(path="salt_exports/bie_us_8_6to9.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bie_us_8to8_6<- read_salt_trial(path="salt_exports/bie_us_8to8_6.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+bie_us_9to9_7<- read_salt_trial(path="salt_exports/bie_us_9to9_7.csv",activity="Bilingual Narrative Unique Story", titles="Tran1")
+
+biling_norms <- bis_fgtd_5_5to6 %>%
+  bind_rows(bis_fgtd_6_6to7,bis_fgtd_6to6_6,bis_fgtd_7_6to8,bis_fgtd_7to7_6,bis_fgtd_8_6to9,bis_fgtd_8to8_6,
+            bis_foho_6_6to7,bis_foho_6to6_6,bis_foho_7to7_9,
+            bis_fway_5_6to6,bis_fway_6_6to7,bis_fway_6to6_6,bis_fway_7_6to8,bis_fway_7to7_6,bis_fway_8_6to9,bis_fway_8to8_6,bis_fway_9to9_8,
+            bis_us_5to5_6,bis_us_5_6to6,bis_us_6_6to7,bis_us_6to6_6,bis_us_7_6to8,bis_us_7to7_6,bis_us_8_6to9,bis_us_8to8_6,bis_us_9to9_7,
+            bie_fgtd_5_5to6,bie_fgtd_6_6to7,bie_fgtd_6to6_6,bie_fgtd_7_6to8,bie_fgtd_7to7_6,bie_fgtd_8_6to9,bie_fgtd_8to8_6,
+            bie_foho_6_6to7,bie_foho_6to6_6,bie_foho_7to7_9,
+            bie_fway_5_6to6,bie_fway_6_6to7,bie_fway_6to6_6,bie_fway_7_6to8,bie_fway_7to7_6,bie_fway_8_6to9,bie_fway_8to8_6,bie_fway_9to9_6,bie_fway_9_6to10,
+            bie_us_5to5_6,bie_us_5_6to6,bie_us_6_6to7, bie_us_6to6_6,bie_us_7_6to8,bie_us_7to7_6,bie_us_8_6to9,bie_us_8to8_6,bie_us_9to9_7
+)%>%
+  mutate(participants=as.numeric(participants))
+```
+
+```{r nzau}
+au_pers_13 <- read_aunz(path="salt_exports/au_pers_13.csv",activity="Persuasion", titles="Tran1")
+au_pers_14 <- read_aunz(path="salt_exports/au_pers_14.csv",activity="Persuasion", titles="Tran1")
+au_pers_15 <- read_aunz(path="salt_exports/au_pers_15.csv",activity="Persuasion", titles="Tran1")
+au_pers_16 <- read_aunz(path="salt_exports/au_pers_16.csv",activity="Persuasion", titles="Tran1")
+au_pers_17 <- read_aunz(path="salt_exports/au_pers_17.csv",activity="Persuasion", titles="Tran1")
+
+
+nzau_convo_5to5_6 <- read_salt_trial(path="salt_exports/nzau_convo_5to5_6.csv",activity="Conversation", titles="Tran1")
+nzau_convo_5_6to6 <- read_salt_trial(path="salt_exports/nzau_convo_5_6to6.csv",activity="Conversation", titles="Tran1")
+nzau_convo_6to6_6 <- read_salt_trial(path="salt_exports/nzau_convo_6to6_6.csv",activity="Conversation", titles="Tran1")
+nzau_convo_6_6to7 <- read_salt_trial(path="salt_exports/nzau_convo_6_6to7.csv",activity="Conversation", titles="Tran1")
+nzau_convo_7to7_6 <- read_salt_trial(path="salt_exports/nzau_convo_7to7_6.csv",activity="Conversation", titles="Tran1")
+nzau_convo_7_6to8 <- read_salt_trial(path="salt_exports/nzau_convo_7_6to8.csv",activity="Conversation", titles="Tran1")
+nzau_convo_8to8_6 <- read_salt_trial(path="salt_exports/nzau_convo_8to8_6.csv",activity="Conversation", titles="Tran1")
+nzau_convo_young <- read_salt_trial(path="salt_exports/nzau_convo_young.csv",activity="Conversation", titles="Tran1")
+
+
+nzau_expo_6to6_6 <- read_salt_trial(path="salt_exports/nzau_expo_6to6_6.csv",activity="Expository", titles="Tran1")
+nzau_expo_6_6to7 <- read_salt_trial(path="salt_exports/nzau_expo_6_6to7.csv",activity="Expository", titles="Tran1")
+nzau_expo_7to7_6 <- read_salt_trial(path="salt_exports/nzau_expo_7to7_6.csv",activity="Expository", titles="Tran1")
+nzau_expo_7_6to8 <- read_salt_trial(path="salt_exports/nzau_expo_7_6to8.csv",activity="Expository", titles="Tran1")
+nzau_expo_8to8_6 <- read_salt_trial(path="salt_exports/nzau_expo_8to8_6.csv",activity="Expository", titles="Tran1")
+
+nzau_pers_narr_4_5to5 <- read_salt_trial(path="salt_exports/nzau_pers_narr_4_5to5.csv",activity="Personal narrative", titles="Tran1")
+nzau_pers_narr_5to5_6 <- read_salt_trial(path="salt_exports/nzau_pers_narr_5to5_6.csv",activity="Personal narrative", titles="Tran1")
+nzau_pers_narr_5_6to6 <- read_salt_trial(path="salt_exports/nzau_pers_narr_5_6to6.csv",activity="Personal narrative", titles="Tran1")
+nzau_pers_narr_6to6_6 <- read_salt_trial(path="salt_exports/nzau_pers_narr_6to6_6.csv",activity="Personal narrative", titles="Tran1")
+nzau_pers_narr_6_6to7 <- read_salt_trial(path="salt_exports/nzau_pers_narr_6_6to7.csv",activity="Personal narrative", titles="Tran1")
+nzau_pers_narr_7to7_6 <- read_salt_trial(path="salt_exports/nzau_pers_narr_7to7_6.csv",activity="Personal narrative", titles="Tran1")
+nzau_pers_narr_7_6to8 <- read_salt_trial(path="salt_exports/nzau_pers_narr_7_6to8.csv",activity="Personal narrative", titles="Tran1")
+nzau_pers_narr_8to8_6 <- read_salt_trial(path="salt_exports/nzau_pers_narr_8to8_6.csv",activity="Personal narrative", titles="Tran1")
+
+nzaur_4_6to5 <- read_salt_trial(path="salt_exports/nzaur_4_6to5.csv",activity="AU/NZ Narrative retell-- AGL", titles="Tran1")
+nzaur_5to5_6 <- read_salt_trial(path="salt_exports/nzaur_5to5_6.csv",activity="AU/NZ Narrative retell-- AGL", titles="Tran1")
+nzaur_5_6to6 <- read_salt_trial(path="salt_exports/nzaur_5_6to6.csv",activity="AU/NZ Narrative retell-- AGL", titles="Tran1")
+nzaur_6to6_6 <- read_salt_trial(path="salt_exports/nzaur_6to6_6.csv",activity="AU/NZ Narrative retell-- AGL", titles="Tran1")
+nzaur_6_6to7 <- read_salt_trial(path="salt_exports/nzaur_6_6to7.csv",activity="AU/NZ Narrative retell-- AGL", titles="Tran1")
+nzaur_7to7_7 <- read_salt_trial(path="salt_exports/nzaur_7to7_7.csv",activity="AU/NZ Narrative retell-- AGL", titles="Tran1")
+
+bus_5_3to5_9 <- read_salt_trial(path="salt_exports/bus_5_3to5_9.csv",activity="AU/NZ Narrative retell-- Bus", titles="Tran1")
+bus_5_9to6_3 <- read_salt_trial(path="salt_exports/bus_5_9to6_3.csv",activity="AU/NZ Narrative retell-- Bus", titles="Tran1")
+bus_6_3to6_9 <- read_salt_trial(path="salt_exports/bus_6_3to6_9.csv",activity="AU/NZ Narrative retell-- Bus", titles="Tran1")
+bus_6_9to7_3 <- read_salt_trial(path="salt_exports/bus_6_9to7_3.csv",activity="AU/NZ Narrative retell-- Bus", titles="Tran1")
+bus_7_3to7_9 <- read_salt_trial(path="salt_exports/bus_7_3to7_9.csv",activity="AU/NZ Narrative retell-- Bus", titles="Tran1")
+bus_7_9to8_3 <- read_salt_trial(path="salt_exports/bus_7_9to8_3.csv",activity="AU/NZ Narrative retell-- Bus", titles="Tran1")
+bus_8_3to8_9 <- read_salt_trial(path="salt_exports/bus_8_3to8_9.csv",activity="AU/NZ Narrative retell-- Bus", titles="Tran1")
+
+
+aunz_norms <- au_pers_13 %>%
+  bind_rows(au_pers_14,au_pers_15,au_pers_16,au_pers_17,
+            nzau_convo_5to5_6,nzau_convo_5_6to6,nzau_convo_6to6_6,nzau_convo_6_6to7,nzau_convo_7to7_6,nzau_convo_7_6to8,nzau_convo_8to8_6,nzau_convo_young,
+            nzau_expo_6to6_6,nzau_expo_6_6to7,nzau_expo_7to7_6,nzau_expo_7_6to8,nzau_expo_8to8_6,
+            nzau_pers_narr_4_5to5,nzau_pers_narr_5to5_6,nzau_pers_narr_5_6to6,nzau_pers_narr_6to6_6,
+            nzau_pers_narr_6_6to7,nzau_pers_narr_7to7_6,nzau_pers_narr_7_6to8,nzau_pers_narr_8to8_6,
+            nzaur_4_6to5,nzaur_5to5_6,nzaur_5_6to6,nzaur_6to6_6,nzaur_6_6to7,nzaur_7to7_7,
+            bus_5_3to5_9,bus_5_9to6_3,bus_6_3to6_9,bus_6_9to7_3,bus_7_3to7_9,bus_7_9to8_3,bus_8_3to8_9) %>%
+  mutate(participants=as.numeric(participants))
+  
+```
+
+
+
+# one giant SALT df--  NA english
 ```{r stackemup}
 salt_norms <- convo3 %>%
   bind_rows(
@@ -342,7 +525,7 @@ salt_norms <- convo3 %>%
   mutate(participants=as.numeric(participants))
 ```
 
-Bring in other norms and make sure the columns align. These csvs were hand-compiled from publication pdfs.
+Bring in other norms and make sure the columns align. These other norms csvs were hand-compiled from publication pdfs.
 
 ```{r other-norms}
 TMN <- read_csv("TilstraMcMaster_norms.csv") %>%
@@ -359,7 +542,7 @@ LHMN <-read_csv("LeadholmMiller_norms.csv")%>%
   rename("Age(Month)"=Age)
 
 all_norms <- salt_norms %>%
-  bind_rows(TMN,SUGAR,Heilmann,Rice,LHMN, mono_spanish)
+  bind_rows(TMN,SUGAR,Heilmann,Rice,LHMN, mono_spanish, biling_norms, aunz_norms)
 
 write_csv(all_norms, "0all_norms.csv")
 
@@ -380,7 +563,7 @@ excl_norms <- setdiff(all_norms_cols, kideval_cols) #just give me a list of non-
 
 all_norms_trim <- all_norms%>%
   mutate(Language=ifelse(Language=="English", "eng", Language)) %>%
-  dplyr::select(-Clauses_per_sentence_50, -Age) %>% #these two were measures i included in an early norms spreadsheet that i thought might be relevant but don't line up, plus mean Age which isn't really relevant for norm
+  dplyr::select(-Clauses_per_sentence_50, -Age) %>% #these were measures i included in an early norms spreadsheet that i thought might be relevant but don't line up, plus mean Age which isn't really relevant for norm
   rename("*-3S"= "*-S3")
 
 kideval_trim <- kideval %>%
@@ -398,23 +581,29 @@ kideval_trim <- kideval %>%
 norm_final <- all_norms_trim %>%
   full_join(kideval_trim) %>%
   filter(!Corpus=="Valian") %>%
-  dplyr::select(File_DB,Language,Corpus,Code,"Age(Month)",Sex,Group,Race,SES,Role,Education,Custom_field,Design,Activity,"Group...7",Total_Utts,MLU_Utts, MLU_Words, MLU_Morphemes,MLU50_Utts,MLU50_Words,MLU50_Morphemes,FREQ_types,FREQ_tokens,NDW_100,VOCD_D_optimum_average,Verbs_Utt,Word_Errors,Utt_Errors,retracing,repetition,DSS_Utts,DSS,mor_Words,"*-PRESP","in",on,"*-PL","*-POSS","u-cop", "det:art", "*-PAST", "*-3S", "irr-3S", "u-aux", "c-cop", "c-aux", "Total_non_zero_mors", participants,Stat)
+  dplyr::select(File_DB,Language,Corpus,Code,"Age(Month)",Sex,Group,Race,SES,Role,Education,Custom_field,Design,Activity,"Group...7",Total_Utts,MLU_Utts, MLU_Words, MLU_Morphemes,MLU50_Utts,MLU50_Words,MLU50_Morphemes,FREQ_types,FREQ_tokens,NDW_100,VOCD_D_optimum_average,Verbs_Utt,Word_Errors,Utt_Errors,retracing,repetition,DSS_Utts,DSS,mor_Words,"*-PRESP","in",on,"*-PL","*-POSS","u-cop", "det:art", "*-PAST", "*-3S", "irr-3S", "u-aux", "c-cop", "c-aux", "Total_non_zero_mors", participants,Stat) %>%
+  mutate(Corpus=ifelse(Corpus=="SALT Narrative Story Retell", paste("SALT", Activity, sep = " "), Corpus)) %>%
+  mutate(Corpus=ifelse(Corpus=="SALT Fables", paste("SALT", Activity, sep = " "), Corpus)) %>%
+  mutate(Corpus=ifelse(Corpus=="SALT Monolingual Spanish Story Retell", paste("SALT", Activity, sep = " "), Corpus)) %>%
+  mutate(Corpus=ifelse(Corpus=="SALT NZ-AU Story Retell", paste("SALT", Activity, sep = " "), Corpus)) %>%
+  mutate(Corpus=ifelse(Corpus=="SALT Bilingual English Story Retell", paste("SALT", Activity, sep = " "), Corpus)) %>%
+	mutate(Corpus=ifelse(Corpus=="SALT Bilingual Spanish Story Retell", paste("SALT", Activity, sep = " "), Corpus)) %>%
+  mutate(Corpus=ifelse(Corpus=="Rice (2010)", paste(Corpus,Group, sep = " "), Corpus))
 
 write_csv(norm_final, "0all_norms_with_columns.csv")
 
 ```
 
-Now I'm going to try to convert it into a format similar to the .cut db files already present in the kideval comparison database. I'll split it into separate files based on the norming dataset/corpus
+Now I'm going to try to convert it into a format similar to the .cut db files already present in the kideval comparison database. I'll split it into separate files based on the norming dataset/corpus, parallel to the "compare to database" function that is already in KidEval
 ```{r cuttify}
 
 norms_cut <-norm_final %>%
   mutate(header=glue("+{Language}|{Corpus}|CHI|{norm_final$'Age(Month)'}|||Target_Child|||"))%>%
   mutate(header=str_replace_all(header, " ", "_"),
          File_DB="=NA",
-         dash="-") %>%
-  mutate(Corpus=ifelse(Corpus=="SALT Narrative Story Retell", paste("SALT", Activity, sep = " "), Corpus)) %>%
-  mutate(Corpus=ifelse(Corpus=="SALT Fables", paste("SALT", Activity, sep = " "), Corpus)) %>%
-  mutate(Corpus=ifelse(Corpus=="SALT Monolingual Spanish Story Retell", paste("SALT", Activity, sep = " "), Corpus))
+         dash="-") 
+
+list_of_cut_files <- unique(norms_cut$Corpus)
 
 salt_convo_cut <- norms_cut %>%
   filter(Corpus=="SALT Conversation") %>%
@@ -546,25 +735,117 @@ span_fway <- norms_cut %>%
   filter(Corpus=="SALT Narrative retell-- FWAY") %>%
   dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
   unite(col = "vals", Total_Utts:Stat, sep = " ")
-write_delim(lm_cut, "span_fway.cut", delim = "\n")
+write_delim(span_fway, "span_fway.cut", delim = "\n")
 
 span_fgtd <- norms_cut %>%
   filter(Corpus=="SALT Narrative retell-- FGTD") %>%
   dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
   unite(col = "vals", Total_Utts:Stat, sep = " ")
-write_delim(lm_cut, "span_fgtd.cut", delim = "\n")
+write_delim(span_fgtd, "span_fgtd.cut", delim = "\n")
 
 span_foho <- norms_cut %>%
   filter(Corpus=="SALT Narrative retell-- FOHO") %>%
   dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
   unite(col = "vals", Total_Utts:Stat, sep = " ")
-write_delim(lm_cut, "span_foho.cut", delim = "\n")
+write_delim(span_foho, "span_foho.cut", delim = "\n")
 
 span_oftm <- norms_cut %>%
   filter(Corpus=="SALT Narrative retell-- OFTM") %>%
   dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
   unite(col = "vals", Total_Utts:Stat, sep = " ")
-write_delim(lm_cut, "span_oftm.cut", delim = "\n")
+write_delim(span_oftm, "span_oftm.cut", delim = "\n")
+
+nzau_bus <- norms_cut %>%
+  filter(Corpus=="AU/NZ Narrative retell-- Bus") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(nzau_bus, "nzau_bus.cut", delim = "\n")
+
+nzau_agl <- norms_cut %>%
+  filter(Corpus=="AU/NZ Narrative retell-- AGL") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(nzau_agl, "nzau_agl.cut", delim = "\n")
+
+
+nzau_pn <- norms_cut %>%
+  filter(Corpus=="SALT NZ-AU Personal Narrative") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(nzau_pn, "nzau_pn.cut", delim = "\n")
+
+
+nzaue <- norms_cut %>%
+  filter(Corpus=="SALT NZ-AU Expository") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(nzaue, "nzau_expo.cut", delim = "\n")
+
+nzau_conv <- norms_cut %>%
+  filter(Corpus=="SALT NZ-AU Conversation") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(nzau_conv, "nzau_conv.cut", delim = "\n")
+
+bieus <- norms_cut %>%
+  filter(Corpus=="SALT Bilingual English Unique Story") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(bieus, "bil_eng_unique_story.cut", delim = "\n")
+
+bisus <- norms_cut %>%
+  filter(Corpus=="SALT Bilingual Spanish Unique Story") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(bisus, "bil_spa_unique_story.cut", delim = "\n")
+
+biefway <- norms_cut %>%
+  filter(Corpus=="Bilingual English Narrative retell-- FWAY") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(biefway, "bil_eng_fway.cut", delim = "\n")
+
+bisfway <- norms_cut %>%
+  filter(Corpus=="Bilingual Spanish Narrative retell-- FWAY") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(bisfway, "bil_spa_fway.cut", delim = "\n")
+
+biefoho <- norms_cut %>%
+  filter(Corpus=="Bilingual English Narrative retell-- FOHO") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(biefoho, "bil_eng_foho.cut", delim = "\n")
+
+bisfoho<- norms_cut %>%
+  filter(Corpus=="Bilingual Spanish Narrative retell-- FOHO") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(bisfoho, "bil_spa_foho.cut", delim = "\n")
+
+bieoftm <- norms_cut %>%
+  filter(Corpus=="Bilingual English Narrative retell-- OFTM") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(bieoftm, "bil_eng_oftm.cut", delim = "\n")
+
+bisoftm<- norms_cut %>%
+  filter(Corpus=="Bilingual Spanish Narrative retell-- OFTM") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(bisoftm, "bil_spa_oftm.cut", delim = "\n")
+
+biefgtd <- norms_cut %>%
+  filter(Corpus=="Bilingual English Narrative retell-- FGTD") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(biefgtd, "bil_eng_fgtd.cut", delim = "\n")
+
+bisfgtd<- norms_cut %>%
+  filter(Corpus=="Bilingual Spanish Narrative retell-- FGTD") %>%
+  dplyr::select(dash,File_DB,header,Total_Utts:Stat) %>%
+  unite(col = "vals", Total_Utts:Stat, sep = " ")
+write_delim(bisfgtd, "bil_spa_fgtd.cut", delim = "\n")
 
 #orrrr all together
 norms_cut2 <- norms_cut %>%

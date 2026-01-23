@@ -9,11 +9,27 @@ vals
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|5;0_to_6;0|||Target_Child|||
+8 7 3 3.3 NA NA NA 25 30 NA NA 0.69 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 55 Min
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|5;0_to_6;0|||Target_Child|||
+64 56 8.84 9.54 NA NA NA 184 495 NA NA 1.88 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 55 Max
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|5;0_to_6;0|||Target_Child|||
 10.86 9.84 1.21 1.27 NA NA NA 30.48 86.98 NA NA 0.25 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 55 SD
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|6;0_to_7;0|||Target_Child|||
 31.43 27.68 7.18 7.87 NA NA NA 93.78 203.47 NA NA 1.46 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 108 Mean
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|6;0_to_7;0|||Target_Child|||
+8 7 2.9 3.2 NA NA NA 24 29 NA NA 0.5 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 108 Min
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|6;0_to_7;0|||Target_Child|||
+82 73 10.51 11.54 NA NA NA 205 603 NA NA 2.21 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 108 Max
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|6;0_to_7;0|||Target_Child|||
@@ -25,11 +41,27 @@ vals
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|7;0_to_8;0|||Target_Child|||
+11 8 5 5.6 NA NA NA 38 50 NA NA 1 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 112 Min
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|7;0_to_8;0|||Target_Child|||
+99 96 12.03 13.05 NA NA NA 276 867 NA NA 2.27 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 112 Max
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|7;0_to_8;0|||Target_Child|||
 17.01 16.29 1.27 1.37 NA NA NA 45.53 144.32 NA NA 0.25 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 112 SD
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|8;0_to_9;0|||Target_Child|||
 44.47 41.36 8.06 8.81 NA NA NA 138.89 335.53 NA NA 1.64 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 109 Mean
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|8;0_to_9;0|||Target_Child|||
+14 11 5.4 5.73 NA NA NA 42 77 NA NA 1 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 109 Min
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|8;0_to_9;0|||Target_Child|||
+157 149 11.6 12.46 NA NA NA 322 1183 NA NA 2.23 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 109 Max
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|8;0_to_9;0|||Target_Child|||
@@ -41,6 +73,14 @@ vals
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|9;0_to_10;0|||Target_Child|||
+24 24 4.63 5.07 NA NA NA 88 161 NA NA 0.74 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 49 Min
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|9;0_to_10;0|||Target_Child|||
+138 106 11 12.25 NA NA NA 249 815 NA NA 2.35 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 49 Max
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|9;0_to_10;0|||Target_Child|||
 21.55 18.66 1.3 1.45 NA NA NA 34.19 132.55 NA NA 0.28 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 49 SD
 -
 =NA
@@ -49,11 +89,27 @@ vals
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|10;0_to_11;0|||Target_Child|||
+21 19 5.65 6.04 NA NA NA 57 117 NA NA 1.05 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 53 Min
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|10;0_to_11;0|||Target_Child|||
+194 192 12.55 13.61 NA NA NA 349 1342 NA NA 2.63 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 53 Max
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|10;0_to_11;0|||Target_Child|||
 26.98 26.9 1.49 1.64 NA NA NA 52.47 216.2 NA NA 0.34 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 53 SD
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|11;0_to_11;11|||Target_Child|||
 45.94 44.02 8.82 9.66 NA NA NA 158.96 382.75 NA NA 1.82 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 Mean
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|11;0_to_11;11|||Target_Child|||
+23 20 5.47 6.17 NA NA NA 78 147 NA NA 1.19 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 Min
+-
+=NA
++eng|SALT_TNL_Narrative_Samples|CHI|11;0_to_11;11|||Target_Child|||
+77 77 12.15 13.24 NA NA NA 249 739 NA NA 2.7 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 Max
 -
 =NA
 +eng|SALT_TNL_Narrative_Samples|CHI|11;0_to_11;11|||Target_Child|||

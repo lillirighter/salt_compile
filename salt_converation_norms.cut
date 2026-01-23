@@ -9,11 +9,27 @@ vals
 -
 =NA
 +eng|SALT_Conversation|CHI|2;9_to_3;5|||Target_Child|||
+48 44 2.27 2.49 NA NA NA 62 137 NA NA 0.24 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 16 Min
+-
+=NA
++eng|SALT_Conversation|CHI|2;9_to_3;5|||Target_Child|||
+235 220 4.74 5.23 NA NA NA 220 719 NA NA 0.94 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 16 Max
+-
+=NA
++eng|SALT_Conversation|CHI|2;9_to_3;5|||Target_Child|||
 60.96 56.59 0.69 0.8 NA NA NA 46.02 182.51 NA NA 0.2 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 16 SD
 -
 =NA
 +eng|SALT_Conversation|CHI|3;9_to_4;0|||Target_Child|||
 118.45 111.27 3.58 3.93 NA NA NA 149.91 397.82 NA NA 0.62 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 11 Mean
+-
+=NA
++eng|SALT_Conversation|CHI|3;9_to_4;0|||Target_Child|||
+71 64 2.78 3.02 NA NA NA 99 197 NA NA 0.45 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 11 Min
+-
+=NA
++eng|SALT_Conversation|CHI|3;9_to_4;0|||Target_Child|||
+183 179 5.18 5.82 NA NA NA 231 565 NA NA 0.93 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 11 Max
 -
 =NA
 +eng|SALT_Conversation|CHI|3;9_to_4;0|||Target_Child|||
@@ -25,11 +41,27 @@ vals
 -
 =NA
 +eng|SALT_Conversation|CHI|4;0_to_4;4|||Target_Child|||
+61 56 2.74 3.03 NA NA NA 94 252 NA NA 0.48 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 14 Min
+-
+=NA
++eng|SALT_Conversation|CHI|4;0_to_4;4|||Target_Child|||
+195 190 5.18 5.82 NA NA NA 265 966 NA NA 0.97 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 14 Max
+-
+=NA
++eng|SALT_Conversation|CHI|4;0_to_4;4|||Target_Child|||
 44.24 43.91 0.77 0.85 NA NA NA 48.4 194.93 NA NA 0.14 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 14 SD
 -
 =NA
 +eng|SALT_Conversation|CHI|4;7_to_5;0|||Target_Child|||
 58.25 51.5 4.62 5.1 NA NA NA 96.75 238 NA NA 0.9 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 8 Mean
+-
+=NA
++eng|SALT_Conversation|CHI|4;7_to_5;0|||Target_Child|||
+22 17 3.65 4.24 NA NA NA 37 62 NA NA 0.79 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 8 Min
+-
+=NA
++eng|SALT_Conversation|CHI|4;7_to_5;0|||Target_Child|||
+86 79 5.51 6.09 NA NA NA 140 371 NA NA 1.19 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 8 Max
 -
 =NA
 +eng|SALT_Conversation|CHI|4;7_to_5;0|||Target_Child|||
@@ -41,11 +73,27 @@ vals
 -
 =NA
 +eng|SALT_Conversation|CHI|5;0_to_5;6|||Target_Child|||
+22 17 2.81 3.03 NA NA NA 37 62 NA NA 0.44 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 54 Min
+-
+=NA
++eng|SALT_Conversation|CHI|5;0_to_5;6|||Target_Child|||
+329 308 8.5 9.3 NA NA NA 384 1594 NA NA 1.59 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 54 Max
+-
+=NA
++eng|SALT_Conversation|CHI|5;0_to_5;6|||Target_Child|||
 63.39 60.86 0.98 1.07 NA NA NA 74.69 327.66 NA NA 0.2 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 54 SD
 -
 =NA
 +eng|SALT_Conversation|CHI|5;6_to_6;0|||Target_Child|||
 92.4 85.48 4.86 5.36 NA NA NA 152.42 416.3 NA NA 0.92 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 90 Mean
+-
+=NA
++eng|SALT_Conversation|CHI|5;6_to_6;0|||Target_Child|||
+18 17 1.93 2.13 NA NA NA 34 41 NA NA 0.28 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 90 Min
+-
+=NA
++eng|SALT_Conversation|CHI|5;6_to_6;0|||Target_Child|||
+288 279 7.07 7.83 NA NA NA 309 1168 NA NA 1.48 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 90 Max
 -
 =NA
 +eng|SALT_Conversation|CHI|5;6_to_6;0|||Target_Child|||
@@ -57,11 +105,27 @@ vals
 -
 =NA
 +eng|SALT_Conversation|CHI|6;0_to_6;6|||Target_Child|||
+20 18 2.77 3 NA NA NA 51 85 NA NA 0.43 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 68 Min
+-
+=NA
++eng|SALT_Conversation|CHI|6;0_to_6;6|||Target_Child|||
+278 257 8.15 9.26 NA NA NA 321 1417 NA NA 1.57 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 68 Max
+-
+=NA
++eng|SALT_Conversation|CHI|6;0_to_6;6|||Target_Child|||
 62.69 59.46 1.11 1.22 NA NA NA 65.32 285.23 NA NA 0.24 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 68 SD
 -
 =NA
 +eng|SALT_Conversation|CHI|6;6_to_7;0|||Target_Child|||
 93.88 87.87 5.67 6.22 NA NA NA 166.88 483.4 NA NA 1.08 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 67 Mean
+-
+=NA
++eng|SALT_Conversation|CHI|6;6_to_7;0|||Target_Child|||
+19 17 3.53 4.02 NA NA NA 44 87 NA NA 0.58 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 67 Min
+-
+=NA
++eng|SALT_Conversation|CHI|6;6_to_7;0|||Target_Child|||
+263 246 9.45 10.16 NA NA NA 377 1532 NA NA 1.76 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 67 Max
 -
 =NA
 +eng|SALT_Conversation|CHI|6;6_to_7;0|||Target_Child|||
@@ -73,11 +137,27 @@ vals
 -
 =NA
 +eng|SALT_Conversation|CHI|7;0_to_7;6|||Target_Child|||
+14 12 3.52 3.92 NA NA NA 34 60 NA NA 0.58 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 84 Min
+-
+=NA
++eng|SALT_Conversation|CHI|7;0_to_7;6|||Target_Child|||
+443 427 8.61 9.68 NA NA NA 385 1818 NA NA 1.94 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 84 Max
+-
+=NA
++eng|SALT_Conversation|CHI|7;0_to_7;6|||Target_Child|||
 86.66 81.83 1.17 1.29 NA NA NA 87.35 428.84 NA NA 0.27 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 84 SD
 -
 =NA
 +eng|SALT_Conversation|CHI|7;6_to_8;0|||Target_Child|||
 85.82 78.79 5.68 6.32 NA NA NA 166.62 451.28 NA NA 1.09 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 39 Mean
+-
+=NA
++eng|SALT_Conversation|CHI|7;6_to_8;0|||Target_Child|||
+47 33 2.57 2.8 NA NA NA 79 154 NA NA 0.45 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 39 Min
+-
+=NA
++eng|SALT_Conversation|CHI|7;6_to_8;0|||Target_Child|||
+222 214 9.02 10.04 NA NA NA 403 1800 NA NA 1.76 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 39 Max
 -
 =NA
 +eng|SALT_Conversation|CHI|7;6_to_8;0|||Target_Child|||
@@ -89,11 +169,27 @@ vals
 -
 =NA
 +eng|SALT_Conversation|CHI|8;0_to_8;6|||Target_Child|||
+40 34 3.05 3.35 NA NA NA 93 202 NA NA 0.47 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 Min
+-
+=NA
++eng|SALT_Conversation|CHI|8;0_to_8;6|||Target_Child|||
+266 242 8.48 9.23 NA NA NA 411 1541 NA NA 1.83 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 Max
+-
+=NA
++eng|SALT_Conversation|CHI|8;0_to_8;6|||Target_Child|||
 58.23 55.66 1.11 1.23 NA NA NA 79.93 360.39 NA NA 0.23 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 SD
 -
 =NA
 +eng|SALT_Conversation|CHI|8;6_to_9;0|||Target_Child|||
 138.72 129.65 6.28 6.92 NA NA NA 236.53 779.05 NA NA 1.17 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 43 Mean
+-
+=NA
++eng|SALT_Conversation|CHI|8;6_to_9;0|||Target_Child|||
+33 32 3.95 4.33 NA NA NA 105 201 NA NA 0.66 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 43 Min
+-
+=NA
++eng|SALT_Conversation|CHI|8;6_to_9;0|||Target_Child|||
+379 358 8.29 9.14 NA NA NA 458 2209 NA NA 1.61 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 43 Max
 -
 =NA
 +eng|SALT_Conversation|CHI|8;6_to_9;0|||Target_Child|||
@@ -105,11 +201,27 @@ vals
 -
 =NA
 +eng|SALT_Conversation|CHI|9;0_to_9;6|||Target_Child|||
+39 33 4.06 4.46 NA NA NA 84 156 NA NA 0.66 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 Min
+-
+=NA
++eng|SALT_Conversation|CHI|9;0_to_9;6|||Target_Child|||
+379 358 9.42 10.25 NA NA NA 458 2209 NA NA 1.92 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 Max
+-
+=NA
++eng|SALT_Conversation|CHI|9;0_to_9;6|||Target_Child|||
 99.55 91.76 1.09 1.2 NA NA NA 107.65 539.86 NA NA 0.25 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52 SD
 -
 =NA
 +eng|SALT_Conversation|CHI|9;6_to_9;11|||Target_Child|||
 66.44 63.11 6.28 7.03 NA NA NA 151.44 377.22 NA NA 1.16 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 9 Mean
+-
+=NA
++eng|SALT_Conversation|CHI|9;6_to_9;11|||Target_Child|||
+36 36 4.6 5.13 NA NA NA 109 244 NA NA 0.74 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 9 Min
+-
+=NA
++eng|SALT_Conversation|CHI|9;6_to_9;11|||Target_Child|||
+117 107 7.65 8.52 NA NA NA 210 568 NA NA 1.48 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 9 Max
 -
 =NA
 +eng|SALT_Conversation|CHI|9;6_to_9;11|||Target_Child|||
@@ -121,11 +233,27 @@ vals
 -
 =NA
 +eng|SALT_Conversation|CHI|10;9_to_11;3|||Target_Child|||
+148 138 3.46 3.74 NA NA NA 181 492 NA NA 0.54 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 25 Min
+-
+=NA
++eng|SALT_Conversation|CHI|10;9_to_11;3|||Target_Child|||
+304 278 8.63 9.63 NA NA NA 492 2089 NA NA 1.57 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 25 Max
+-
+=NA
++eng|SALT_Conversation|CHI|10;9_to_11;3|||Target_Child|||
 45.46 42.61 1.28 1.41 NA NA NA 65.41 376.89 NA NA 0.25 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 25 SD
 -
 =NA
 +eng|SALT_Conversation|CHI|12;9_to_13;3|||Target_Child|||
 229.93 212.04 5.78 6.38 NA NA NA 330.37 1233.63 NA NA 1.07 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 27 Mean
+-
+=NA
++eng|SALT_Conversation|CHI|12;9_to_13;3|||Target_Child|||
+169 161 4.15 4.71 NA NA NA 253 715 NA NA 0.73 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 27 Min
+-
+=NA
++eng|SALT_Conversation|CHI|12;9_to_13;3|||Target_Child|||
+338 295 7.64 8.48 NA NA NA 523 1867 NA NA 1.54 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 27 Max
 -
 =NA
 +eng|SALT_Conversation|CHI|12;9_to_13;3|||Target_Child|||
