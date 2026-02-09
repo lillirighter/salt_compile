@@ -856,4 +856,36 @@ write_delim(norms_cut2, "norms_db.cut", delim = "\n")
 
 ```
 
+#figure out how to calculate percentile score for a given child 
+
+zscore <-(Kid - Mean)/SD
+
+percentile<-pnorm(zscore) * 100
+```{r zcore}
+perc_assign <- function(kidscore, dataset, index="MLU_Morphemes", agerange, database=norm_final){
+  meann <- database %>% filter(Stat=="Mean",
+                               `Age(Month)`==agerange,
+                               Corpus==dataset)
+  SDn <- database %>% filter(Stat=="SD",
+                             `Age(Month)`==agerange,
+                               Corpus==dataset)
+  z<-(kidscore - meann[[index]])/SDn[[index]]
+  
+  pnorm(z)*100
+  
+}
+
+
+
+#MacW 4 yo scores mlu_morphemes (compared to age range w 4 as min):  Frog 15.65%, SUGAR 15.66 %, Leadholm Miller 16.75%, 
+
+#Picture narrative: ENNI 2.93%, TNL2 7.08%,
+
+#Play 71.54%
+
+ #Conversation: Rice TD 33.54%, Salt convo 37.85%, LM1992 51.1%
+
+#if I do it with MLU_words: Rice 43.22%, Salt convo 43.75%, ENNI 3.93%, TNL2 9.24%, Play 79.5%, Frog 17.54%, SUGAR 3.45%
+
+```
 
